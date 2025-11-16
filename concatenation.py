@@ -1,11 +1,11 @@
 import os
 import pandas as pd
 
-result_folder = "Result-v3"
+result_folder = "Result-v5"
 output_file = os.path.join(result_folder, "all_results_concatenated.csv")
 
 # Collect all CSV files
-csv_files = [os.path.join(result_folder, f) for f in os.listdir(result_folder) if f.endswith("_matches.csv")]
+csv_files = [os.path.join(result_folder, f) for f in os.listdir(result_folder)]
 
 if not csv_files:
     print("No filtered CSV files found in the Result folder.")
@@ -27,7 +27,7 @@ else:
         combined_df = pd.concat(dfs, ignore_index=True)
 
         # Define expected columns
-        expected_columns = ["PubMedID", "Matched_Proteins", "Abstract"]
+        expected_columns = ["PubMedID", "Matched_Proteins", "Relevant_Sentence"]
 
         # Add missing columns with empty strings
         missing_cols = [col for col in expected_columns if col not in combined_df.columns]
