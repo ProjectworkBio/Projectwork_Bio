@@ -7,12 +7,10 @@ Result-v1/
 Result-v2/
 Result-v3/
 Result-v4/
+Result-v5/
 desc2025.xml
 Data.zip
 Data_backup
-.python-version
 bad_sentences.csv
-pyproject.toml
-uv.lock
 synonym_examples.csv
 validate_senctences.py
