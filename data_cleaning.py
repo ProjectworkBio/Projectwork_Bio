@@ -1,7 +1,7 @@
 import polars as pl
 
-input_path = "Result-v4/all_results_concatenated.csv"
-output_path = "Result-v4/all_results_cleaned.csv"
+input_path = "Result-v5/all_results_concatenated.csv"
+output_path = "Result-v5/all_results_cleaned.csv"
 
 df = pl.read_csv(input_path)
 
@@ -38,36 +38,36 @@ df = df.with_columns([
 ])
 
 # Drop rows where essential columns are missing
-essential_cols = ["PubMedID", "Relevant_Sentences"]
+essential_cols = ["PubMedID", "Relevant_Sentence"]
 df = df.drop_nulls(subset=essential_cols)
 
 # Normalize spacing and punctuation in "Relevant_Sentences"
 df = df.with_columns(
-    pl.col("Relevant_Sentences")
+    pl.col("Relevant_Sentence")
     .str.replace_all(r"\s*\|\|\s*", " || ")  # ensure consistent separator
     .str.replace_all(r"\s{2,}", " ")         # collapse extra spaces
     .str.strip_chars()                       # trim edges
-    .alias("Relevant_Sentences")
+    .alias("Relevant_Sentence")
 )
 
 # Remove all variants of "(ABSTRACT TRUNCATED...)"
 affected_rows = df.filter(
-    pl.col("Relevant_Sentences").str.contains(r"\(ABSTRACT TRUNCATED(?: AT \d+ WORDS)?\)")
+    pl.col("Relevant_Sentence").str.contains(r"\(ABSTRACT TRUNCATED(?: AT \d+ WORDS)?\)")
 ).height
 print(f"Rows affected by cleanup (truncated abstracts): {affected_rows}")
 
 substring = "(ABSTRACT TRUNCATED AT "
 df = df.with_columns(
-    pl.col("Relevant_Sentences")
+    pl.col("Relevant_Sentence")
     .str.replace_all(r"\(ABSTRACT TRUNCATED(?: AT \d+ WORDS)?\)", "")
     # Clean up leftover extra spaces
     .str.replace_all(r"\s{2,}", " ")
     .str.strip_chars()
-    .alias("Relevant_Sentences")
+    .alias("Relevant_Sentence")
 )
 
 # Remove duplicate rows (exact duplicates)
-df = df.unique(subset=["PubMedID", "Matched_Proteins", "Relevant_Sentences"])
+df = df.unique(subset=["PubMedID", "Matched_Proteins", "Relevant_Sentence"])
 
 # Save cleaned dataset
 df.write_csv(output_path)
