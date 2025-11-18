@@ -1,46 +1,46 @@
-Protein,Synonyms
-Interleukin-18,IGIF; IL-18; IL1F4; interferon-gamma-inducing factor
-Hepatocyte growth factor, HGF; HPTA; SF; fibroblast-derived tumor cytotoxic factor; hepatopoietin A; lung fibroblast-derived mitogen; scatter factor
-C-C motif chemokine 19,CC chemokine ligand 19; CK beta-11; CKb11; EBI1-ligand chemokine; ELC; MIP-3-beta; SCYA19; Beta-chemokine exodus-3; exodus-3; macrophage inflammatory protein 3-beta
-C-C motif chemokine 2, HC11; MCAF; MCP-1; MCP1; SCYA2; monocyte chemoattractant protein 1; monocyte chemotactic and activating factor; monocyte chemotactic protein 1; monocyte secretory protein JE; small-inducible cytokine A2
-Macrophage metalloelastase,HME; macrophage elastase; MME; matrix metalloproteinase-12; MMP12
-Lymphotoxin-alpha,LTA; TNF-beta; TNFB; TNF superfamily member 1; TNFSF1
-Fms-related tyrosine kinase 3 ligand,FLT3; SL cytokine; FLT3LG
-Tumor necrosis factor,TNFA; TNFSF2; TNF superfamily member 2; TNF-alpha; Cachectin
-Interleukin-17A,CTLA8; IL-17; IL-17A; IL17; Cytotoxic T-lymphocyte-associated antigen 8
-Interleukin-2,IL-2; IL2; T cell growth factor; TCGF; Aldesleukin
-Interleukin-17F,IL-17F; Cytokine ML-1; IL17F
-Granulocyte colony-stimulating factor,C17orf33; G-CSF; GCSF; MGC45931; filgrastim; granulocyte colony stimulating factor; lenograstim; pluripoietin
-Interleukin-1 beta,IL-1B; IL1-BETA; IL1F2; Catabolin; Il-1 beta
-Oxidized low-density lipoprotein receptor 1,CLEC8A; LOX-1; Oxidized low-density lipoprotein receptor 1; SCARE1; Ox-LDL receptor 1
-Tumor necrosis factor ligand superfamily member 12,APO3L; DR3LG; TNF12; TWEAK; TNFSF12; APO3 ligand
-C-X-C motif chemokine 10,INP10; SCYB10; gIP-10; mob-1
-Vascular endothelial growth factor A,VEGF; VEGF-A; L-VEGF
-Interleukin-33,C9orf26; DKFZp586H0523; DVS27; DVS27-related protein; IL1F11; Interleukin-33; NF-HEV
-Thymic stromal lymphopoietin,thymic stroma-derived lymphopoietin; TSLP
-Interferon gamma,IFN-gamma; Immune interferon
-C-C motif chemokine 4,Act-2; LAG1; MIP-1-beta; SCYA4; CCL4
-Protransforming growth factor alpha,TGFA; TGF-alpha; ETGF
-Interleukin-13, IL-13; IL13
-C-C motif chemokine 8,HC14; MCP-2; SCYA8; CCL8
-Interleukin-6,BSF2; HSF; IFNB2; IL-6; IL6; interferon beta 2; Hybridoma growth factor
-C-C motif chemokine 13,CKb10; MCP-4; NCC-1; SCYA13; CCL13
-Granulocyte-macrophage colony-stimulating factor,GM-CSF; GMCSF; granulocyte-macrophage colony stimulating factor; molgramostim; sargramostim
-C-C motif chemokine 7, MCP-3; MCP3; NC28; SCYA6; SCYA7; monocyte chemoattractant protein 3; monocyte chemotactic protein 3; CCL7
-Interleukin-4,B cell growth factor 1; BSF1; B_cell stimulatory factor 1; IL-4; lymphocyte stimulatory factor 1; Pitrakinra
-Tumor necrosis factor ligand superfamily member 10,Apo-2L; CD253; TRAIL; Apo-2 ligand
-Oncostatin-M,MGC20461; OSM
-Interstitial collagenase,CLG; Fibroblast collagenase; Collagenase-1
-Pro-epidermal growth factor, EGF; Epidermal growth factor precursor
-Interleukin-7,IL-7; IL7
-Interleukin-15,IL-15; IL15; MGC9721
-Macrophage colony-stimulating factor 1,M-CSF; MCSF; MGC31930; macrophage colony stimulating factor 1; Lanimostim
-C-X-C motif chemokine 9, CMK; Humig; MIG; SCYB9; CXCL9; Gamma-interferon-induced monokine
-C-X-C motif chemokine 11, H174; I-TAC; IP-9; SCYB11; SCYB9B; b-R1; CXCL11; Beta-R1
-Interleukin-17C,CX2; IL-17C; IL17C; MGC126884; MGC138401
-Stromal cell-derived factor 1,PBSF; SCYB12; SDF1; SDF1A; SDF1B
-Eotaxin, MGC22554; SCYA11; eotaxin-1; CCL11; C-C motif chemokine 11; Eosinophil chemotactic protein; Small-inducible cytokine A11
-Interleukin-10,CSIF; IL-10; IL10A; T-cell growth inhibitory factor; TGIF; cytokine synthesis inhibitory factor
-C-C motif chemokine 3,C-C motif chemokine 3; G0S19-1; LD78; LD78ALPHA; MIP-1-alpha; SCI; SCYA3; macrophage inflammatory protein 1 alpha; CCL3
-Interleukin-27,IL-27; IL-27A; IL27A; IL27p28; IL30; MGC71873; p28; IL27
-Interleukin-8,Interleukin-8; IL8; C-X-C motif chemokine 8; Chemokine (C-X-C motif) ligand 8; Emoctakin; Granulocyte chemotactic protein 1; Monocyte-derived neutrophil chemotactic factor; Monocyte-derived neutrophil-activating peptide; Neutrophil-activating protein 1; Protein 3-10C; T-cell chemotactic factor
+UniProtID,Protein,Synonyms
+Q14116,Interleukin-18,IGIF; IL-18; interferon-gamma-inducing factor
+P14210,Hepatocyte growth factor, HGF; SF; fibroblast-derived tumor cytotoxic factor; hepatopoietin A; lung fibroblast-derived mitogen; scatter factor
+Q99731,C-C motif chemokine 19,CC chemokine ligand 19; CK beta-11; CKb11; EBI1-ligand chemokine; MIP-3-beta; Beta-chemokine exodus-3; exodus-3; macrophage inflammatory protein 3-beta
+P13500,C-C motif chemokine 2, HC11; MCAF; MCP-1; monocyte chemoattractant protein 1; monocyte chemotactic and activating factor; monocyte chemotactic protein 1; monocyte secretory protein JE; small-inducible cytokine A2
+P39900,Macrophage metalloelastase, macrophage elastase; MME; matrix metalloproteinase-12
+P01374,Lymphotoxin-alpha, TNF-beta; TNF superfamily member 1
+P49771,Fms-related tyrosine kinase 3 ligand,FLT3; SL cytokine
+P01375,Tumor necrosis factor, TNF superfamily member 2; TNF-alpha; Cachectin
+Q16552,Interleukin-17A,CTLA8; IL-17; IL-17A; Cytotoxic T-lymphocyte-associated antigen 8
+P60568,Interleukin-2,IL-2; T cell growth factor; TCGF; Aldesleukin
+Q96PD4,Interleukin-17F,IL-17F; Cytokine ML-1
+P09919,Granulocyte colony-stimulating factor, G-CSF; MGC45931; filgrastim; granulocyte colony stimulating factor; lenograstim; pluripoietin
+P01584,Interleukin-1 beta,IL-1B; IL1-BETA; Catabolin; Il-1 beta
+P78380,Oxidized low-density lipoprotein receptor 1, LOX-1; Oxidized low-density lipoprotein receptor 1; SCARE1; Ox-LDL receptor 1
+O43508,Tumor necrosis factor ligand superfamily member 12, TNF12; TWEAK; APO3 ligand
+P02778,C-X-C motif chemokine 10, gIP-10; mob-1; CXCL10
+P15692,Vascular endothelial growth factor A, VEGF-A; L-VEGF
+O95760,Interleukin-33, DKFZp586H0523; DVS27; DVS27-related protein; NF-HEV
+Q969D9,Thymic stromal lymphopoietin,thymic stroma-derived lymphopoietin
+P01579,Interferon gamma,IFN-gamma; Immune interferon
+P13236,C-C motif chemokine 4,Act-2; LAG1; MIP-1-beta
+P01135,Protransforming growth factor alpha, TGF-alpha; ETGF
+P35225,Interleukin-13, IL-13
+P80075,C-C motif chemokine 8,HC14; MCP-2
+P05231,Interleukin-6,BSF2; HSF; IL-6; interferon beta 2; Hybridoma growth factor
+Q99616,C-C motif chemokine 13,CKb10; MCP-4; NCC-1
+P04141,Granulocyte-macrophage colony-stimulating factor,GM-CSF; granulocyte-macrophage colony stimulating factor; molgramostim; sargramostim
+P80098,C-C motif chemokine 7, MCP-3; NC28; monocyte chemoattractant protein 3; monocyte chemotactic protein 3
+P05112,Interleukin-4,B cell growth factor 1; BSF1; B_cell stimulatory factor 1; IL-4; lymphocyte stimulatory factor 1; Pitrakinra
+P50591,Tumor necrosis factor ligand superfamily member 10,Apo-2L; CD253; Apo-2 ligand
+P13725,Oncostatin-M,MGC20461; OSM
+P03956,Interstitial collagenase, Fibroblast collagenase; Collagenase-1
+P01133,Pro-epidermal growth factor, EGF; Epidermal growth factor precursor
+P13232,Interleukin-7,IL-7
+P40933,Interleukin-15,IL-15; MGC9721
+P09603,Macrophage colony-stimulating factor 1,M-CSF; MCSF; MGC31930; macrophage colony stimulating factor 1; Lanimostim
+Q07325,C-X-C motif chemokine 9, Humig; Gamma-interferon-induced monokine
+O14625,C-X-C motif chemokine 11, H174; I-TAC; IP-9; b-R1; Beta-R1
+Q9P0M4,Interleukin-17C,CX2; IL-17C; MGC126884; MGC138401; Cytokine CX2
+P48061,Stromal cell-derived factor 1,PBSF; SDF1B
+P51671,Eotaxin, MGC22554; eotaxin-1; C-C motif chemokine 11; Eosinophil chemotactic protein; Small-inducible cytokine A11
+P22301,Interleukin-10,CSIF; IL-10; IL10A; T-cell growth inhibitory factor; TGIF; cytokine synthesis inhibitory factor
+P10147,C-C motif chemokine 3, LD78; LD78ALPHA; MIP-1-alpha; SCI; macrophage inflammatory protein 1 alpha
+Q8NEV9,Interleukin-27,IL-27; IL-27A; IL27A; IL27p28; IL30; MGC71873; p28
+P10145,Interleukin-8,Interleukin-8; C-X-C motif chemokine 8; Chemokine (C-X-C motif) ligand 8; Emoctakin; Granulocyte chemotactic protein 1; Monocyte-derived neutrophil chemotactic factor; Monocyte-derived neutrophil-activating peptide; Neutrophil-activating protein 1; Protein 3-10C; T-cell chemotactic factor
