@@ -15,3 +15,5 @@ bad_sentences.csv
 synonym_examples.csv
 validate_senctences.py
 RegulaTome-corpus.tar.gz
+Pubmed_Baseline/
+Pubmed_abstracts_csvs/
