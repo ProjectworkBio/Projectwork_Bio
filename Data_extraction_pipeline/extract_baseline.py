@@ -4,20 +4,19 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 import re
+from bs4 import BeautifulSoup
 
 BASE_URL = "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/"
 OUTPUT_DIR = Path("Pubmed_Baseline")
 NUM_THREADS = 10   # Increase for faster download
-# Regex pattern matching ALL baseline PubMed files:
-#   pubmedXXnYYYY.xml.gz → XX = year, YYYY = file number
-FILENAME_PATTERN = re.compile(r"pubmed\d{2}n\d{4}\.xml\.gz")
 
+def list_files(url): 
+    resp = requests.get(url)
+    resp.raise_for_status()
+    soup = BeautifulSoup(resp.text, "html.parser")
 
-#Fetch directory listing from NCBI FTP and extract all pubmed XML.gz filenames.
-def list_files(): 
-    r = requests.get(BASE_URL)
-    r.raise_for_status()
-    files = FILENAME_PATTERN.findall(r.text)
+    files = [a["href"] for a in soup.find_all("a", href=True) if a["href"].endswith(".xml.gz")]
+    print(f"Found {len(files)} files.")
     return sorted(set(files))
 
 
@@ -56,7 +55,7 @@ def main():
     OUTPUT_DIR.mkdir(exist_ok=True)
 
     print("Fetching file list from PubMed baseline FTP...")
-    files = list_files()
+    files = list_files(BASE_URL)
     print(f"Found {len(files)} files to download.\n")
 
     # Parallel download
