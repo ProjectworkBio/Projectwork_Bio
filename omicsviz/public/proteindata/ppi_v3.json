@@ -1,0 +1,4694 @@
+[
+  {
+    "pmid": "12782181",
+    "title": "Exposure of A498 cells to a cytokine mixture consisting of interferon gamma, interleukin-1 beta and tumor necrosis factor-alpha (TNF-alpha) increased nitrite production, iNOS mRNA and protein expression.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-1 beta",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "25633192",
+    "title": "We report that in highly purified rat oligodendrocytes, interferon gamma (IFNγ) activates a signaling pathway that protects these cells from tumor necrosis factor alpha (TNFα)-induced cytotoxicity.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "25461821",
+    "title": "At 0 to 3 DPI, levels of cytokines interleukin-6 (P<.00017), interleukin-9 (P<.0047), interleukin-16 (P<.007), interleukin-18 (P<.014), chemokines growth-related oncogene α/chemokine (C-X-C motif) ligand 1 (P<.0127) and macrophage inflammatory protein 1-β/chemokine (C-C motif) ligand 4 (P<.0015), and growth factors hepatocyte growth factor (HGF) (P<.0001) and stem cell growth factor-β (P<.0103) were also significantly elevated in subjects with acute SCI.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-C motif chemokine 3",
+        "target": "Hepatocyte growth factor",
+        "type": "Positive_regulation"
+      },
+      {
+        "source": "C-C motif chemokine 3",
+        "target": "Interleukin-18",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "23206733",
+    "title": "Interleukin-6 secretion, matrix metalloproteinase-9 expression, and matrix metalloproteinase-2 activity were reduced, whereas plasminogen activator inhibitor-1 protein expression was up-regulated. miR-10b overexpression significantly down-regulated SDC1, reduced Matrigel invasiveness by 20% and cell viability by 14%, and decreased mitogen-activated protein kinase activation in response to hepatocyte growth factor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Interleukin-6",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "14966426",
+    "title": "We examined the effect of macrophage colony-stimulating factor (M-CSF) on the production of tumor necrosis factor (TNF) in a Bacille de Calmette Guérin-lipopolysaccharide-challenged mouse model.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Macrophage colony-stimulating factor 1",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "23706331",
+    "title": "To investigate the action of nuclear factor (NF)-κB in adenomyosis and evaluate the potential therapeutic effect of andrographolide on tumor necrosis factor (TNF)-α-induced expression of NF-κB-mediated genes cyclooxygease-2 (COX-2), vascular endothelial growth factor (VEGF), and tissue factor (TF) in adenomyotic stromal cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9414257",
+    "title": "With respect to single gene modifications, only HSVtk/GCV, or high-level interleukin-2 (IL-2) secretion, completely prevented tumor growth, whereas granulocyte-macrophage colony-stimulating factor (GM-CSF) generated the best levels of long-term systemic protection.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "20131252",
+    "title": "Bone marrow-derived dendritic cells (DCs) were obtained by expansion of primary cells with granulocyte-macrophage colony-stimulating factor followed by coculture with iNKT cell hybridomas, and interleukin-2 release into the cocultures was then measured by enzyme-linked immunosorbent assay (ELISA).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "18481386",
+    "title": "DCs were derived from granulocyte-macrophage colony-stimulating factor+ interleukin-13 stimulated autologous monocytes, pulsed with mannan-MUC1 fusion protein, and matured by FMKp and interferon-gamma.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-13",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15692068",
+    "title": "Upon induction with granulocyte-macrophage colony-stimulating factor (GM-CSF) plus interleukin-4 (IL-4), MSC coculture could strongly inhibit the initial differentiation of monocytes to DCs, but this effect is reversible.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11447117",
+    "title": "Interleukin-10 (IL-10) is a key inhibitory signal of inflammatory responses that regulates the production of potentially pathogenic cytokines like tumor necrosis factor (TNF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "28848229",
+    "title": "LTβR ligation on fibroblastic reticular cells leads to the production of B-cell-activating factor (BAF﻿F), which synergized with interleukin-4 (IL-4) to promote the production of the lymphangiogenic factors, vascular endothelial growth factors (VEGF)-A and VEGF-C, by B cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-4",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7790711",
+    "title": "Tumor necrosis factor alpha showed maximal secretion 6 h after stimulation and exogenous interleukin-10 also downregulated the tumor necrosis factor alpha release after 6 h.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10764146",
+    "title": "Granulocyte-macrophage colony-stimulating factor (GM-CSF) induced apoptosis in human hematopoietic U937 cells by itself and in a synergistic manner with tumor necrosis factor (TNF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7505148",
+    "title": "Granulocyte colony-stimulating factor (G-CSF) is a potent stimulator of the growth of normal and malignant hematopoietic cells and synergizes with other factors such as interleukin-3 (IL-3) and granulocyte-macrophage colony-stimulating factor (GM-CSF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Granulocyte-macrophage colony-stimulating factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7847259",
+    "title": "Based upon in vitro and clinical data suggesting antitumor activity of interleukin-2 (IL-2) plus tumor necrosis factor (TNF) in non-small cell lung cancer (NSCLC), we conducted two parallel pilot studies of the combination in patients with advanced disease.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "34830067",
+    "title": "Our results revealed that the optimal condition for priming MenSCs was the combination of interferon gamma (IFNγ) and tumor necrosis factor alpha (TNFα) that produced a synergistic and additive effect on IDO1 release and immune-related molecule expression.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "17666446",
+    "title": "Downregulation of chemokine (C-X-C motif) ligands CXCL9, CXCL10 and CXCL11 was verified with Real-time polymerase chain reaction, CXCL10 protein levels were determined with ELISA.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-X-C motif chemokine 10",
+        "target": "C-X-C motif chemokine 9",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "7796864",
+    "title": "Induction of tolerance to endotoxin by a 4-day pretreatment with lipopolysaccharide resulted in 50% protection against this depression despite inhibition of the interleukin-2 induced formation of tumor necrosis factor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11180010",
+    "title": "Interleukin-10 inhibited the epidermal interleukin-8 pathway by downregulating the expression of interleukin-8, its receptor CXCR2, and its inducer interleukin-17, and partially reversed the aberrant keratinocyte maturation defining psoriatic epidermal pathology.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "23929007",
+    "title": "αB-crystallin is a small heat shock protein, which has pro-angiogenic properties by increasing survival of endothelial cells and secretion of vascular endothelial growth factor A. Here we demonstrate an additional role of αB-crystallin in regulating vascular function, through enhancing tumor necrosis factor α (TNF-α) induced expression of endothelial adhesion molecules involved in leukocyte recruitment.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11501668",
+    "title": "The cytokine milieu in this disease may favour a Th2 immune response to an unknown antigen, whereby RANTES and eotaxin act in synergy with interleukin-4 and interleukin-5 to mediate tissue inflammation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Eotaxin",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "39177452",
+    "title": "In this study, we describe Tripokin, a novel multi-specific fusion protein that combines interleukin-2 and a single amino acid mutant of tumor necrosis factor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "7578738",
+    "title": "Since interleukin-10 (IL-10) controls the production of tumor necrosis factor alpha (TNF-alpha) and this latter cytokine has a deleterious effect on neuronal cells, we determined the levels of both cytokines in cerebrospinal fluid (CSF) from children with bacterial meningitis.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11401958",
+    "title": "The lines and clone responded to H. ducreyi antigen in a dose-dependent manner and produced gamma interferon (IFN-gamma) alone or IFN-gamma and interleukin-10 (IL-10) but no IL-4 or IL-5 in response to H. ducreyi.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-10",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "9538881",
+    "title": "Orally induced inhibition of cell-mediated immune responses to corneal alloantigens is correlated with a sharp increase in the secretion of transforming growth factor-beta and interleukin-10 and a concomitant suppression of interleukin-2 and interferon-gamma.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-2",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "19177540",
+    "title": "In contrast to Treg cells in healthy pregnant women, Treg cells in pregnant women with AS secreted only small amounts of interleukin-10 and showed lower suppression of tumor necrosis factor alpha and interferon-gamma secretion by CD4+CD25- Teff cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11348460",
+    "title": "Interleukin-10 therapy led to a decrease of cutaneous interleukin-8 and interleukin-10 mRNA expression.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8943702",
+    "title": "Interleukin-7 potentiated interleukin-1 beta-induced monocyte chemotactic protein-1 and interleukin-8 steady-state mRNA expression at all interleukin-7 concentrations.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-7",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "22036621",
+    "title": "Immature DCs (iDCs) were induced from adherent mononuclear cells by using recombinant human granulocyte-macrophage colony-stimulating factor plus interleukin-4.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9620667",
+    "title": "We tested effects of alpha-MSH (1-13), alpha-MSH (11-13), and ACTH (1-24) on production of tumor necrosis factor alpha (TNF-alpha), interleukin-6 (IL-6), and nitric oxide (NO) in a cultured murine microglial cell line (N9) stimulated with lipopolysaccharide (LPS) plus interferon gamma (IFN-gamma).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9040477",
+    "title": "To examine the modulation of interleukin-1 beta (IL-1 beta)- and tumor necrosis factor-alpha (TNF-alpha)-stimulated monocyte chemotactic protein-1 (MCP-1) and interleukin-8 (IL-8) secretion and transcription in human retinal pigment epithelial (HRPE) cells by dexamethasone (DEX) and cyclosporin A (CSA).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8102321",
+    "title": "The activity of cell-mediated defense systems is stimulated by consecutive formation of interleukin-1 beta (IL-1 beta), interleukin-2 (IL-2) and interferon gamma (IFN gamma).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-2",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "2501793",
+    "title": "It is proposed that interferon gamma released by activated CD4+ T cells acts by augmenting both production and action of tumor necrosis factor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "12204895",
+    "title": "Eotaxin stimulated production of interleukin-8 and granulocyte macrophage colony-stimulating factor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Eotaxin",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "22207243",
+    "title": "With real-time RT-PCR, immunofluorescence, chemiluminescence, Western blot analysis, and in vitro vasculogenesis assays, we show that RSV enhanced expression of vascular endothelial growth factor (VEGF), kinase insert domain receptor (KDR), encoding a major VEGF receptor, hepatocyte growth factor (HGF), and platelet-derived growth factor-BB (PDGF-BB) in a time- and dose-dependent manner.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "35973589",
+    "title": "Moreover, the activation of the Wnt/β-catenin pathway, up-expression of vascular endothelial growth factor (VEGF), α-melanocyte-stimulating hormone (α-MSH) and interleukin-10 (IL-10) were the mechanisms of micelles for the hair recovery.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "8841831",
+    "title": "Gamma interferon (IFN-gamma), phorbol ester (PDB) and opsonized zymosan (OZ) were activators while interleukin-10 (IL-10) and aminophylline were inhibitors.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-10",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "33900691",
+    "title": "In COVID-19 sepsis, the < 70 kDa antigens activate the B-cell receptor (BCR), which modulates the shift in the pattern of T-helper 1 (Th1) to Th2 cytokines, increases the release of interleukin-10 (IL-10) and the up-regulation of the membrane form of tumor necrosis factor alpha (TNF-α), promoting the production of immunoglobulin G1 (IgG1)- and IgG3-neutralizing antibodies, but failing in IgG2a production and in developing long-lasting B-cell immune memory.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "12350510",
+    "title": "DCs are considered promising cellular adjuvants for inducing immunity against cancer or infectious diseases. moDCs were generated in the presence of granulocyte-macrophage colony-stimulating factor and interleukin-4.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10341854",
+    "title": "Interleukin-6 levels increased two hours after interleukin-2 administration (P < 0.01 vs basal).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Interleukin-6",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10989961",
+    "title": "Flow cytometric analysis revealed that monocytes derived from cancer patients cultured with granulocyte-macrophage colony-stimulating factor (GM-CSF) plus interleukin-4 (IL-4) exhibited lower levels of CD11c, CD40, CD86, and HLA-DR expression as compared with those of monocyte-derived DCs from healthy volunteers.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10865082",
+    "title": "Interleukin-10 (IL-10) inhibits tumor necrosis factor (TNF) production.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8858209",
+    "title": "While iNOS mRNA is induced by interleukin-1 beta (IL-1 beta) alone in rodent insulin-producing cells, a combination of two (IL-1 beta + interferon gamma) (IFN-gamma) or three (IL-1 beta + IFN gamma + tumour necrosis factor alpha) cytokines is required for iNOS activation in human pancreatic islets.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-1 beta",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9920826",
+    "title": "DC were generated in vitro using granulocyte-macrophage colony-stimulating factor +interleukin-4 in combination with either tumor necrosis factor-alpha or CD40 ligand (CD40L).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "38923275",
+    "title": "The downregulation of downstream vascular endothelial growth factor (VEGF) reprograms vasculature normalization to improve immune infiltration, collaborating with interleukin-6 (IL-6) and interleukin-10 (IL-10) reduction to develop anti-glioblastoma responses.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "35764970",
+    "title": "The medium and high therapeutic doses of ATRA reduced the survival rates, aggravated lung tissue damage, decreased the expression of interferon beta (IFN-β), and increased the concentrations of interleukin-1 beta (IL-1β), tumor necrosis factor alpha (TNF-α), and C-C motif chemokine ligand 2 (CCL2) in the lungs of the H9N2-infected mice.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-C motif chemokine 2",
+        "target": "Interleukin-1 beta",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "12524227",
+    "title": "Hepatocyte growth factor/scatter factor (HGF/SF) promotes vascular endothelial growth factor (VEGF) expression and induces angiogenesis in multiple pathological conditions.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9390197",
+    "title": "To explore the mechanisms of immuno-modulatory activities of bleomycin, we investigated interferon gamma (IFN gamma) mRNA expression, tumor necrosis factor alpha (TNF alpha) production, nitric oxide (NO) production and macrophage tumoricidal activities in rats bearing KDH-8 hepatoma cells, which secreted a large amount of transforming growth factor beta (TGF beta), and these processes in KDH-8 tumor-bearing rats treated with bleomycin.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7642744",
+    "title": "Interleukin-10 (IL-10), originally designated a cytokine synthesis inhibitory factor, inhibits the synthesis of the pro-inflammatory cytokines IL-1 and tumor necrosis factor by stimulated human and mouse monocytes/macrophages; these cytokines are involved in the regulation of sleep.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "29316717",
+    "title": "Various triggers, including recently identified autoantigens, Toll-like receptor agonists, chemerin, and thymic stromal lymphopoietin may activate the pathogenic cascade resulting in enhanced production of pro-inflammatory and proliferation-inducing mediators such as interleukin (IL)-17, tumor necrosis factor (TNF)-α, IL-23, IL-22, interferon (IFN)-α, and IFN-γ by immune cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Thymic stromal lymphopoietin",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10233758",
+    "title": "Interleukin-10 increased a maximum 2-fold between 15 and 24 h, coincident with recovery of mixed epidermal cell-lymphocyte reaction responses and downregulation of tumor necrosis factor alpha and interleukin-1beta.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "27041247",
+    "title": "(1) Treatment with ALR significantly decreased interleukin-2 and interferon-γ expression, promoted TC apoptosis, and prolonged the survival of allografts; (2) KCs in ALR group and isograft group that had significantly increased interleukin-10 and decreased tumor necrosis factor-α expression were able to inhibit TC proliferation and induce their apoptosis relative to KCs in the allograft group; (3) ALR and KCs directly inhibited TC proliferation and activation and induced TC apoptosis.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-2",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "11918715",
+    "title": "Immunologic activity of interleukin-10 application was indicated by an increase in soluble interleukin-2 receptor plasma levels and higher ex vivo interleukin-4 secretion capacities.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-2",
+        "type": "Regulation"
+      },
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "19807671",
+    "title": "It induced expression of the cytokines interleukin-1 beta, interleukin-2, interferon-gamma and tumor necrosis factor-alpha.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-2",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "9298935",
+    "title": "After activation with interleukin-2 (IL-2), peripheral blood mononuclear cells (PBMC) have been reported to induce the expression of mRNA coding various cytokines, including interleukin(IL)-1alpha, -1beta and tumor necrosis factor alpha (TNF alpha).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8466279",
+    "title": "The suppressor function of adoptively transferred T cells from animals tolerized with dinitrothiocyanobenzene may be related to a shift in the balance of Th1 and Th2 lymphokines in favour of the latter, since recipient T cells might provide the source of interleukin-2 that induces interleukin-4 production by donor T cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11320251",
+    "title": "Dendritic cell (DC) differentiation from human CD34(+) hematopoietic progenitor cells (HPCs) can be triggered in vitro by a combination of cytokines consisting of stem cell factor, granulocyte-macrophage colony-stimulating factor, and tumor necrosis factor alpha.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "12626464",
+    "title": "Heat-killed pathogenic Leptospira interrogans serovar rachmati induced the production of gamma interferon (IFN-gamma) and the IFN-gamma-inducing cytokines interleukin-12p40 (IL-12p40) and tumor necrosis factor alpha in human whole blood in vitro.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10380897",
+    "title": "In this study, we observed that DC, generated from monocytes, in vitro in the presence of granulocyte-macrophage colony-stimulating factor, interleukin-4 (IL-4), and tumor necrosis factor alpha were susceptible to cytolysis by lymphokine-activated killer (LAK) cells induced in the presence of IL-2 and IL-15 but not IL-12 alone.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-4",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8952522",
+    "title": "Cardiotrophin-1 (CT-1) is a member of the gp130 family of cytokines that includes interleukin-6, interleukin-11, ciliary neurotrophic factor, leukemia inhibitory factor, and oncostatin M. As interleukin-6, leukemia inhibitory factor, and ciliary neurotrophic factor were previously reported to inhibit the production of tumor necrosis factor (TNF), we studied the effect of CT-1 on serum and heart TNF levels in mice treated with lipopolysaccharide (100 ng/mouse, iv).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-6",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7930949",
+    "title": "It is well known that bacterial lipopolysaccharide (LPS) induces the synthesis of tumor necrosis factor alpha (TNF-alpha) and other inflammatory cytokines by primary monocytes and macrophages and that the Th1 lymphokines, interleukin-2 (IL-2) and interferon-gamma (IFN-gamma), augment this response.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "29970684",
+    "title": "Immunohistochemical staining was used to detect vascular endothelial growth factor (VEGF) expression in tumor section and ELISA was used to measure serum levels of interferon gamma (INF-γ) and interleukin-4.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      },
+      {
+        "source": "Interleukin-4",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "15486931",
+    "title": "Furthermore, interferon gamma (IFN-gamma) production by NK cells and T cells was increased and stimulated tumor necrosis factor alpha (TNF-alpha) production by macrophages in the Ad5IkappaB-infected liver.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15526056",
+    "title": "In response to interferon-inducible protein 10 and monokine induced by interferon, but not interferon gamma, lung macrophages secreted macrophage metalloelastase (matrix metalloproteinase-12), a potent elastin-degrading enzyme that causes tissue destruction and which has been linked to emphysema.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Macrophage metalloelastase",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8161777",
+    "title": "In this report, we show that interleukin-2 (IL-2), IL-3, IL-4, IL-6, leukemia inhibitory factor (LIF), erythropoietin (Epo), and granulocyte-macrophage colony-stimulating factor (GM-CSF) treatment of cells causes rapid activation of DNA-binding activities that recognize a DNA sequence element previously implicated in regulation of gene expression by interferon gamma (IFN gamma).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "12223516",
+    "title": "Interleukin-4, which induces eotaxin expression, did not affect the expression of galectin-9.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Eotaxin",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15493054",
+    "title": "AML cells were cultured in the presence of the following combinations of cytokines: Group A, granulocyte-macrophage colony-stimulating factor (GM-CSF) + interleukin-4 (IL-4) + tumor necrosis factor-alpha (TNF-alpha); Group B, GM-CSF + IL-4 + CD40L; and Group C, CD40L addition at the terminal maturation point of cells that were grown as for Group A. The AML cells showed clear upregulation of CD80, CD83, CD86, CD40, and HLA-DR expression under all culture conditions, without significant differences between these groups.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "37368148",
+    "title": "This system achieves anti-inflammatory action by inhibiting, through adenosine, pro-inflammatory factors such as interleukin-12 (IL-12), tumor necrosis factor alpha (TNF-α), and nitric oxide (NO), as well as by releasing anti-inflammatory substances such as interleukin-10 (IL-10).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15325633",
+    "title": "To verify the involvement of proinflammatory cytokines IL-17, IL-1beta and tumor necrosis factor alpha (TNF-alpha) in cartilage vascularization by stimulating the production of vascular endothelial growth factor (VEGF) by chondrocytes isolated from patients with osteoarthritis (OA), in comparison with patients with rheumatoid arthritis (RA) and patients with femoral or humeral neck fracture (FP).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10929056",
+    "title": "We found that the CD44-dependent adhesion, under static and shear stress (i.e. relative gradual resistance to flow of 150 and 1500 s-1) conditions, of T cells to hyaluronan requires a T-cell activation of 2-3 hr and is regulated by the cross-linking of CD3, cytokines (e.g. interleukin-2 and tumour necrosis factor-alpha), and chemokines (e.g. MIP-1beta, interleukin-8, and RANTES).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Interleukin-8",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15182256",
+    "title": "DC were generated from adherent blood mononuclear cells from patients with MS and HC. imDC were obtained by culture with either granulocyte-macrophage colony-stimulating factor (GM-CSF) + interleukin-4 (IL-4) or GM-CSF + IL-4 + IL-10. mDC were obtained by adding lipopolysaccharide to DC cultures.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "1531270",
+    "title": "This pathway is operative in both normal and SCID mice and consists of at least four components: interferon gamma, tumor necrosis factor, macrophages, and natural killer cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "10800160",
+    "title": "Hepatocyte growth factor (HGF) is known to augment the effects of stem cell factor, interleukin-3, granulocyte-macrophage colony-stimulating factor (GM-CSF), erythropoetin, and granulocyte colony-stimulating factor, all of which are involved in hematopoiesis.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Hepatocyte growth factor",
+        "type": "Positive_regulation"
+      },
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Hepatocyte growth factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10809957",
+    "title": "Resting monocytes were CD1d+ but, in contrast to CD1a, b and c, their surface expression of CD1d was not up-regulated by granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin-4 (IL-4) activation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "25883904",
+    "title": "The tumor necrosis factor-related apoptosis-inducing ligand (TRAIL) is a member of the tumor necrosis factor (TNF) family of ligands, which initiates apoptosis in cancer cells through interaction with the death receptors DR4 and DR5.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Tumor necrosis factor ligand superfamily member 10",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "20105586",
+    "title": "Hepatocyte growth factor induced less interleukin-6 (P < .011) and tumor necrosis factor alpha (P < .01) expression.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "1660018",
+    "title": "Twenty-four-hour conditioned medium from lipopolysaccharide-stimulated peripheral blood monocytes and nonparenchymal human liver cells enriched for Kupffer cells induced a time-dependent increase in interleukin-8 messenger RNA levels in SK-hepatoma cells over a 24-hr period, similar to that seen for tumor necrosis factor-alpha or interleukin-1 beta induction of interleukin-8 in primary hepatocytes.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24197832",
+    "title": "Macrophages are activated by macrophage colony stimulating factor (MCSF) and chemokine (C-C motif) ligand 2 (CCL2) to secrete angiogenic factors including vascular endothelial growth factor (VEGF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-C motif chemokine 2",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9161882",
+    "title": "The recently discovered interleukin-15 (IL-15) is known to bind to the receptor of interleukin-2 (IL-2) and to share several of the latter's immunological properties.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-15",
+        "target": "Interleukin-2",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "36233564",
+    "title": "Interleukin-8 (IL-8), soluble intercellular adhesion molecule-1 (sICAM-1), soluble vascular cell adhesion molecule-1 (sVCAM-1), matrix metalloproteinase-9 (MMP-9), interferon gamma (IFN-γ), monocyte chemoattractant protein-1 (MCP-1), transforming growth factor alpha (TGF-α), and plasminogen activator inhibitor-1 (PAI-1) were measured.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-8",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "7591964",
+    "title": "The role of recombinant granulocyte-macrophage colony-stimulating factor (GM-CSF) in augmentation of lymphokine-activated killer (LAK) cell induction by interleukin-2 (IL-2) from pleural cavity mononuclear cells (PCMNCs) was examined in sixteen patients with resectable primary lung cancer not associated with malignant effusion.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "12168108",
+    "title": "Dendritic cells (DCs) are known to be generated from leukemic clone from patients with acute and chronic leukemia when cultured in the presence of combination of granulocyte-macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor-alpha (TNF-alpha) and interleukin-4.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11278357",
+    "title": "We investigated the molecular mechanism of the synergism between interferon gamma (IFNgamma) and tumor necrosis factor alpha (TNFalpha) documented in a variety of biological occasions such as tumor cell death and inflammatory responses.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "25042864",
+    "title": "Mechanistically, IF1 promoted Snai1 and vascular endothelial growth factor (VEGF) expression by way of activating nuclear factor kappa B (NF-κB) signaling, which depended on the binding of tumor necrosis factor (TNF) receptor-associated factor 1 (TRAF1) to NF-κB-inducing kinase (NIK) and the disruption of NIK association with the TRAF2-cIAP2 complex.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "12787125",
+    "title": "The production of interleukin-2 from allogeneic T cells was also inhibited when the cells were stimulated with CX-659S-treated epidermal cells, and this inhibition was suppressed by the addition of granulocyte-macrophage colony-stimulating factor during CX-659S treatment.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "31977553",
+    "title": "Expression of vascular endothelial growth factor A (VEGFA) and tumor necrosis factor-stimulated gene-6 (TSG-6) in hADSCs and MTs were identified by Western blotting.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "21526489",
+    "title": "It does not upregulate the production of interleukin-2, but superinduces the synthesis of interleukin-10.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9302298",
+    "title": "The attraction of TH2 cells by eotaxin could represent a key mechanism in allergic reactions, because it promotes the allergen-driven production of interleukin-4 and interleukin-5 necessary to activate basophils and eosinophils.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Eotaxin",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "19338989",
+    "title": "To study the relationship between eotaxin and interleukin-4 (IL-4) in the pathophysiology of endometriosis.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Eotaxin",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "16316965",
+    "title": "This transfection significantly reduced the disease severity, decreased mRNA expression levels, especially of the chemokines RANTES, MIP-2, IP-10, MCP-1, T-cell activation gene 3, and eotaxin in the myocardium, and resulted in a reduction in cardiac myosin-induced interleukin-1 and interleukin-4 and in an increase in interferon-gamma and interleukin-10 cytokine production by splenocytes.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Eotaxin",
+        "target": "Interleukin-10",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "19005920",
+    "title": "The aim of this study was to determine influence of prenatal granulocyte-macrophage colony-stimulating factor (GM-CSF) administration on lung growth, maturation, and vascular endothelial growth factor (VEGF) expression.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "18476459",
+    "title": "Th1 response and its mediators: interferon gamma, tumor necrosis factor alpha, interleukin-1, interleukin-12 and interleukin-18 enhance atherogenesis, whereas Th2 response and its mediators: interleukin-4, interleukin-5, interleukin-10 and interleukin-13 inhibit the development of atherosclerosis.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-18",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "16774924",
+    "title": "Microglia cultured ex vivo from MK2-deficient (MK2-/-) mice demonstrated significant inhibition in release of tumor necrosis factor alpha, KC (mouse chemokine with highest sequence identity to human GROs and interleukin-8), and macrophage inflammatory protein 1alpha on stimulation with LPS + interferon gamma or amyloid-beta peptide (1-42) compared with MK2+/+ wild-type microglia.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      },
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15653694",
+    "title": "In this study we investigated the mechanism by which interleukin-3 (IL-3) and granulocyte-macrophage colony-stimulating factor (GM-CSF) inhibit tumor necrosis factor (TNF)-alpha-induced osteoclast differentiation in mouse osteoclast precursors.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10792949",
+    "title": "Interleukin-10 (IL-10) counteracts the effects of the proinflammatory cytokines interleukin-1 (IL-1), interleukin-6 (IL-6), and tumor necrosis factor (TNF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10873025",
+    "title": "The authors hypothesized that the high mortality rate of the newborn was caused by overexpression of tumor necrosis factor (TNF-alpha) and that interleukin-10 (IL-10) would attenuate this response.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "2453375",
+    "title": "Granulocyte-macrophage colony-stimulating factor (GM-CSF) synergized with granulocyte colony-stimulating factor (G-CSF), while G-CSF also synergized with macrophage colony-stimulating factor (CSF-1) and interleukin 3 (IL3), resulting in colony numbers greater than the sum of the numbers of colonies formed with each factor alone.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Granulocyte-macrophage colony-stimulating factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "38036985",
+    "title": "Tumor necrosis factor (TNF) is known to promote T cell migration and increase the expression of vascular endothelial growth factor (VEGF) and chemokines.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24697130",
+    "title": "Its expression is influenced by vascular endothelial growth factor A (VEGF A) and tumor necrosis factor alpha (TNF alpha), cytokines involved in pathogenetic pathways in inflammatory bowel disease (IBD).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "16117559",
+    "title": "Apart from conventional antimycobacterial agents, novel therapeutic modalities, which stimulate the host immune system such as interleukin-2 (IL-2), IL-12, interferon-gamma, and tumor necrosis factor antagonists have been tested with promising results.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "28132739",
+    "title": "To confirm our hypothesis that atopic dendritic cells (DCs) are activated to up-regulate the receptors of cytokines that mainly derived from ECs and enhance T The expressions of interleukin 17 receptor B (IL-17RB) (IL-25 receptor), membrane-bound ST2 (IL-33 receptor), thymic stromal lymphopoietin receptor (TSLPR), granulocyte-macrophage colony-stimulating factor receptor (GM-CSFR), and several functional markers on CD1c LPS activated both nonatopic and atopic mo-DCs to express a higher level of GM-CSFR but only activated atopic mo-DCs to express increased IL-17RB, which was subsequently activated by IL-25 involved with signal transducer and activator of transcription 5 phosphorylation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Thymic stromal lymphopoietin",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "34667722",
+    "title": "To investigate the potential interactions of thymic stromal lymphopoietin (TSLP) with interleukin-4 (IL-4) in adaptive immunity during fungal keratitis (FK).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-4",
+        "target": "Thymic stromal lymphopoietin",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "19380468",
+    "title": "Cellular cytokine production, including production of interleukin-2 (IL-2), IL-4, IL-6, IL-10, tumor necrosis factor (TNF) (formerly tumor necrosis factor alpha), and gamma interferon (IFN-gamma), was measured, and the cellular source of key cytokines was investigated.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "38677740",
+    "title": "The aim of this study was to investigate the effect of hepatocyte growth factor (HGF)-induced up-regulation of CSD protein A (CSDA) expression on vascular endothelial growth factor (VEGF) expression and its role in gastric cancer cell invasion and proliferation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "8811054",
+    "title": "Interleukin-10 (IL-10) inhibits the production of inflammatory cytokines [tumor necrosis factor (TNF)-alpha, interleukin-1 (IL-1), interleukin-6 (IL-6), and interleukin-8 (IL-8)] and enhances production of interleukin-1-receptor antagonist (IL-1ra) from endotoxin-stimulated human monocytes, but the effect of IL-10 on such activity in alveolar macrophages is unknown.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Negative_regulation"
+      },
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15616621",
+    "title": "Other pro-inflammatory cytokines in rheumatoid arthritis are interleukin-6, interleukin-8, leukemia inhibitory factor, granulocyte-macrophage colony-stimulating factor and transforming growth factor-beta The potent antiinflammatory cytokines interleukin-4 and interleukin-10, which are powerful inhibitors of most of these mediators, seem to be promising agents and candidates for an optimal approach to treatment.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "21862649",
+    "title": "To investigate the effect of tumor necrosis factor alpha (TNF-α) on the mouse retinal vasculature, function, and expression of vascular endothelial growth factor-A (VEGF-A) in the retina and retinal pigment epithelium (RPE) and to evaluate the protective effect of statin therapy (fluvastatin) on retinal vascular and functional changes.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "31468673",
+    "title": "Significantly, increased interleukin-2 levels (P = .005) and decreased interleukin-8, chemokine (C-C motif) ligand (CCL) 5, chemokine (C-X-C motif) ligand (CXCL) 9, CCL2 and CXCL10 levels were observed in the nasal lavage fluid.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-C motif chemokine 2",
+        "target": "Interleukin-2",
+        "type": "Negative_regulation"
+      },
+      {
+        "source": "C-C motif chemokine 2",
+        "target": "Interleukin-8",
+        "type": "Negative_regulation"
+      },
+      {
+        "source": "C-X-C motif chemokine 10",
+        "target": "Interleukin-8",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "25692621",
+    "title": "We have investigated the potential cross-talk between hepatocyte growth factor (HGF) and vascular endothelial growth factor-A (VEGF-A) in human VS, an interaction that has been described in other physiological and pathological cell types.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "23601688",
+    "title": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-4",
+        "target": "Macrophage colony-stimulating factor 1",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "14736711",
+    "title": "Lipopolysaccharide (LPS) induced tumor necrosis factor (TNF)-alpha production in human monocytes, which was dependent on activation of extracellular signal-regulated kinase (ERK), p38, c-Jun NH(2)-terminal kinase (JNK), and nuclear factor (NF)-kappa B. LPS-induced TNF-alpha production was inhibited by granulocyte colony-stimulating factor (G-CSF) and interleukin (IL)-10.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24561793",
+    "title": "Indoleamine 2,3-dioxygenase, an enzyme modulating T-cell proliferation and induced on normal monocytes after hepatocyte growth factor treatment, was detected together with interleukin-10 on nurse-like cells, and on freshly-prepared patients' monocytes.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Interleukin-10",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "35763913",
+    "title": "Tumor necrosis factor-alpha (TNF-α) enhances the expression of vascular endothelial growth factor (VEGF) and glutamic acid-leucine-arginine (ELR+) chemokines, which are potent inducers of vascularization.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "2550283",
+    "title": "Human skin fibroblasts generate superoxide and tumor necrosis factor enhanced it, but interleukin-1 beta inhibited it.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7934096",
+    "title": "A local production of these cytokines cannot be excluded, because interleukin-6 and interleukin-8 are produced by stimulated macrophages and monocytes in response to tumor necrosis factor-alpha and interleukin-1 beta.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8347686",
+    "title": "A specific radioimmunoassay was employed to demonstrate that human articular cartilage and chondrocyte monolayers in organ and cell culture, respectively, produce macrophage colony-stimulating factor (M-CSF) in response to stimulation with interleukin-1 alpha (IL-1 alpha), IL-1 beta, tumor necrosis factor alpha (TNF alpha) and TNF beta.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Macrophage colony-stimulating factor 1",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10022543",
+    "title": "The results show that using a growth factor combination including granulocyte-macrophage colony-stimulating factor plus tumor necrosis factor alpha plus interleukin 4 plus stem cell factor plus Flt3 ligand, more than 70% of DCs derived from CB or MPB CD34+ cells can be transduced.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "1700275",
+    "title": "We have previously reported that tumor necrosis factor beta (TNF beta) expression is induced by interleukin-2 (IL-2) in the murine lymphocytic T-cell line CTLL-2.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "25398249",
+    "title": "Interleukin-6, interleukin-8, interleukin-18, interferon gamma-inducible protein-10, monokine induced by gamma interferon and tumor necrosis factor-alpha (IL-6, IL-8, IL-18, IP-10, MIG and TNF-α) were measured by bead based multiplex immunoassay in 60 paired sputum samples from 45 patients.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-18",
+        "type": "Positive_regulation"
+      },
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-6",
+        "type": "Positive_regulation"
+      },
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7858569",
+    "title": "One calls into play the antiinflammatory cytokines, such as interleukin-4 and interleukin-10, which are potent inhibitors of the production of interleukin-1, tumor necrosis factor alpha, and the metalloproteases.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      },
+      {
+        "source": "Interleukin-4",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "1371299",
+    "title": "In this brief definitive report, we show that over a 6-h period and under serum-free conditions, recombinant monocyte-macrophage colony-stimulating factor 1 (rCSF-1) and lipopolysaccharide (LPS) synergize and induce macrophages to express higher levels of mRNA for interleukin 1 alpha (IL-1 alpha), IL-1 beta, tumor necrosis factor alpha (TNF-alpha), and IL-6 and to release more bioactivity than macrophages treated with LPS alone.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Macrophage colony-stimulating factor 1",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8178864",
+    "title": "Our purpose was to determine whether interleukin-1 beta, interleukin-6, and the soluble receptor for interleukin-2 levels in maternal and umbilical cord sera differed among patients with and without clinical chorioamnionitis delivered prematurely.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-2",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "1324289",
+    "title": "Macrophages derived in vitro from bone marrow progenitor cells (bone marrow-derived macrophages, BMDMs) using colony-stimulating factor 1 (CSF-1) as the myelopoietic stimulus displayed a greater sensitivity to PGE2-induced suppression of tumor necrosis factor alpha (TNF-alpha) secretion than did macrophages derived using granulocyte-macrophage colony-stimulating factor (GM-CSF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "1959936",
+    "title": "Gamma interferon (gamma-IFN), lipopolysaccharide (LPS)-gamma or interleukin-2 (IL-2)-induced tumor necrosis factor alpha (TNF alpha) production by both macrophages and peripheral blood mononuclear cells (PBMC), was increased in the presence of neopterin.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10586892",
+    "title": "These include the secretion of allergic mediators and induction of cytokine gene transcription, resulting in secretion of molecules such as interleukin-4, interleukin-6, tumour-necrosis factor-alpha and granulocyte-macrophage colony-stimulating factor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7491676",
+    "title": "Experiments that directly compared the CD4+ and CD8+ T cell responses to PAEC and the human EC line EAhy.926, both with and without prior treatment with species-specific interferon gamma, demonstrated greater proliferation and 5-10 times more interleukin-2 in response to pig EC than to human EC.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "16043889",
+    "title": "Here, the proinflammatory cytokines interleukin (IL)-1beta, and tumor necrosis factor (TNF)-alpha were investigated on cell cultures of human airway smooth muscle (ASM) for their effects on mRNA induction and protein release of the angiogenic peptide, vascular endothelial growth factor (VEGF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10648399",
+    "title": "PU.1(-/-) embryos also lack progenitors capable of differentiating into myeloid DC in response to granulocyte-macrophage colony-stimulating factor plus interleukin-4.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9128846",
+    "title": "Interleukin-10 administered at 1, 10 and 100 micrograms/kg per day significantly reduced myeloperoxidase activity by 34, 57, and 28%, respectively, compared to the placebo-treated group, which was paralleled by an attenuation of colonic tumor necrosis factor alpha (TNF-alpha) content.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "1536949",
+    "title": "In this report we show that recombinant human granulocyte-macrophage colony-stimulating factor (rhGM-CSF) and rh macrophage (M)-CSF induce accumulation of interleukin-1 beta (IL-1 beta) mRNA in blood-derived mononuclear phagocytes (MNP).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-1 beta",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "30547709",
+    "title": "The purpose of these studies was (1) to investigate the ability of human M1 phenotype macrophages to secrete vascular endothelial growth factor (VEGF) and the influence of prostacyclin receptor (IP) stimulation (2) to evaluate the contribution of the proangiogenic prostanoid prostacyclin to experimental choroidal neovascularization Methods: Human macrophages derived from primary blood mononuclear cells were functionally biased toward the M1 phenotype by using tumor necrosis factor α (TNFα).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "1847844",
+    "title": "Tumor-infiltrating lymphocytes (TIL) were isolated from 22 human primary and metastatic liver tumors, and expanded in vitro in the presence of either interleukin-2 (IL-2, 100 U/ml) plus tumor necrosis factor alpha (TNF alpha, 1000 U/ml), IL-2 (1000 U/ml) plus IL-4 (1000 U/ml) or IL-2 (1000 U/ml) alone.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "9915850",
+    "title": "Thus, ligation of CD28 with either CD80 or CD86 leads to shared early signal transduction events such as the tyrosine phosphorylation of CBL and VAV, to NFAT-mediated transcriptional activation, and to the costimulation of interleukin-2 and granulocyte-macrophage colony-stimulating factor production.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10029158",
+    "title": "The mechanism of DDTC-mediated chemoprotection is believed to involve the induction and release of several cytokines, including interleukin-1 beta (IL-1beta), tumor necrosis factor-alpha (TNF-alpha), and granulocyte colony-stimulating factor (G-CSF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Interleukin-1 beta",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9338148",
+    "title": "We measured the effects of endotoxin, interferon gamma, and the combination of the two on production of tumor necrosis factor, interleukin-1 beta, and interleukin-6 in each line.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-1 beta",
+        "type": "Positive_regulation"
+      },
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "38071763",
+    "title": "The nuclear Kappa B factor (NF-κB) is an inflammatory mediator that induces the expression of tumor necrosis factor (TNF-α), a pro-inflammatory cytokine, while interleukin-10 (IL-10), an anti-inflammatory cytokine, inhibits NF-κB activity.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "16164823",
+    "title": "Cells were pretreated with interferon gamma (IFNgamma) and/or lipopolysaccharide (LPS) followed byBSA-ce6-mal addition, and SRA expression, tumor necrosis factor alpha (TNFalpha) release, conjugate uptake and PDT killing were measured.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "33903886",
+    "title": "The 3D4/2 macrophages were treated with 20 ng/mL interferon gamma (IFN-γ) and 10 ng/mL interleukin-4 (IL-4) combined with 10 ng/mL macrophage colony-stimulating factor (M-CSF) to induce polarization to M1 and M2, respectively.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-4",
+        "target": "Macrophage colony-stimulating factor 1",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "20919558",
+    "title": "It is found that, in patients with clinical effect of treatment (decrease in the frequency of relapses) the level of cytokines of nonspecific immune response (alpha-interferon, beta-interferon, tumor necrosis factor-alpha) and Th1 profile gamma-interferon, interleukin-2) increased and the concentrations of interleukin-10 decreased 1.5-3 months after beginning of drug administration.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-2",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "25416323",
+    "title": "Serum levels of monocyte chemoattractant protein-1, macrophage inflammatory protein 1α, regulated on activation, normal T cell expressed and secreted, eotaxin, eotaxin-2, interleukin-8, interferon gamma induced protein-10 were measured by enzyme-linked immunosorbent assay.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10999768",
+    "title": "The transforming growth factor alpha (TGF-alpha)-epidermal growth factor receptor (EGFR) autocrine pathway controls in part the production of angiogenic factors such as vascular endothelial growth factor (VEGF) and basic fibroblast growth factor (bFGF) in cancer cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Protransforming growth factor alpha",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8550994",
+    "title": "Interleukin-6 production was measured in culture media of these cells using an enzyme-linked immunosorbent assay after incubation with lipopolysaccharide, and mediators like interleukin-1 beta, tumor necrosis factor-alpha, transforming growth factor-beta and interferon-gamma, known to be present in elevated concentrations in fibrotic livers.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-6",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8624379",
+    "title": "Here we describe the effect of interleukin-10, interleukin-12 and tumor necrosis factor-alpha on the interleukin-2 dependent proliferation and function of established human CD4+ and CD8+ alloreactive T-cell clones in the absence of antigen presenting cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24018067",
+    "title": "Hepatocyte growth factor (HGF) responds to tumor necrosis factor- α (TNF- α) secreted by macrophages and has been suggested to function in malignant metastasis.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "2012180",
+    "title": "On exposure of mesangial cells to human recombinant interleukin-1 beta (IL-1 beta), high levels of interleukin-8 (IL-8) and monocyte chemotactic protein-1 (MCP-1) mRNAs were detected.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-8",
+        "type": "Regulation_of_transcription"
+      }
+    ]
+  },
+  {
+    "pmid": "20848489",
+    "title": "The National Library of Medicine (http://www.pubmed.gov) and meeting abstracts were searched using the following terms: growth factor, intestine, colon, inflammatory bowel disease, Crohn's disease, ulcerative colitis, colitis, animal model, transforming growth factor, bone morphogenetic protein, activins, growth hormone, fibroblast growth factor, epidermal growth factor (EGF), keratinocyte growth factor (KGF), glucagon-like peptide II, granulocyte macrophage colony-stimulating factor (GM-CSF), granulocyte colony-stimulating factor (G-CSF), vascular endothelial growth factor (VEGF) inhibitors, and trefoil factors.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15349914",
+    "title": "In addition, mDC of patients showed a reduced capacity to produce tumor necrosis factor alpha after a stimulus with synthetic double-stranded RNA and interferon gamma.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "33854167",
+    "title": "3D culture increased MSC gene expression of cell interaction proteins, β-catenin, integrin β1, and connexin 43, and of pro-tissue regenerative cytokines, vascular endothelial growth factor (VEGF), hepatocyte growth factor (HGF), and interleukin-10 (IL-10), and increased VEGF secretion per MSC 2.1-fold relative to 2D cultures.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8411809",
+    "title": "In this report, we demonstrated that Interleukin-6 (IL-6) production could be induced by stimulating renal cell carcinoma cell lines, namely ACHN, Caki-1 and TC-1 cells with Interleukin-1 beta (IL-1 beta).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-6",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11384668",
+    "title": "DCs could be induced either from short or long term cultured CD34+ cells after switching the cytokines from Flk-2/Flt-3 ligand, stem cell factor (SCF), thrombopoietin (TPO) to granulocyte-macrophage colony stimulating factor (GM-CSF) and interleukin-4 (IL-4) (immature type) plus tumor necrosis factor (TNF)-alpha with stimulation by CD40L transfectant (mature type).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-4",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "10687137",
+    "title": "The combination of cytokines flt3 ligand + c-kit ligand + granulocyte-macrophage colony-stimulating factor (GM-CSF) + interleukin-4 (IL-4) + tumor necrosis factor-alpha (TNF-alpha) was used to maximize the output of mature DCs in the culture of CD34+ cells while minimizing the production of monocytes.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "9010676",
+    "title": "The ability of cytokine synthesis inhibitory factor or interleukin-10 (IL-10) and interferon-gamma (IFN-gamma) to modulate the production of tumor necrosis factor (TNF-alpha) induced by lipopolysaccharide (LPS) was examined in mouse bone marrow-derived macrophages (BMDM).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8406806",
+    "title": "LAMH37Ra, like gram-negative LPS, exhibited a dose-dependent ability to induce tumor necrosis factor alpha (TNF-alpha) production in normal M phi, and gamma interferon (IFN-gamma) priming of the M phi greatly augmented the levels of TNF-alpha.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "22492973",
+    "title": "Therefore, the purpose of this study was to evaluate the role of cytokines--tumor necrosis factor alpha (TNF), interferon gamma (IFNG) and Fas ligand (FASL)--on in vitro modulation of angiogenic activity and mRNA level of vascular endothelial growth factor A (VEGF), its receptor VEGFR2, thrombospondin 1 (TSP1), and its receptor CD36 in equine corpus luteum (CL) throughout the luteal phase.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "28398003",
+    "title": "Since MDK also controls the expression of inflammatory cytokines in other organs, we examined gene expression of interleukin-1 beta (Il1b), tumor necrosis factor alpha (Tnfα) and the chemokine (C-C motif) ligand 2 (Ccl2) in the VTA of Mdk -/- mice and in mice expressing Mdk shRNA in the VTA.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-C motif chemokine 2",
+        "target": "Interleukin-1 beta",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "9397992",
+    "title": "Interleukin-6 (IL-6) is an acute reactant cytokine with anti-inflammatory properties, which has been found to prevent injury in a model of acute hepatitis in mice through downregulation of tumor necrosis factor alpha (TNF-alpha); to correlate inversely with markers of hepatocellular injury in patients with liver ischemia; and to initiate liver regeneration in mice.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-6",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "28339906",
+    "title": "A total of 981 genes were significantly correlated with IF (|r| > 0.4, false discovery rate (FDR) < 0.01), including upstream regulators such as tumor necrosis factor, interferon gamma (IFN-gamma), and transforming growth factor beta 1 (TGF-B1), and signaling pathways for antigen presentation and hepatic fibrosis.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9360229",
+    "title": "To determine production of interleukin-10 (IL-10) by interleukin-1 beta (IL-1 beta) in cultured decidual, chorion, and amnion cells and whether IL-10 is produced in gestational tissues under the setting of infection-associated preterm labor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-10",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "32885338",
+    "title": "Serum interleukin-5 (IL-5), interleukin-8 (IL-8), hepatocyte growth factor (HGF), epidermal growth factor (EGF), angiopietin (Ang1), nonokine induced by interferon gamma (MIG), galectin (Gal-3), and vitamin D-binding protein (VDRP) were quantified by multiplex bead assay using Luminex xMAP technology.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8348939",
+    "title": "In particular, the release of tumor necrosis factor after interleukin-2 injection has been proposed as an important regulatory mechanisms.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "35155574",
+    "title": "For example, studies have shown that regulation of interleukin-4 (IL-4) correlates with interleukin-2 (IL-2) induced lymphocyte proliferation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Interleukin-4",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9403532",
+    "title": "To test the hypothesis that interleukin 1beta (IL-1beta) and tumor necrosis factor alpha (TNF-alpha) regulate the production of C3 in the enterocyte at the transcriptional level and that this regulation is potentiated by interferon gamma (IFN-gamma).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24421046",
+    "title": "Macrophages incubated with sera from vaccinated infected mice exhibited M2 surface markers (CD16, CD32, CD200, and CD206), moderate proliferation, a low oxidative/nitrosative burst, and a regulatory/anti-inflammatory cytokine response (interleukin-4 [IL-4] plus IL-10 > tumor necrosis factor alpha [TNF-α]).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-4",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11012755",
+    "title": "Human monocyte-derived dendritic cells (MoDCs) obtained from peripheral blood monocytes (PBMC) cultured with granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin-4 (IL-4) can be activated in vitro by a variety of simple chemicals such as haptens and several metals.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7642266",
+    "title": "The expression of gamma interferon (IFN-gamma) and the priming for tumor necrosis factor production during an in vivo infection were similar between beige and immunocompetent C57BL/6 mice.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "14623878",
+    "title": "Tumor necrosis factor-related apoptosis-inducing ligand receptor 3 (TRAIL-R3) is a decoy receptor for TRAIL, a member of the tumor necrosis factor family.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Tumor necrosis factor ligand superfamily member 10",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "34285561",
+    "title": "This study aimed to investigate the rates of expression of five angiogenic biomarkers called vascular endothelial growth factor-A (VEGF-A), angiopoietin-2, endoglin, endothelin-1, and granulocyte colony-stimulating factor (G-CSF) in GDM.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "19347319",
+    "title": "The isolated cell population consists of approximately 85% CD34+ CD45+ hematopoietic progenitor cells that in response to granulocyte-macrophage colony-stimulating factor (GM-CSF) plus tumor necrosis factor (TNF) expand and differentiate into CD11c+ HLA-DR+ DC-expressing CD1a.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "17538964",
+    "title": "Human DCs were generated following plastic adherence of monocytes and culture with granulocyte-macrophage colony-stimulating factor and interleukin-4 (IL-4) from normal subjects.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "26820125",
+    "title": "This review focuses on current investigations testing the hypothesis that decreased nutrient supply to the IUGR fetus inhibits an intra-islet hepatocyte growth factor - vascular endothelial growth factor A (HGF - VEGFA) feed forward signaling pathway and that this is responsible for developmental islet defects.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "20182399",
+    "title": "Compared with uninfected control patients, PIV-infected patients had higher nasal wash concentrations of interleukin-6, CX-chemokine ligand 8 (CXCL8 or interleukin-8), CCL3 (macrophage inflammatory protein-1alpha), CCL4 (macrophage inflammatory protein-1beta), CXCL9 (monokine induced by interferon gamma), and CCL5 (regulated upon activation, normal T cell expressed and secreted (RANTES).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "1692493",
+    "title": "Interleukin-6 secretion by PMN, however, required previous stimulation with GM-CSF or tumor necrosis factor-alpha (TNF-alpha), whereas other cytokines, including interleukin-3 (IL-3), granulocyte-CSF (G-CSF), macrophage-CSF (M-CSF), interferon gamma (IFN-gamma), and lymphotoxin (LT), failed to induce IL-6 mRNA accumulation and protein secretion by PMN.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-6",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "35756776",
+    "title": "This study was aimed to test whether HGFs enhance vascular endothelial growth factor (VEGF)-A expression mediating angiogenic and osteogenic differentiation by stimulating with tumor necrosis factor-α (TNF-α), to further identify the possible mechanism which may be responsible for this activity.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7664030",
+    "title": "Several studies have demonstrated interactions among HA, interleukin-1 beta (IL-1 beta) and tumor necrosis factor (TNF), suggesting a possible bidirectional communication among them.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "15081307",
+    "title": "We have reported that interleukin-1 beta (IL-1 beta) upregulates cardiac expression of vascular endothelial growth factor (VEGF) and VEGF receptor-2 (VEGFR-2), raising the possibility that IL-1 beta plays an important role in VEGF-mediated neovascularization.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15347740",
+    "title": "Infection of RHE with C. albicans induced a strong expression of the chemokine interleukin-8 (IL-8) and the cytokine granulocyte-macrophages colony-stimulating factor (GM-CSF), and a moderate stimulation of interleukin-1alpha (IL-1alpha), interleukin-1beta (IL-1beta), interleukin-6 (IL-6), interferon gamma (IFN-gamma) and tumour necrosis factor alpha (TNF-alpha) by keratinocytes.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11588047",
+    "title": "After human monocytes were cultured for 24 hours in serum-free medium and granulocyte-macrophage colony-stimulating factor to produce immature DCs, additional overnight culture with either calcium ionophore (CI) or interferon gamma (IFN-gamma), tumor necrosis factor-alpha (TNF-alpha), and soluble CD40L resulted in phenotypically mature DCs that produced interleukin-8 (IL-8) and displayed marked expression of CD80, CD86, CD40, CD54, CD83, DC-LAMP, and RelB.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      },
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "31550444",
+    "title": "By comparing the angiogenic capacity of co-cultures under GM and OIM, chemokine (C-X-C motif) ligand 9 (Cxcl9), secreted by BMSCs in OIM, was identified to be an angiostatic factor to counter-regulate vascular endothelial growth factor (VEGF) and prevent its binding to HUVECs, which abrogated angiogenesis of MSCs-ECs co-culture.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-X-C motif chemokine 9",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8380280",
+    "title": "Salmonella typhimurium SH5014 porins induce the release of tumor necrosis factor alpha (TNF-alpha), interleukin 1 alpha (IL-1 alpha), and IL-6 by human monocytes and of gamma interferon (IFN-gamma) and IL-4 by human lymphocytes.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11070021",
+    "title": "Poxviruses encode a broad range of proteins that interfere with host immune functions, such as soluble versions of receptors for the cytokines tumor necrosis factor, interleukin-1 beta, gamma interferon (IFN-gamma), IFN-alpha/beta, and chemokines.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "14970118",
+    "title": "In a pathological setting, tumor necrosis factor (TNF)-alpha inhibits the proliferative response of endothelial cells through inactivation of receptors for vascular endothelial growth factor (VEGF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9164211",
+    "title": "Interleukin-2 (IL-2) and tumor necrosis factor alpha (TNF alpha) induction correlated with toxicity.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "21373266",
+    "title": "Granulocyte colony-stimulating factor expression was inversely correlated with interleukin-12p70 (R = -0.71, p<0.001) and tumor necrosis factor-α (R = -0.64, p<0.001) expression; interleukin-10 showed no significant correlation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11106944",
+    "title": "To elucidate better the properties of tolerogenic DC, we here compared plastic-adherent DC with floating, non-adherent DC, which were cultured for 7 days in the presence of granulocyte-macrophage colony-stimulating factor plus interleukin-4 (IL-4).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10449167",
+    "title": "Our work has been concerned with the detailed characterization of four distinct DC populations in NOD mice: two derived from bone marrow (BM) cells cultured in either granulocyte-macrophage colony-stimulating factor (GM-CSF) plus interleukin-4 (IL-4) or GM-CSF alone and two from the spleen of Flt3 ligand (Flt3L) -treated mice, isolated on the basis of CD8alpha expression.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "17686568",
+    "title": "Granulocyte colony-stimulating factor (G-CSF), which mobilizes myelomonocytic cells from the bone marrow and enhances vascular endothelial growth factor (VEGF) release from these cells, has also been applied to therapeutic angiogenesis induction.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "2164225",
+    "title": "Interferon gamma does not increase tumor necrosis factor receptor number or affinity on human endothelial cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "19255141",
+    "title": "Most proangiogenic polypeptide growth factors and chemokines enhance vascular permeability, including vascular endothelial growth factor (VEGF), the main target for anti-angiogenic-based therapies, and interleukin-8 (IL-8), a potent proinflammatory mediator.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-8",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8823364",
+    "title": "Interleukin-10 skewed the response toward a TH2-mediated IgE response because antibodies against interleukin-10 inhibited interleukin-4 and immunoglobulin E production, whereas they enhanced interferon-gamma and immunoglobulin G2a production.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-4",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11522239",
+    "title": "Dendritic cells (DC) with potentially important clinical applications have been generated from human peripheral blood monocytes and CD34(+) cells in the presence of recombinant cytokines granulocyte-macrophage colony-stimulating factor (GM-CSF) + interleukin-4 (IL-4) and GM-CSF + tumor necrosis factor-alpha (TNF-alpha), respectively.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "36346457",
+    "title": "Important is the presence of proinflammatory, so-called polarized M1 macrophages that are induced by interferon gamma (IFN-γ) and lipopolysaccharides (LPS) with secretion of interleukin (IL)-6, tumor necrosis factor (TNF) and IL‑1.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "14871295",
+    "title": "Dendritic cells (DCs) generated in vitro from bone marrow precursors using granulocyte-macrophage colony-stimulating factor (GM-CSF) secrete interleukin-2 (IL-2) upon activation, an event probably associated to the initiation of adaptive immune responses.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "1418895",
+    "title": "Interferon gamma significantly enhanced the cytotoxicity of tumor necrosis factor alpha with dactinomycin on all six cell lines investigated, while in four of six cell lines the cytotoxicity of tumor necrosis factor alpha with doxorubicin was significantly augmented by interferon gamma.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11301186",
+    "title": "Similarly, granulocyte colony-stimulating factor reduced by twofold to threefold the percentage of interferon-gamma, interleukin-2, and tumor necrosis factor-alpha-secreting cells within the NK, NK-T, and T-cell subsets and severely impaired the potential for interferon-gamma production at the single-cell level. mRNA levels of both type 1 (interferon-gamma, interleukin-2) and type 2 (interleukin-4, interleukin-13) cytokines were approximately 10-fold lower in peripheral blood stem cell grafts than in bone marrow grafts.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Interleukin-13",
+        "type": "Regulation_of_gene_expression"
+      },
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Negative_regulation"
+      },
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "16293599",
+    "title": "Interferon gamma (IFNgamma)-treated C57BL/6 MSCs, but not unstimulated MSCs, cocultured with ovalbumin-specific major histocompatibility (MHC) class II-restricted hybridomas in the presence of soluble ovalbumin-induced significant production of interleukin-2 (IL-2) in an antigen dose-dependent manner (P < .005).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "32769049",
+    "title": "Interleukin-18 (IL-18), also known as interferon gamma (IFN-γ) inducing factor, is a pro-inflammatory cytokine.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-18",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24394547",
+    "title": "First, we fed Apoe⁻/⁻ mice an atherogenic diet plus BaP and found that oral BaP-enhanced atherosclerosis is associated with increased reactive oxygen species (ROS) and inflammatory markers, such as plasma tumor necrosis factor levels and aortic mRNA expression of vascular endothelial growth factor A (Vegfa).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "8607899",
+    "title": "Interleukin-10 (IL-10) is a potent inhibitor of the proinflammatory cytokines, including tumor necrosis factor alpha and IL-1, which are considered important in the pathogenesis of rheumatoid arthritis (RA).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "1696784",
+    "title": "Granulocyte-macrophage colony-stimulating factor plus granulocyte colony-stimulating factor (G-CSF) have been reported to synergize in vitro in both mouse and human bone marrow colony assays.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Granulocyte-macrophage colony-stimulating factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "8948450",
+    "title": "Surface binding of interleukin-2, as well as the transcripts for cognate receptor chains, were scarcely detectable in K-562 cells, whereas a significant increase in the binding of granulocyte-macrophage colony-stimulating factor specifically occurred during their megakaryocytic maturation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "10760459",
+    "title": "A comparable pattern was also found in FCS-elicited macrophages which appeared not to be responsive to the challenge with interferon gamma plus LPS, as measured by the generation of NO and tumor necrosis factor alpha.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "35215890",
+    "title": "Overall, the findings of this study indicate that ASFV infection activates the NF-κB signaling pathway and up-regulates the expression of IL-1β and IL-8, and inhibits the replication of ASFV by inhibiting the NF-κB signaling pathway and interleukin-1 beta and interleukin-8 production.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7512124",
+    "title": "Thirty-seven patients were apheresed after receiving the combination of granulocyte colony-stimulating factor (G-CSF) with granulocyte-macrophage colony-stimulating factor (GM-CSF) at doses of 10 micrograms/kg/d and 5 micrograms/kg/d, respectively, for 6 days before apheresis and during a median of 4 days of collections.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Granulocyte-macrophage colony-stimulating factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "7595061",
+    "title": "THP-1 myelomonocytic leukemia cells cultured with either macrophage colony-stimulating factor (M-CSF) or interferon-gamma (IFN-gamma) alone produce, at best, only low levels of interleukin-1 beta (IL-1 beta) and tumor necrosis factor alpha (TNF-alpha).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Macrophage colony-stimulating factor 1",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15627641",
+    "title": "Previous reports have indicated that the administration of granulocyte colony-stimulating factor (G-CSF) decreases ex vivo tumor necrosis factor (TNF) production in humans.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8218496",
+    "title": "New approaches to the treatment of Kaposi's sarcoma include inhibition of angiogenic and Kaposi's sarcoma stimulating growth factors, eg, interleukin-6, fibroblast growth factor, tumor necrosis factor, oncostatin-M, and the HIV-tat gene product.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Oncostatin-M",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "26070709",
+    "title": "Recently, we identified granulocyte-macrophage colony-stimulating factor (GM-CSF) as a critical mediator of both tumor necrosis factor-α- (TNF; modeling inflammation) and thrombin-induced (modeling abruption) weakening of the fetal membranes.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24429676",
+    "title": "Lipopolysaccharide significantly increased the output of proinflammatory cytokines (interleukin [IL]-1B, IL-2, IL-6, IL-12p70, IL-15, IL-17A, interferon gamma [IFN-γ], and tumor necrosis factor [TNF]); anti-inflammatory cytokines (IL-1RN, IL-4, IL-9, and IL-10); chemokines (IL-8, eotaxin, IFN-inducible protein 10 [IP-10], monocyte chemoattractant protein 1 [MCP-1], macrophage inflammatory protein-1α [MIP-1α], macrophage inflammatory protein-1β [MIP-1β], and regulated on activation normal T cell expressed and secreted [RANTES]); and growth factors (granulocyte colony-stimulating factor [CSF] 3, CSF-2, and vascular endothelial growth factor A [VEGFA]).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Interferon gamma",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "20181277",
+    "title": "Further, we determined the effects of imatinib and GW2580 on the ability of macrophage colony-stimulating factor (M-CSF; the ligand for c-Fms) to prime bone marrow-derived macrophages to produce tumor necrosis factor (TNF) upon subsequent Fc receptor ligation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Macrophage colony-stimulating factor 1",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "38378500",
+    "title": "Interleukin-8 (IL-8) and vascular endothelial growth factor A (VEGFA) expression were measured via RT-qPCR and enzyme-linked immunosorbent assay (ELISA), respectively.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-8",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "12392032",
+    "title": "In addition, decreased expression of immunoregulatory cytokines, including interleukin-12, interleukin-18 or interferon gamma could also strengthen the type 2 T-helper cell-driven inflammatory process.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-18",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "14525781",
+    "title": "Treatment of CML monocytes with IFN-alpha and granulocyte-macrophage colony-stimulating factor (GM-CSF) resulted in the rapid generation of activated DCs (CML-IFN-DCs) expressing interleukin-15 (IL-15) and the antiapoptotic bcl-2 gene.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-15",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "30596378",
+    "title": "We generated mAbs specific for the equine C-C motif chemokine ligands (CCL) CCL2 (MCP-1), CCL3 (MIP-1α), CCL5 (RANTES) and CCL11 (eotaxin) using hybridoma technology.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-C motif chemokine 2",
+        "target": "C-C motif chemokine 3",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "18324670",
+    "title": "The purpose of the present study was to investigate the effects of prostaglandin (PG) E(2) and tumor necrosis factor (TNF) alpha on expression of vascular endothelial growth factor (VEGF) and its receptors, fms-like tyrosine kinase (Flt-1) and fetal liver kinase-1/kinase insert domain-containing receptor (Flk-1/KDR), in cultured porcine luteal cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "12724124",
+    "title": "The following is a summary of our major findings regarding OSA gammadelta T cells: (1) a significant increase in the expression of the inhibitory natural killer B1 receptors was found; (2) the intracellular content of proinflammatory cytokines tumor necrosis factor (TNF)-alpha and interleukin-8 was increased, and the content of the antiinflammatory cytokine interleukin-10 was decreased; (3) gammadelta T cells of patients with OSA adhered significantly more avidly to nonactivated endothelial cells in culture than those of control subjects; (4) L-selectin expression was higher; (5) anti-E/P-selectin antibodies and anti-TNF-alpha antibodies decreased the adhesion index of OSA gammadelta T lymphocytes/endothelial cells but not of control subjects; and (6) cytotoxicity of OSA gammadelta T lymphocytes against endothelial cells in culture was 2.5-fold higher than that of control subjects and could be prevented by pretreatment with anti-TNF-alpha.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "38780232",
+    "title": "Building upon our previous research, which demonstrated that Meth stimulates astrocytes to release tumor necrosis factor (TNF) and glutamate, leading to microglial activation, this study investigates the role of the anti-inflammatory cytokine interleukin-10 (IL-10) in this process.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "2302741",
+    "title": "The effect of recombinant (r) interleukin-1 beta (rIL-1 beta) and transforming growth factor-beta (TGF-beta) on the production of interleukin-2 (IL-2) and interleukin-6 (IL-6) from an antigen-specific (LBRM-33-1A5) and an antigen-nonspecific (EL-4-NOB-1) T-cell line was investigated. rIL-1 beta induced the production of IL-2 and IL-6 from EL-4-NOB-1 cells in a dose-related manner.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "21518513",
+    "title": "Following stimulation with granulocyte-macrophage colony-stimulating factor (GM-CSF) plus interleukin-4 (IL-4), HUVEC cocultures could inhibit the initial differentiation of CD14(+) monocyte to DC.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11748173",
+    "title": "The mutants were evaluated for virulence in a mouse model of pneumonia and by quantifying their ability to stimulate interleukin-8 (IL-8) and granulocyte-macrophage colony-stimulating factor (GM-CSF) expression in respiratory epithelial cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-8",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "10953979",
+    "title": "Upon culture with granulocyte-macrophage colony-stimulating factor (GM-CSF) plus interleukin-4 (IL-4) plus tumor necrosis factor alpha (TNFalpha), CMML cells develop DC morphology and acquire the phenotypic characteristics of DCs.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      },
+      {
+        "source": "Interleukin-4",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7605994",
+    "title": "Granulocyte-macrophage colony-stimulating factor (GM-CSF) provided an equivalent priming stimulus for LPS-induced tumor necrosis factor (TNF) and IL-12 p40 mRNA, but primed poorly for LPS-inducible p35 message and secreted IL-12 activity.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "16000062",
+    "title": "The biological activity of the transferred TCR was shown by specific lysis of RCC cells ((51)Cr release assay) and by interferon gamma and tumor necrosis factor alpha release (enzyme-linked immunosorbent assay) in an antigen-specific and HLA-A*0201-restricted fashion.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "29244471",
+    "title": "Expression of tissue factor, shortening of activated partial thromboplastin and thrombin times, increase of soluble fibrin monomeric complex level, significant increase of tumor necrosis factor and interferon gamma levels were identified in endothelial cells of myocardial vessels.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9269763",
+    "title": "In response to granulocyte-macrophage colony-stimulating factor plus tumor necrosis factor alpha, cord blood CD34+ hematopoietic progenitor cells differentiate along two unrelated dendritic cell (DC) pathways: (1) the Langerhans cells (LCs), which are characterized by the expression of CD1a, Birbeck granules, the Lag antigen, and E cadherin; and (2) CD14+ cell-derived DCs, characterized by the expression of CD1a, CD9, CD68, CD2, and factor XIIIa (Caux et al, J Exp Med 184:695, 1996).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7890312",
+    "title": "The data obtained demonstrate that interleukin-10 alone can activate the AP-1 transcription factor and potentiate the interleukin-2 induced NF-kappa B activity.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "37382267",
+    "title": "The aim of this study was to determine the utility of urinary chemokines CCL2 (C-C motif ligand 2) and CXCL10 (C-X-C motif chemokine ligand 10) in prognosis of 5-year graft failure and mortality post 1-year protocol biopsy in renal transplant recipients.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-C motif chemokine 2",
+        "target": "C-X-C motif chemokine 10",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "38089138",
+    "title": "In this study, the bone-healing effects of the combination treatment with tumor necrosis factor-α (TNF-α) inhibition, vascular endothelial growth factor A (VEGF-A) and bone morphogenetic protein-7 (BMP-7) release by gene silencing, and gene transfection with calcium phosphate nanoparticles (CaP) in the rat femoral head was histologically, morphologically, and biochemically evaluated.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "23567329",
+    "title": "Lymphocytes from TAO patients (n = 20) and control subjects (healthy smokers [n = 16] and non-smokers [n = 17]) were evaluated using realtime polymerase chain reaction in order to examine the mRNA expression of CXCL1 and interleukin 8 (IL-8; inducers of collateral development by recruitment of circulating progenitor cells [CPCs]), endothelial cell growth factor A (VEGF-A) and inducible nitric oxide synthase (iNOS; inducers of angiogenesis) and interferon gamma (IFN-γ) and vascular endothelial growth factor receptor 1 (VEGFR-1; inhibitors of angiogenesis).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7492782",
+    "title": "Monocyte expression and secretion of tumor necrosis factor (TNF) and TNF receptors (TNF-R) p55 and p75 was studied in patients receiving granulocyte-macrophage colony-stimulating factor (GM-CSF) after intensive chemotherapy.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "32118170",
+    "title": "Analysis of the expression of regulatory factors showed a greater quantity of hepatocyte growth factor (HGF) in HAM, which partly inhibited the expression of TGF-β1 and promoted vascular endothelial growth factor (VEGF)-induced angiogenesis.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10328229",
+    "title": "Lipid A had no direct effect on tumor cells in vitro, while the combination of interferon gamma (IFN-gamma) plus interleukin-1 beta (IL-1beta) induced production of NO by tumor cells which was cytostatic.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-1 beta",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "33626069",
+    "title": "PAIC's interleukin-1β (IL-1β), interleukin-6 (IL-6), tumor necrosis factor α (TNFα), monocyte chemoattractant protein-1 (MCP-1), and chemokine (C-C motif) ligand 5 (CCL-5) are significantly greater with SCI compared to ApoE-/- at varying timepoints.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-C motif chemokine 3",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11468174",
+    "title": "This study investigates the influence of these agents on the differentiation and the regulation of cell death of monocyte-derived DCs generated in the presence of granulocyte-macrophage colony-stimulating factor plus interleukin-4 (IL-4).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "15905186",
+    "title": "Such inhibition was paired with a decreased interferon (IFN)-gamma and tumor necrosis factor (TNF)-alpha production and was partially reversed by interleukin-2 (IL-2).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "27196016",
+    "title": "Protein expression of vascular endothelial growth factor A (VEGF-A), CD31, VE-cadherin, CD 34, interleukin-1β (IL-1β), and tumor necrosis factors α (TNF-α) were analyzed by immunohistochemistry (IHC) assays.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "10233743",
+    "title": "In a murine model, we analysed the in vitro effects of granulocyte-macrophage colony-stimulating factor (GM-CSF) alone or combined with interleukin-4 (IL-4) or Flt3 ligand (Flt3-L) on the number, immunophenotype and functions of bone marrow-derived DC.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "12524084",
+    "title": "The immunoreactions of hepatocyte growth factor (HGF), its receptor, c-Met, vascular endothelial growth factor (VEGF), proliferating cell nuclear antigen (PCNA), and von Willebrand factor (VWF) in eutopic and ectopic endometrium were examined, and their relation with different revised American Society for Reproductive Medicine (r-ASRM) stages and the morphology of endometriosis was evaluated.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "22075061",
+    "title": "Production of tumor necrosis factor and interleukin-2 activation were attenuated in the aprotinin group at 24 hours postoperatively.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "2445926",
+    "title": "The priming effect of endogenous biological response modifiers (BRMs), interferons (IFNs), and interleukin-2 (IL2), and the triggering effect of BRMs of bacterial origin, OK-432 and Corynebacterium parvum, on endogenous production of the tumor necrosis factor (TNF) were investigated in mice.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24993875",
+    "title": "In this issue of Blood, Shochat et al report mutations in receptors for interleukin-7 (IL-7) and thymic stromal lymphopoietin (TSLP), resulting in a novel dimerization mechanism that drives acute lymphoblastic leukemias.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-7",
+        "target": "Thymic stromal lymphopoietin",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "12406878",
+    "title": "Upon transfer to new dishes and stimulation with interleukin-4 plus tumor necrosis factor alpha, combined with anti-CD40 monoclonal antibody or lipopolysaccharide, ES-DCs completely became mature DCs, characterized by a typical morphology and higher capacity to stimulate MLR.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-4",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7737351",
+    "title": "In this report we report that inhibition of protein kinase C activity by GF109203X does not block interleukin-4- or interleukin-9-dependent proliferation and, on the contrary, does block interleukin-2-dependent proliferation, suggesting that interleukin-4 and interleukin-9 do not use signal transduction pathways mediated by protein kinase C and that the common gamma chain of interleukin-2, interleukin-4, and interleukin-9 receptors is not responsible per se for the activation of protein kinase C through interleukin-2 receptor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "15349048",
+    "title": "Conjunctival epithelial cells release interleukin-8 in response to interleukin-1 beta and tumor necrosis factor alpha but not interferon-gamma.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "12893746",
+    "title": "Apoptosis did not require prior exposure to interleukin-2, nor did it result in CD178/CD95 or tumor necrosis factor/tumor necrosis factor receptor (TNF/TNF-R) interactions; it was therefore clearly different from activation-induced cell death.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "2123823",
+    "title": "This suggests that tumor necrosis factor, in addition to gamma interferon, may be involved in resistance to L. major and that interleukin-4 may inhibit the leishmanicidal activity of tumor necrosis factor and/or gamma interferon.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-4",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "28804546",
+    "title": "Moreover, we demonstrated that CCR7 activated nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) signaling and regulated its targets, including vascular endothelial growth factor A (VEGF-A), VEGF-C, tumor necrosis factor-α (TNFα), interleukin (IL)-6, IL-8 and transforming growth factor-β (TGF-β) expression.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "17036262",
+    "title": "In general, all cereal fractions caused an improvement of the leukocyte parameters studied such as chemotaxis capacity, microbicidal activity, lymphoproliferative response to mitogens, interleukin-2 (IL-2) and tumor necrosis factor (TNFalpha) release, as well as oxidized glutathione (GSSG), GSSG/GSH ratio, catalase (CAT) activity and lipid oxidative damage.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "30573299",
+    "title": "In the HRS-10 group, interleukin-1 beta, interleukin-6 and tumor necrosis factor alpha, C-reactive protein and cortisol were downregulated, whereas interleukin-10 was upregulated.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "18225444",
+    "title": "Indeed, WAT secretes proinflammatory cytokines such TNF-a, interleukin-1 (IL-1), interleukin-1 receptor antagonist (IL-1Ra), and interleukin-6 (IL-6), and chemokines such as monocyte chemoattractant protein-1 (MCP-1), interferon gamma inducible protein 10 (IP-10), interleukin-8 (IL-8), RANTES, and peptides with hormone-like actions such as adiponectin, leptin and resistin.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "1892200",
+    "title": "Interferon gamma (200 U/ml) further induced production of tumor necrosis factor from mononuclear cells of 11 women with salpingitis.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "19398717",
+    "title": "In the presence of MSCs, monocytes supplemented with granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin-4 (IL-4) did not acquire the surface phenotype typical of immature (CD14(-), CD1a(+)) or mature (CD80(+), CD86(+), CD83(+)) DCs, failed to produce IL-12, and did not induce T-cell activation or proliferation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "16438902",
+    "title": "To better understand the possibilities of antiangiogenic tumor therapy and to assess possible side effects, we investigated the effect of tumour necrosis factor (TNF)-alpha and curcumin on the expression of vascular endothelial growth factor (VEGF) in U937 and Raji cell lines and their effect on angiogenesis in a human umbilical vein endothelial cell (HUVECs)-derived cell line (ECV304), and also the relationship between Notch1 and VEGF.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "9177292",
+    "title": "Interleukin-18 (IL-18) activated T helper type 1 (Th1) cells, OVA#4, and induced production of interleukin-2 (IL-2) in costimulation with anti-CD3 antibody.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-18",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10233874",
+    "title": "Eotaxin also induced the secretion of the chemokines interleukin-8, RANTES, and macrophage inflammatory protein-1beta from thymocyte cultures in vitro.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Eotaxin",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7513371",
+    "title": "Leukemic cells from 27 adult patients with acute myelocytic leukemia (AML) were investigated to determine the cell surface inducibility of interleukin-2 receptor (IL-2R) in in vitro culture with and without interleukin-1 beta (IL-1 beta).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8181527",
+    "title": "Interleukin-10 (IL-10) is a potent inhibitor of lipopolysaccharide (LPS)-induced tumor necrosis factor (TNF) production and has been shown to protect mice from endotoxin shock.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7790090",
+    "title": "Gamma interferon (IFN-gamma), interleukin-2 (IL-2), IL-4, and IL-5 induction was assayed by mRNA-specific PCR and by enzyme-linked immunosorbent assay and bioassay for protein production.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "32402274",
+    "title": "In human and murine breast cancer, overactivated PKA in TAMs creates a detrimental microenvironment for cancer progression by inducing vascular endothelial growth factor A (VEGFA), interleukin-10 (IL-10), and macrophage-derived arginase 1 (ARG1) expression.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "17138680",
+    "title": "The pattern noted by the present authors includes specific alleles of interleukin-4 and its receptor, interleukin-13, interleukin-10, the beta chain of the high-affinity receptor for immunoglobulin E, the beta(1)-adrenergic receptor, and the alpha chain of tumour necrosis factor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "1586041",
+    "title": "To investigate a possible role of local cytokines, we measured bronchoalveolar fluid (BALF) and plasma levels of tumor necrosis factor alpha (TNF-alpha) and its soluble inhibitors (sTNF-RI + RII), interleukin-1 beta (IL-1 beta), interferon-alpha (IFN-alpha), and granulocyte elastase in 14 patients at risk for ARDS and in 35 patients developing ARDS after trauma, sepsis, or shock.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "2404745",
+    "title": "Human osteoblast cultures derived as out-growths from trabecular bone released tumor necrosis factor (TNF alpha) upon stimulation of the cells with human recombinant interleukin 1 (IL1; 10(-13)-10(-11) M), human recombinant granulocyte-macrophage colony-stimulating factor (100-1000 U/ml), and bacterial lipopolysaccharide (5-500 ng/ml).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8004060",
+    "title": "Bloodstream neutrophils do not express mRNA for interleukin-1 beta (IL-1 beta), but transcripts for this cytokine are rapidly induced following exposure to recombinant granulocyte-macrophage colony-stimulating factor (rGM-CSF) in vitro.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-1 beta",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "30417459",
+    "title": "In vitro, interleukin-1 beta (IL-1β) induced over-production of prostaglandin E2, nitric oxide, inducible nitric oxide synthase, cyclooxygenase-2, interleukin-6 and tumor necrosis factor alpha were all inhibited significantly by the pretreatment of LN at a dose-dependent manner (5, 10, and 20 µM).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "2197216",
+    "title": "In this report it is shown by immunofluorescence analysis, biochemical analysis and mRNA hybridization that human eosinophils express surface CD4 and interleukin-2 receptor (IL-2R) (CD25) when exposed to eosinophil activators granulocyte-macrophage colony-stimulating factor (GM-CSF) and IL-3.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "18679115",
+    "title": "To test the hypothesis that granulocyte colony-stimulating factor acts cooperatively with interleukin-10 in down-regulating monocyte function in severe meningococcal septic shock.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Interleukin-10",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "1340531",
+    "title": "The release of tumor necrosis factor into the circulation after Interleukin-2 injection has been proposed as an important mechanism underlying cell function alterations.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8195701",
+    "title": "Under these conditions interleukin-8 (IL-8) production was attenuated (by 50-90%) in response to lipopolysaccharide, granulocyte-macrophage colony-stimulating factor, and phorbol myristate acetate.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-8",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9345390",
+    "title": "Interferon gamma (IFN-gamma acts as a mediator of multiple sclerosis (MS) exacerbations through a number of biological effects, such as induction of major histocompatibility class II complexes (MHC-II), macrophage activation and potentiation of tumor necrosis factor (TNF-alpha).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9086171",
+    "title": "The abilities of pentoxifylline and recombinant interleukin-10 (rIL-10) to inhibit tumor necrosis factor (TNF) and inducible nitric oxide synthase (iNOS) production in RAW 264.7 murine macrophages were compared.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "31855303",
+    "title": "Serum levels of a proliferation-inducing ligand, B-cell activating factor of the TNF family, thymus and activation-regulated chemokine (chemokine (C-C motif) ligand 17) (TARC (CCl-17)), interleukin-1 receptor antagonist (IL-1RA), interleukin-1 bèta, IL-4, IL-6, IL-7, IL-8, IL-9, IL-10, IL-12, IL-13, IL-18, IL-31, interferon gamma, tumour necrosis factor alpha, vascular endothelial growth factor (VEGF), monokine induced by interferon gamma (chemokine (C-X-C motif) ligand 9), interferon gamma-induced protein 10 (C-X-C motif chemokine Ligand 10), monocyte chemoattractant protein-1 (chemokine (C-C Motif) ligand 2), macrophage inflammatory protein-1 beta (chemokine (C-C motif) ligand 4), regulated on activation, normal T cell expressed and secreted (chemokine (C-C motif) ligand 5), Cutaneous T-cell-attracting chemokine (chemokine (C-C motif) ligand 27) (CTACK (CCL-27)), thymic stromal lymphopoietin, IL-5, interleukin-1 alpha and granulocyte-colony stimulating factor were analysed by ELISA and Luminex.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "25889406",
+    "title": "The results show that the TLR2 pathway plays a predominant role in inducing inflammation, as inhibition of TLR2 with either small interfering RNA (siRNA) or inhibitor, in the presence of B. burgdorferi, significantly downregulated interleukin 6 (IL-6), chemokine (C-X-C) motif ligand 8 (CXCL8), chemokine (C-C) motif ligand 2 (CCL2), and tumor necrosis factor (TNF) production.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-C motif chemokine 2",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8550204",
+    "title": "We investigated the kinetics of tissue-specific mRNA expression and systemic production of tumor necrosis factor alpha (TNF-alpha) and the kinetics of splenic expression of mRNAs of gamma interferon (INF-gamma) and interleukin-4 (IL-4), cytokines that may regulate TNF-alpha production, during the early phase of blood-stage infection with Plasmodium chabaudi AS.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-4",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24773607",
+    "title": "We investigated how interferon gamma (INF-γ) and interleukin 13 (IL-13) are involved in the TLR4 ligand-induced regulation of interleukin-8 (IL-8) effects on gingival epithelial cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Interleukin-8",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "37296643",
+    "title": "To this end, we have investigated the interactions of Interleukin-4 cytokine (IL-4)/Interleukin-4 cytokine receptor (IL-4R) and Interleukin-10 cytokine (IL-10)/Interleukin-10 cytokine receptor (IL-10R) using in situ Proximity Ligation Assays in a regenerative model of skin, muscle and lung tissues in the mini-pig.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "20964870",
+    "title": "The present study examined the roles of EBV latent membrane protein-1 (LMP1), interleukin-6 (IL-6), interleukin-10 (IL-10), transforming growth factor-beta 1 (TGF-β1) and laminin in the regulation of matrix-metalloproteinases (MMPs) and vascular endothelial growth factor (VEGF) in NPC.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "20478074",
+    "title": "We studied the morphology, phenotype, and functional abilities of bone marrow-derived dendritic cells (BMDCs) generated by using two culture methods: FMS-like tyrosine kinase 3 (Flt3)-ligand (FL) and granulocyte-macrophage colony-stimulating factor (GM-CSF) plus interleukin-4 (IL-4), respectively.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "1901829",
+    "title": "Interleukin-4 (IL-4) is a cytokine secreted by interleukin-2 (IL-2)-activated lymphocytes.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Interleukin-4",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "2513113",
+    "title": "We have investigated the effect of endogenous production of tumor necrosis factor (TNF) induced by the combination of recombinant interferon gamma (rIFN gamma) as a primer followed by GLA-60 as a trigger (rIFN gamma/GLA-60) on murine lung metastases caused by B16-BL6 melanoma.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8205398",
+    "title": "We have examined the ability of interleukin-4 (IL-4), interleukin-10 (IL-10) and interleukin-1 receptor antagonist protein (IL-1ra) to regulate spontaneous interleukin-8 (IL-8) production in cultured SF mononuclear cells (SFMC) from RA.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      },
+      {
+        "source": "Interleukin-4",
+        "target": "Interleukin-8",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "18547160",
+    "title": "AML cells were cultured according to four protocols that have been characterized in detail for AML-DC induction: (1) granulocyte-macrophage colony-stimulating factor (GM-CSF) + interleukin-4 (IL-4) days 1-14 and tumor necrosis factor-alpha (TNF-alpha) for days 6-14, (2) GM-CSF + IL-4 + TNF-alpha + FMS-like tyrosine kinase 3-ligand (Fl3-L) for 8 days, (3) GM-CSF + IL-4 + TNF-alpha + Flt3-L + stem cell factor (SCF) + transforming growth factor-beta1 (TGF-beta1) for 8 days, and (4) 25 Gy gamma-irradiation combined with culture in the presence of GM-CSF + SCF + IL-3 for 4 days.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "13129557",
+    "title": "Proinflammatory cytokines interleukin-6 (IL-6) and interleukin-1 beta (IL-1 beta) upregulate the expression of vascular endothelial growth factor (VEGF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "30186473",
+    "title": "The aim of the present study was to investigate the protective effect of granulocyte colony-stimulating factor (G-CSF) on acute ischemic cerebral injury, and its mechanism through the impact of G-CSF on early growth response-1 (Egr-1) and vascular endothelial growth factor (VEGF) expressions.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "12228038",
+    "title": "Eotaxin may play a role in the recruitment of eosinophils into tissue in combination with chemoattractants and cytokines, including interleukin 3 and 5 and granulocyte-macrophage colony-stimulating factor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Eotaxin",
+        "target": "Granulocyte-macrophage colony-stimulating factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7908232",
+    "title": "When the cell lines were preincubated with compounds known to induce them to differentiate, production of tumor necrosis factor alpha (TNF alpha) and IL-1 beta was in most cases maximal in cells with differentiated characteristics, whereas NKSF/IL-12 production in response to LPS in all three producing cell lines was significantly enhanced only by pretreatment with dimethylsulfoxide (DMSO) for 24 hours, or by costimulation with interferon gamma (IFN gamma).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "30055672",
+    "title": "In this model, granulocyte-macrophage colony-stimulating factor (GM-CSF) is a critical intermediate for both tumor necrosis factor-α (TNF; modeling infection/inflammation) and thrombin (modeling decidual bleeding/abruption)-induced weakening.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "39470871",
+    "title": "In addition, hAESCs inhibited the Levels of tumor necrosis factor (TNF-α) and interleukin-6 (IL-6) and increased the expression of the interleukin-4 (IL-4), interleukin-10 (IL-10) and interleukin-13 (IL-13), and promoted the shift of M1-polarized macrophages to M2-polarized macrophages.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7804532",
+    "title": "Interleukin-10 (IL-10), originally identified as an inhibitor of cytokine and monokine synthesis [e.g., IL-2, interferon-gamma (IFN-gamma), and tumor necrosis factor (TNF-alpha)], modulates a wide range of immunologic activities.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9949157",
+    "title": "The relationship between stem cell mobilization with granulocyte colony-stimulating factor (G-CSF) and the endogenous production of interleukin-8 (IL-8), macrophage inflammatory protein-1alpha (MIP-1alpha), tumor necrosis factor-alpha (TNF-alpha), and interferon-gamma (IFN-gamma) was studied in normal donors for allogeneic peripheral blood stem cell (PBSC) transplantation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10790422",
+    "title": "This stimulating effect is strongly potentiated by tumor necrosis factor alpha and interferon gamma and is mediated by a rapid increase of the cytosolic calcium concentration.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "16088182",
+    "title": "The aim of this study was to investigate the relationship of Interleukin-8 (IL-8) with vascular endothelial growth factor (VEGF) and plasminogen activator system (PA system) in the progression of colorectal cancer (CRC).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-8",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "15628712",
+    "title": "Exposure of AGS cells to recombinant interleukin-18 resulted in dose-dependent and time-dependent secretion of interleukin-8 that was maximal following exposure to 100 pg/ml interleukin-18 for 24 hr (292+/-5 pg/ml, versus 102+/-14 pg/ml in unstimulated cells; P < 0.001).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-18",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "31597147",
+    "title": "Interferon gamma (IFNγ) and tumor necrosis factor-related weak inducer of apoptosis (TWEAK) molecules seem to have a potential effect on angiogenic factors such as vascular endothelial growth factor (VEGF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "17922833",
+    "title": "VIP, SP and compound 48/80 also activated release of tumour necrosis factor, IL-3 and granulocyte-macrophage colony-stimulating factor, but not IL-4, interferon-gamma or eotaxin.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Eotaxin",
+        "target": "Granulocyte-macrophage colony-stimulating factor",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "1904332",
+    "title": "Patients with severe disease had a higher percentage of cells bearing the interleukin-2 receptor and a higher spontaneous production of tumor necrosis factor alpha in cell culture than in patients with mild disease.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "30070297",
+    "title": "Our data indicated that interleukin-1 beta (IL-1β) induced over-production of pro-inflammatory cytokines, such as nitric oxide (NO) and prostaglandin E2 (PGE2); also, the expression of cyclooxygenase-2 (COX-2), tumor necrosis factor alpha (TNF-α), interleukin-6 (IL-6) and inducible nitric oxide synthase (iNOS) were all inhibited by pretreatment with HSYA in a dose-dependent manner (2.5 to 40 μM).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7648446",
+    "title": "The aim of this study was to determine the effect of interleukin-4 (IL-4) and interleukin-10 (IL-10) on interleukin-8 (IL-8) release from endothelial cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Regulation"
+      },
+      {
+        "source": "Interleukin-4",
+        "target": "Interleukin-8",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "29384784",
+    "title": "We propose that the most promising therapeutic strategies to explore are interleukin-10 therapy, down-modulating C-reactive protein levels, targeting reactive oxygen species, or blocking the interleukin-8 receptors; all focused on the transfused recipient.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "12482909",
+    "title": "Hepatocyte growth factor (HGF/SF)-induced expression of vascular endothelial growth factor (VEGF/VPF) has been implicated in paracrine amplification of angiogenesis, contributing to angiogenic responses during inflammation, wound healing, collateral formation and tumor growth.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation_of_gene_expression"
+      }
+    ]
+  },
+  {
+    "pmid": "12226973",
+    "title": "In vitro experiments showed that autologous cytokine complex appearing after stimulation of patient's peripheral whole blood with poludan (polyA:polyY complex, 200 micrograms) includes all three interferon types (alpha, beta, and gamma) and interleukin-8 (IL-8) and tumor necrosis factor (TNF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-8",
+        "target": "Tumor necrosis factor",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "29212030",
+    "title": "We describe a mechanism by which Cav1 in MAMs specifically restrains vascular endothelial growth factor A/vascular endothelial growth factor receptor 1 (VEGF-A/VEGFR1) signaling and its downstream effectors, matrix metallopeptidase 9 (MMP9) and colony-stimulating factor 1 (CSF1).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Macrophage colony-stimulating factor 1",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "7927247",
+    "title": "Recombinant human granulocyte-macrophage colony-stimulating factor therapy significantly reduces serum hepatitis B virus DNA levels, associated with increased 2',5'-oligoadenylate synthetase activity in cultured mononuclear cells of patients with chronic hepatitis B. To assess changes in immune function during therapy of chronic hepatitis B patients, spontaneous and mitogen-induced production of tumor necrosis factor-alpha, interleukin-1 beta, interleukin-6, interferon-alpha and interferon-gamma were measured-along with serum levels of soluble CD4, soluble CD8, soluble interleukin-2 receptor and beta 2-microglobulin-before, during and after a 6-wk course of granulocyte-macrophage colony-stimulating factor in nine patients with chronic hepatitis B. Treatment statistically enhanced spontaneous production of tumor necrosis factor-alpha (p < 0.05) and interleukin-1 beta (p < 0.02).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-1 beta",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9472935",
+    "title": "Prostaglandin E2 (PGE2) is known to inhibit interleukin-2 (IL-2) production by human peripheral blood lymphocytes (PBL) and to increase granulocyte-macrophage colony-stimulating factor (GM-CSF).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11568004",
+    "title": "Interleukin-7, reported to be a crucial cofactor of tumor necrosis factor (TNF) to promote HIV replication, is shown here to counteract the apoptotic activity of TNF.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-7",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11063386",
+    "title": "In the present study, we examined the effects of RXM on tumor necrosis factor (TNF)-alpha-induced vascular endothelial growth factor (VEGF) in human periodontal ligament (HPDL) cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Tumor necrosis factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11806247",
+    "title": "We previously demonstrated that interleukin-1 beta (IL-1 beta) leads to induction of vascular endothelial growth factor (VEGF) in human colon carcinoma cells.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24035231",
+    "title": "When EPCs were treated with low-energy (0.04-0.13 mJ/mm(2)) shock wave, the expressions of endothelial nitric oxide synthase, angiopoietin (Ang) 1, Ang-2, and B-cell lymphoma 2 increased and those of interleukin 6, fibroblast growth factor 2, C-X-C chemokine receptor type 4, vascular endothelial growth factor a, Bcl-2-associated X protein, and caspase 3 decreased. stromal cell-derived factor 1 changed without statistical significance.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Stromal cell-derived factor 1",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9757992",
+    "title": "In this study we investigate the role of 2 immunoinhibitory cytokines, transforming growth factor and interleukin-10, in regulating interleukin-8 production from human fetal membranes and define their mechanism of regulation.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Regulation"
+      },
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "9490673",
+    "title": "Eotaxin activity synergized with stem cell factor but not with interleukin-3 or granulocyte-macrophage colony-stimulating factor and was inhibited by pertussis toxin.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Eotaxin",
+        "target": "Granulocyte-macrophage colony-stimulating factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "24370903",
+    "title": "Serum levels of ligands-vascular endothelial growth factor A (VEGF-A), fibroblast growth factor 2 (FGF2), epidermal growth factor (EGF), hepatocyte growth factor (HGF)-from four targetable pathways were measured before surgery, and levels were correlated to clinicopathologic characteristics and overall survival (OS).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "21615592",
+    "title": "These tumorigenic cascades also can cooperate with Wnt/β-catenin, Notch, platelet-derived growth factor (PDGF)/PDGF receptors (PDGFRs), hepatocyte growth factor (HGF)/c-Met receptor and vascular endothelial growth factor (VEGF)/VEGF receptors (VEGFRs) for the acquisition of a more malignant behavior and survival advantages by brain tumor cells during disease progression.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Hepatocyte growth factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "2313467",
+    "title": "The purpose of the present study was to explore the interaction between interleukin-2 (IL-2), interleukin-4 (IL-4), and tumor necrosis factor-alpha (TNF) on the differentiation of human large granular lymphocytes (LGL) into lymphokine-activated killer cells (LAK).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-2",
+        "target": "Interleukin-4",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "30074872",
+    "title": "We found that levels of C-C motif chemokine ligand 2 (monocyte chemoattractant), C-X-C motif chemokine 10 (CXCL10; T-cell chemoattractant), interleukin-1β (IL-1β), matrix metalloproteinase-9 (MMP-9), neurofilament heavy chain (NfH), and heme oxygenase-1 (HO-1) were significantly elevated after SCI.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-C motif chemokine 3",
+        "target": "C-X-C motif chemokine 10",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "22669626",
+    "title": "Regarding the gene expression, PMA/IO treatment induced not only interleukin (IL)-2 and interferon gamma (IFN-γ), as expected, but also other relevant genes related to immune response and inflammation, such as IL-17A, chemokine (C-X-C motif) ligand (CXCL) 9 and CXCL11.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "C-X-C motif chemokine 11",
+        "target": "Interferon gamma",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "8627440",
+    "title": "Corrected circulating quantities of interleukin-8 also rose significantly, but the responses of tumor necrosis factor alpha and interleukin-1 beta were minimal.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "10806959",
+    "title": "In view of cytokine's effects in promoting or inhibiting inflammation, the objective of this study was to explore the characteristics of the proinflammatory cytokine, interleukin-8 (IL-8), and the inhibitory cytokine, interleukin-10 (IL-10), in the bronchoalveolar lavage (BAL) fluid of premature infants suffering from respiratory distress disease.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-8",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "33705923",
+    "title": "Also, SHE upregulated anti-inflammatory cytokine interleukin (IL)-4 while downregulating inflammatory cytokines IL-1β, IL-6, IL-8, tumor necrosis factor (TNF)-α; epidermal and epithelial cytokines IL-25, IL-33, and thymic stromal lymphopoietin (TSLP); thymus and activation-regulated chemokine (TARC), macrophage-derived chemokine (MDC) and regulated upon activation, normally T-expressed, and presumably secreted expression and suppressed (RANTES) chemokine, MAPK and NF-κB mediators in a dose-dependent manner.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Thymic stromal lymphopoietin",
+        "target": "Tumor necrosis factor",
+        "type": "Negative_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "11598054",
+    "title": "Immature DC obtained by culture of human monocytes in the presence of granulocyte-macrophage colony-stimulating factor and interleukin-4 phagocytosed unopsonized Candida in a time-dependent manner, and phagocytosis was not enhanced by opsonization of Candida in serum.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-4",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "12545010",
+    "title": "Tumor necrosis factor-alpha and interleukin-1 beta concentrations in supernatants of lipopolysaccharide-stimulated alveolar macrophages from rats undergoing neutropenia recovery with granulocyte colony-stimulating factor treatment were significantly increased compared with rats undergoing neutropenia recovery without granulocyte colony-stimulating factor.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Interleukin-1 beta",
+        "type": "Positive_regulation"
+      },
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "17717142",
+    "title": "Macrophage colony-stimulating factor (M-CSF), known as a hematopoietic growth factor, induces vascular endothelial growth factor (VEGF) production from skeletal muscles.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Macrophage colony-stimulating factor 1",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "25807056",
+    "title": "Genes such as a chemokine binding protein and a protein that binds granulocyte-macrophage colony-stimulating factor and interleukin-2 appear to have evolved from a common poxvirus ancestral gene while three parapoxvirus nuclear factor (NF)-κB signalling pathway inhibitors have no homology to other known NF-κB inhibitors.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Interleukin-2",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "7929219",
+    "title": "The neutrophil-activating peptide (ENA-78) is an inflammatory chemokine which is produced concomitantly with interleukin-8 (IL-8) in response to stimulation with either interleukin-1 (IL-1 beta) or tumor necrosis factor-alpha (TNF-alpha).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-1 beta",
+        "target": "Interleukin-8",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "16926136",
+    "title": "We explored the possibility that interferon gamma (IFN-gamma) has bidirectional functions in the survival and growth of hematopoietic progenitors, especially with regard to interactions with stromal cell-derived factor 1 (SDF-1).",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Stromal cell-derived factor 1",
+        "type": "Complex_formation"
+      }
+    ]
+  },
+  {
+    "pmid": "16113315",
+    "title": "Dendritic cells were produced by culturing murine bone marrow progenitor cells in medium containing granulocyte-macrophage colony-stimulating factor and tumor necrosis factor alpha.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte-macrophage colony-stimulating factor",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "29904108",
+    "title": "The changes in other cytokines, namely, interleukin-12(p70), TNFα, interferon-γ, and interleukin-10 were independently associated with interleukin-7 dynamics.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-10",
+        "target": "Interleukin-7",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "29687856",
+    "title": "Granulocyte colony-stimulating factor (G-CSF) plays a role in regulating phosphatidylinositol-3-kinase/serine/threonine kinase (PI3K/AKT) pathway, affecting cell proliferation and apoptosis, and inducing vascular endothelial growth factor (VEGF) expression.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Granulocyte colony-stimulating factor",
+        "target": "Vascular endothelial growth factor A",
+        "type": "Positive_regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "21391201",
+    "title": "The interleukin-7 (IL-7)-related cytokine thymic stromal lymphopoietin (TSLP) is a potent activator of myeloid dendritic cells, enhancing Th2-mediated hypersensitivity, and it has been implicated in the pathogenesis of atopic diseases.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interleukin-7",
+        "target": "Thymic stromal lymphopoietin",
+        "type": "Regulation"
+      }
+    ]
+  },
+  {
+    "pmid": "28497030",
+    "title": "The early induction of tumor necrosis factor α, interleukin 1 (IL-1), interleukin 2 (IL-2), interferon gamma (IFNγ), and macrophage chemoattractant protein 1 promotes fever, inflammation, and multiple organ injury.",
+    "year": 2025,
+    "journal": "Journal",
+    "score": 0.92,
+    "relations": [
+      {
+        "source": "Interferon gamma",
+        "target": "Tumor necrosis factor",
+        "type": "Positive_regulation"
+      }
+    ]
+  }
+]

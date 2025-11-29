@@ -1,0 +1,13 @@
+docker build -t omicsviz .
+docker run -p 8080:80 omicsviz commands to build docker
+
+npm install
+npm run dev commands to run and debug
+
+Framework:
+
+Cytoscape.js
+
+vite
+
+TypeScript

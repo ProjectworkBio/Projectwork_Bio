@@ -17,3 +17,5 @@ validate_senctences.py
 RegulaTome-corpus.tar.gz
 Pubmed_Baseline/
 Pubmed_abstracts_csvs/
+omicsviz/node_modules
+AppBackup.tsx
