@@ -1,0 +1,309 @@
+Entity_1_Name,Entity_2_Name,Ensemble_Result,STRING_ID_1,STRING_ID_2,STRING_Found,STRING_Score,Used_Name_1,Used_Name_2
+Interferon gamma,Interleukin-1 beta,Binds to / Interacts with,9606.ENSP00000229135,9606.ENSP00000263341,True,0.998,Interferon gamma,Interleukin-1 beta
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+C-C motif chemokine 3,Hepatocyte growth factor,Activates,9606.ENSP00000477908,9606.ENSP00000222390,True,0.523,C-C motif chemokine 3,Hepatocyte growth factor
+C-C motif chemokine 3,Interleukin-18,Activates,9606.ENSP00000477908,9606.ENSP00000280357,True,0.86,C-C motif chemokine 3,Interleukin-18
+Hepatocyte growth factor,Interleukin-6,Activates,9606.ENSP00000222390,9606.ENSP00000385675,True,0.86,Hepatocyte growth factor,Interleukin-6
+Macrophage colony-stimulating factor 1,Tumor necrosis factor,Activates,9606.ENSP00000327513,9606.ENSP00000398698,True,0.801,Macrophage colony-stimulating factor 1,Tumor necrosis factor
+Tumor necrosis factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Granulocyte-macrophage colony-stimulating factor,Interleukin-2,Activates,9606.ENSP00000296871,9606.ENSP00000226730,True,0.997,Granulocyte-macrophage colony-stimulating factor,Interleukin-2
+Granulocyte-macrophage colony-stimulating factor,Interleukin-2,Activates,9606.ENSP00000296871,9606.ENSP00000226730,True,0.997,Granulocyte-macrophage colony-stimulating factor,Interleukin-2
+Interleukin-10,Tumor necrosis factor,Regulates,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interleukin-4,Vascular endothelial growth factor A,Activates,9606.ENSP00000231449,9606.ENSP00000480043,True,0.404,Interleukin-4,Vascular endothelial growth factor A
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor,Activates,9606.ENSP00000296871,9606.ENSP00000398698,True,0.97,Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor
+Granulocyte colony-stimulating factor,Granulocyte-macrophage colony-stimulating factor,Activates,9606.ENSP00000225474,9606.ENSP00000296871,True,0.999,Granulocyte colony-stimulating factor,Granulocyte-macrophage colony-stimulating factor
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interleukin-2,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interferon gamma,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+C-X-C motif chemokine 10,C-X-C motif chemokine 9,Binds to / Interacts with,9606.ENSP00000305651,9606.ENSP00000354901,True,0.999,C-X-C motif chemokine 10,C-X-C motif chemokine 9
+Interleukin-2,Tumor necrosis factor,Activates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interleukin-10,Interleukin-8,Inhibits,9606.ENSP00000412237,9606.ENSP00000306512,True,0.97,Interleukin-10,Interleukin-8
+Tumor necrosis factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Eotaxin,Interleukin-4,Binds to / Interacts with,9606.ENSP00000302234,9606.ENSP00000231449,True,0.955,Eotaxin,Interleukin-4
+Interleukin-2,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interleukin-10,Tumor necrosis factor,Regulates,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interferon gamma,Interleukin-10,Binds to / Interacts with,9606.ENSP00000229135,9606.ENSP00000412237,True,0.995,Interferon gamma,Interleukin-10
+Interleukin-10,Interleukin-2,Inhibits,9606.ENSP00000412237,9606.ENSP00000226730,True,0.964,Interleukin-10,Interleukin-2
+Interleukin-10,Interleukin-8,Inhibits,9606.ENSP00000412237,9606.ENSP00000306512,True,0.97,Interleukin-10,Interleukin-8
+Interleukin-7,Interleukin-8,Activates,9606.ENSP00000263851,9606.ENSP00000306512,True,0.856,Interleukin-7,Interleukin-8
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-1 beta,Interleukin-8,Activates,9606.ENSP00000263341,9606.ENSP00000306512,True,0.994,Interleukin-1 beta,Interleukin-8
+Interleukin-7,Interleukin-8,Activates,9606.ENSP00000263851,9606.ENSP00000306512,True,0.856,Interleukin-7,Interleukin-8
+Interleukin-1 beta,Interleukin-2,Binds to / Interacts with,9606.ENSP00000263341,9606.ENSP00000226730,True,0.999,Interleukin-1 beta,Interleukin-2
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Eotaxin,Interleukin-8,Activates,9606.ENSP00000302234,9606.ENSP00000306512,True,0.929,Eotaxin,Interleukin-8
+Hepatocyte growth factor,Vascular endothelial growth factor A,Binds to / Interacts with,9606.ENSP00000222390,9606.ENSP00000480043,True,0.733,Hepatocyte growth factor,Vascular endothelial growth factor A
+Interleukin-7,Interleukin-8,Activates,9606.ENSP00000263851,9606.ENSP00000306512,True,0.856,Interleukin-7,Interleukin-8
+Interleukin-10,Tumor necrosis factor,Activates,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interleukin-2,Interleukin-6,Activates,9606.ENSP00000226730,9606.ENSP00000385675,True,0.999,Interleukin-2,Interleukin-6
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interleukin-10,Vascular endothelial growth factor A,Inhibits,9606.ENSP00000412237,9606.ENSP00000480043,True,0.475,Interleukin-10,Vascular endothelial growth factor A
+C-C motif chemokine 2,Interleukin-1 beta,Activates,9606.ENSP00000225831,9606.ENSP00000263341,True,0.97,C-C motif chemokine 2,Interleukin-1 beta
+Hepatocyte growth factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000222390,9606.ENSP00000480043,True,0.733,Hepatocyte growth factor,Vascular endothelial growth factor A
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Thymic stromal lymphopoietin,Tumor necrosis factor,Activates,9606.ENSP00000339804,9606.ENSP00000398698,True,0.662,Thymic stromal lymphopoietin,Tumor necrosis factor
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interleukin-10,Interleukin-2,Regulates,9606.ENSP00000412237,9606.ENSP00000226730,True,0.964,Interleukin-10,Interleukin-2
+Interleukin-10,Interleukin-4,Activates,9606.ENSP00000412237,9606.ENSP00000231449,True,0.986,Interleukin-10,Interleukin-4
+Interleukin-2,Tumor necrosis factor,Activates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interleukin-2,Interleukin-4,Activates,9606.ENSP00000226730,9606.ENSP00000231449,True,0.999,Interleukin-2,Interleukin-4
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-6,Tumor necrosis factor,Inhibits,9606.ENSP00000385675,9606.ENSP00000398698,True,0.994,Interleukin-6,Tumor necrosis factor
+Interleukin-2,Tumor necrosis factor,Activates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interferon gamma,Macrophage metalloelastase,Regulates,9606.ENSP00000229135,9606.ENSP00000458585,True,0.519,Interferon gamma,Macrophage metalloelastase
+Interferon gamma,Interleukin-2,Activates,9606.ENSP00000229135,9606.ENSP00000226730,True,0.99,Interferon gamma,Interleukin-2
+Eotaxin,Interleukin-4,Activates,9606.ENSP00000302234,9606.ENSP00000231449,True,0.955,Eotaxin,Interleukin-4
+Granulocyte-macrophage colony-stimulating factor,Interleukin-4,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000231449,True,0.963,Granulocyte-macrophage colony-stimulating factor,Interleukin-4
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Tumor necrosis factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-2,Interleukin-8,Regulates,9606.ENSP00000226730,9606.ENSP00000306512,True,0.985,Interleukin-2,Interleukin-8
+Granulocyte-macrophage colony-stimulating factor,Interleukin-4,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000231449,True,0.963,Granulocyte-macrophage colony-stimulating factor,Interleukin-4
+Interferon gamma,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Granulocyte colony-stimulating factor,Hepatocyte growth factor,Activates,9606.ENSP00000225474,9606.ENSP00000222390,True,0.657,Granulocyte colony-stimulating factor,Hepatocyte growth factor
+Granulocyte-macrophage colony-stimulating factor,Hepatocyte growth factor,Activates,9606.ENSP00000296871,9606.ENSP00000222390,True,0.584,Granulocyte-macrophage colony-stimulating factor,Hepatocyte growth factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-4,Activates,9606.ENSP00000296871,9606.ENSP00000231449,True,0.963,Granulocyte-macrophage colony-stimulating factor,Interleukin-4
+Tumor necrosis factor,Tumor necrosis factor ligand superfamily member 10,Binds to / Interacts with,9606.ENSP00000398698,9606.ENSP00000241261,True,0.946,Tumor necrosis factor,Tumor necrosis factor ligand superfamily member 10
+Hepatocyte growth factor,Tumor necrosis factor,Regulates,9606.ENSP00000222390,9606.ENSP00000398698,True,0.679,Hepatocyte growth factor,Tumor necrosis factor
+Interleukin-1 beta,Interleukin-8,Activates,9606.ENSP00000263341,9606.ENSP00000306512,True,0.994,Interleukin-1 beta,Interleukin-8
+C-C motif chemokine 2,Vascular endothelial growth factor A,Activates,9606.ENSP00000225831,9606.ENSP00000480043,True,0.529,C-C motif chemokine 2,Vascular endothelial growth factor A
+Interleukin-15,Interleukin-2,Binds to / Interacts with,9606.ENSP00000296545,9606.ENSP00000226730,True,0.958,Interleukin-15,Interleukin-2
+Granulocyte-macrophage colony-stimulating factor,Interleukin-2,Activates,9606.ENSP00000296871,9606.ENSP00000226730,True,0.997,Granulocyte-macrophage colony-stimulating factor,Interleukin-2
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Tumor necrosis factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Granulocyte-macrophage colony-stimulating factor,Interleukin-2,Inhibits,9606.ENSP00000296871,9606.ENSP00000226730,True,0.997,Granulocyte-macrophage colony-stimulating factor,Interleukin-2
+Interleukin-10,Interleukin-2,Activates,9606.ENSP00000412237,9606.ENSP00000226730,True,0.964,Interleukin-10,Interleukin-2
+Eotaxin,Interleukin-4,Activates,9606.ENSP00000302234,9606.ENSP00000231449,True,0.955,Eotaxin,Interleukin-4
+Eotaxin,Interleukin-4,Binds to / Interacts with,9606.ENSP00000302234,9606.ENSP00000231449,True,0.955,Eotaxin,Interleukin-4
+Granulocyte-macrophage colony-stimulating factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000296871,9606.ENSP00000480043,True,0.407,Granulocyte-macrophage colony-stimulating factor,Vascular endothelial growth factor A
+Interferon gamma,Interleukin-8,Activates,9606.ENSP00000229135,9606.ENSP00000306512,True,0.961,Interferon gamma,Interleukin-8
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor,Inhibits,9606.ENSP00000296871,9606.ENSP00000398698,True,0.97,Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Granulocyte colony-stimulating factor,Granulocyte-macrophage colony-stimulating factor,Binds to / Interacts with,9606.ENSP00000225474,9606.ENSP00000296871,True,0.999,Granulocyte colony-stimulating factor,Granulocyte-macrophage colony-stimulating factor
+Tumor necrosis factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Tumor necrosis factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-2,Tumor necrosis factor,Inhibits,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Thymic stromal lymphopoietin,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000339804,True,0.685,Granulocyte-macrophage colony-stimulating factor,Thymic stromal lymphopoietin
+Interleukin-4,Thymic stromal lymphopoietin,Binds to / Interacts with,9606.ENSP00000231449,9606.ENSP00000339804,True,0.872,Interleukin-4,Thymic stromal lymphopoietin
+Interferon gamma,Interleukin-2,Activates,9606.ENSP00000229135,9606.ENSP00000226730,True,0.99,Interferon gamma,Interleukin-2
+Hepatocyte growth factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000222390,9606.ENSP00000480043,True,0.733,Hepatocyte growth factor,Vascular endothelial growth factor A
+Interleukin-10,Interleukin-8,Inhibits,9606.ENSP00000412237,9606.ENSP00000306512,True,0.97,Interleukin-10,Interleukin-8
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interleukin-10,Interleukin-8,Inhibits,9606.ENSP00000412237,9606.ENSP00000306512,True,0.97,Interleukin-10,Interleukin-8
+Tumor necrosis factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+C-C motif chemokine 2,Interleukin-2,Inhibits,9606.ENSP00000225831,9606.ENSP00000226730,True,0.853,C-C motif chemokine 2,Interleukin-2
+C-C motif chemokine 2,Interleukin-8,Inhibits,9606.ENSP00000225831,9606.ENSP00000306512,True,0.999,C-C motif chemokine 2,Interleukin-8
+C-X-C motif chemokine 10,Interleukin-8,Inhibits,9606.ENSP00000305651,9606.ENSP00000306512,True,0.975,C-X-C motif chemokine 10,Interleukin-8
+Hepatocyte growth factor,Vascular endothelial growth factor A,Binds to / Interacts with,9606.ENSP00000222390,9606.ENSP00000480043,True,0.733,Hepatocyte growth factor,Vascular endothelial growth factor A
+Granulocyte colony-stimulating factor,Tumor necrosis factor,Inhibits,9606.ENSP00000225474,9606.ENSP00000398698,True,0.949,Granulocyte colony-stimulating factor,Tumor necrosis factor
+Hepatocyte growth factor,Interleukin-10,Activates,9606.ENSP00000222390,9606.ENSP00000412237,True,0.813,Hepatocyte growth factor,Interleukin-10
+Interleukin-7,Interleukin-8,Activates,9606.ENSP00000263851,9606.ENSP00000306512,True,0.856,Interleukin-7,Interleukin-8
+Tumor necrosis factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-1 beta,Tumor necrosis factor,Inhibits,9606.ENSP00000263341,9606.ENSP00000398698,True,0.998,Interleukin-1 beta,Tumor necrosis factor
+Interleukin-1 beta,Interleukin-8,Activates,9606.ENSP00000263341,9606.ENSP00000306512,True,0.994,Interleukin-1 beta,Interleukin-8
+Interleukin-1 beta,Macrophage colony-stimulating factor 1,Activates,9606.ENSP00000263341,9606.ENSP00000327513,True,0.81,Interleukin-1 beta,Macrophage colony-stimulating factor 1
+Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000398698,True,0.97,Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor
+Interleukin-2,Tumor necrosis factor,Activates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interferon gamma,Interleukin-18,Activates,9606.ENSP00000229135,9606.ENSP00000280357,True,0.949,Interferon gamma,Interleukin-18
+Interferon gamma,Interleukin-6,Activates,9606.ENSP00000229135,9606.ENSP00000385675,True,0.983,Interferon gamma,Interleukin-6
+Interferon gamma,Interleukin-8,Activates,9606.ENSP00000229135,9606.ENSP00000306512,True,0.961,Interferon gamma,Interleukin-8
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interleukin-4,Tumor necrosis factor,Inhibits,9606.ENSP00000231449,9606.ENSP00000398698,True,0.977,Interleukin-4,Tumor necrosis factor
+Macrophage colony-stimulating factor 1,Tumor necrosis factor,Activates,9606.ENSP00000327513,9606.ENSP00000398698,True,0.801,Macrophage colony-stimulating factor 1,Tumor necrosis factor
+Interleukin-1 beta,Interleukin-2,Binds to / Interacts with,9606.ENSP00000263341,9606.ENSP00000226730,True,0.999,Interleukin-1 beta,Interleukin-2
+Interleukin-2,Tumor necrosis factor,Activates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interferon gamma,Interleukin-2,Activates,9606.ENSP00000229135,9606.ENSP00000226730,True,0.99,Interferon gamma,Interleukin-2
+Tumor necrosis factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-1 beta,Activates,9606.ENSP00000296871,9606.ENSP00000263341,True,0.998,Granulocyte-macrophage colony-stimulating factor,Interleukin-1 beta
+Tumor necrosis factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-2,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-2,Activates,9606.ENSP00000296871,9606.ENSP00000226730,True,0.997,Granulocyte-macrophage colony-stimulating factor,Interleukin-2
+Interferon gamma,Interleukin-1 beta,Activates,9606.ENSP00000229135,9606.ENSP00000263341,True,0.998,Interferon gamma,Interleukin-1 beta
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interferon gamma,Tumor necrosis factor,Regulates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-4,Macrophage colony-stimulating factor 1,Binds to / Interacts with,9606.ENSP00000231449,9606.ENSP00000327513,True,0.791,Interleukin-4,Macrophage colony-stimulating factor 1
+Interleukin-10,Interleukin-2,Inhibits,9606.ENSP00000412237,9606.ENSP00000226730,True,0.964,Interleukin-10,Interleukin-2
+Interferon gamma,Interleukin-8,Activates,9606.ENSP00000229135,9606.ENSP00000306512,True,0.961,Interferon gamma,Interleukin-8
+Protransforming growth factor alpha,Vascular endothelial growth factor A,Activates,9606.ENSP00000404131,9606.ENSP00000480043,True,0.4,Protransforming growth factor alpha,Vascular endothelial growth factor A
+Interleukin-1 beta,Interleukin-8,Activates,9606.ENSP00000263341,9606.ENSP00000306512,True,0.994,Interleukin-1 beta,Interleukin-8
+Interleukin-1 beta,Interleukin-6,Activates,9606.ENSP00000263341,9606.ENSP00000385675,True,0.996,Interleukin-1 beta,Interleukin-6
+Interleukin-10,Interleukin-2,Activates,9606.ENSP00000412237,9606.ENSP00000226730,True,0.964,Interleukin-10,Interleukin-2
+Interleukin-1 beta,Interleukin-8,Regulates,9606.ENSP00000263341,9606.ENSP00000306512,True,0.994,Interleukin-1 beta,Interleukin-8
+Granulocyte colony-stimulating factor,Vascular endothelial growth factor A,Inhibits,9606.ENSP00000225474,9606.ENSP00000480043,False,0.0,Granulocyte colony-stimulating factor,Vascular endothelial growth factor A
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-10,Vascular endothelial growth factor A,Regulates,9606.ENSP00000412237,9606.ENSP00000480043,True,0.475,Interleukin-10,Vascular endothelial growth factor A
+Interleukin-1 beta,Interleukin-6,Activates,9606.ENSP00000263341,9606.ENSP00000385675,True,0.996,Interleukin-1 beta,Interleukin-6
+Interleukin-4,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000231449,9606.ENSP00000398698,True,0.977,Interleukin-4,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-4,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000231449,True,0.963,Granulocyte-macrophage colony-stimulating factor,Interleukin-4
+Interleukin-10,Tumor necrosis factor,Regulates,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interferon gamma,Vascular endothelial growth factor A,Regulates,9606.ENSP00000229135,9606.ENSP00000480043,True,0.65,Interferon gamma,Vascular endothelial growth factor A
+Interleukin-6,Tumor necrosis factor,Inhibits,9606.ENSP00000385675,9606.ENSP00000398698,True,0.994,Interleukin-6,Tumor necrosis factor
+Interferon gamma,Tumor necrosis factor,Regulates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-1 beta,Interleukin-10,Activates,9606.ENSP00000263341,9606.ENSP00000412237,True,0.991,Interleukin-1 beta,Interleukin-10
+Interferon gamma,Interleukin-8,Activates,9606.ENSP00000229135,9606.ENSP00000306512,True,0.961,Interferon gamma,Interleukin-8
+Interleukin-2,Tumor necrosis factor,Regulates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interleukin-2,Interleukin-4,Regulates,9606.ENSP00000226730,9606.ENSP00000231449,True,0.999,Interleukin-2,Interleukin-4
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-4,Activates,9606.ENSP00000296871,9606.ENSP00000231449,True,0.963,Granulocyte-macrophage colony-stimulating factor,Interleukin-4
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Tumor necrosis factor,Tumor necrosis factor ligand superfamily member 10,Binds to / Interacts with,9606.ENSP00000398698,9606.ENSP00000241261,True,0.946,Tumor necrosis factor,Tumor necrosis factor ligand superfamily member 10
+Granulocyte colony-stimulating factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000225474,9606.ENSP00000480043,False,0.0,Granulocyte colony-stimulating factor,Vascular endothelial growth factor A
+Hepatocyte growth factor,Vascular endothelial growth factor A,Binds to / Interacts with,9606.ENSP00000222390,9606.ENSP00000480043,True,0.733,Hepatocyte growth factor,Vascular endothelial growth factor A
+Interleukin-7,Interleukin-8,Activates,9606.ENSP00000263851,9606.ENSP00000306512,True,0.856,Interleukin-7,Interleukin-8
+Interferon gamma,Interleukin-8,Activates,9606.ENSP00000229135,9606.ENSP00000306512,True,0.961,Interferon gamma,Interleukin-8
+Interferon gamma,Interleukin-6,Activates,9606.ENSP00000229135,9606.ENSP00000385675,True,0.983,Interferon gamma,Interleukin-6
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Tumor necrosis factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-1 beta,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000263341,9606.ENSP00000398698,True,0.998,Interleukin-1 beta,Tumor necrosis factor
+Interleukin-1 beta,Vascular endothelial growth factor A,Activates,9606.ENSP00000263341,9606.ENSP00000480043,True,0.717,Interleukin-1 beta,Vascular endothelial growth factor A
+Interferon gamma,Interleukin-8,Activates,9606.ENSP00000229135,9606.ENSP00000306512,True,0.961,Interferon gamma,Interleukin-8
+Granulocyte-macrophage colony-stimulating factor,Interleukin-8,Activates,9606.ENSP00000296871,9606.ENSP00000306512,True,0.972,Granulocyte-macrophage colony-stimulating factor,Interleukin-8
+Interferon gamma,Interleukin-8,Activates,9606.ENSP00000229135,9606.ENSP00000306512,True,0.961,Interferon gamma,Interleukin-8
+C-X-C motif chemokine 9,Vascular endothelial growth factor A,Inhibits,9606.ENSP00000354901,9606.ENSP00000480043,False,0.0,C-X-C motif chemokine 9,Vascular endothelial growth factor A
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-1 beta,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000263341,9606.ENSP00000398698,True,0.998,Interleukin-1 beta,Tumor necrosis factor
+Tumor necrosis factor,Vascular endothelial growth factor A,Inhibits,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-2,Tumor necrosis factor,Activates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Granulocyte colony-stimulating factor,Tumor necrosis factor,Inhibits,9606.ENSP00000225474,9606.ENSP00000398698,True,0.949,Granulocyte colony-stimulating factor,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-4,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000231449,True,0.963,Granulocyte-macrophage colony-stimulating factor,Interleukin-4
+Granulocyte colony-stimulating factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000225474,9606.ENSP00000480043,False,0.0,Granulocyte colony-stimulating factor,Vascular endothelial growth factor A
+Interferon gamma,Tumor necrosis factor,Regulates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-8,Vascular endothelial growth factor A,Activates,9606.ENSP00000306512,9606.ENSP00000480043,True,0.717,Interleukin-8,Vascular endothelial growth factor A
+Interleukin-10,Interleukin-4,Inhibits,9606.ENSP00000412237,9606.ENSP00000231449,True,0.986,Interleukin-10,Interleukin-4
+Granulocyte-macrophage colony-stimulating factor,Interleukin-4,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000231449,True,0.963,Granulocyte-macrophage colony-stimulating factor,Interleukin-4
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-2,Activates,9606.ENSP00000296871,9606.ENSP00000226730,True,0.997,Granulocyte-macrophage colony-stimulating factor,Interleukin-2
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Granulocyte colony-stimulating factor,Interleukin-2,Inhibits,9606.ENSP00000225474,9606.ENSP00000226730,True,0.962,Granulocyte colony-stimulating factor,Interleukin-2
+Granulocyte colony-stimulating factor,Interleukin-4,Inhibits,9606.ENSP00000225474,9606.ENSP00000231449,True,0.818,Granulocyte colony-stimulating factor,Interleukin-4
+Interferon gamma,Interleukin-2,Activates,9606.ENSP00000229135,9606.ENSP00000226730,True,0.99,Interferon gamma,Interleukin-2
+Interferon gamma,Interleukin-18,Activates,9606.ENSP00000229135,9606.ENSP00000280357,True,0.949,Interferon gamma,Interleukin-18
+Tumor necrosis factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Granulocyte colony-stimulating factor,Granulocyte-macrophage colony-stimulating factor,Binds to / Interacts with,9606.ENSP00000225474,9606.ENSP00000296871,True,0.999,Granulocyte colony-stimulating factor,Granulocyte-macrophage colony-stimulating factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-2,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000226730,True,0.997,Granulocyte-macrophage colony-stimulating factor,Interleukin-2
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-1 beta,Interleukin-8,Activates,9606.ENSP00000263341,9606.ENSP00000306512,True,0.994,Interleukin-1 beta,Interleukin-8
+Granulocyte colony-stimulating factor,Granulocyte-macrophage colony-stimulating factor,Binds to / Interacts with,9606.ENSP00000225474,9606.ENSP00000296871,True,0.999,Granulocyte colony-stimulating factor,Granulocyte-macrophage colony-stimulating factor
+Macrophage colony-stimulating factor 1,Tumor necrosis factor,Activates,9606.ENSP00000327513,9606.ENSP00000398698,True,0.801,Macrophage colony-stimulating factor 1,Tumor necrosis factor
+Granulocyte colony-stimulating factor,Tumor necrosis factor,Inhibits,9606.ENSP00000225474,9606.ENSP00000398698,True,0.949,Granulocyte colony-stimulating factor,Tumor necrosis factor
+Oncostatin-M,Tumor necrosis factor,Inhibits,9606.ENSP00000215781,9606.ENSP00000398698,True,0.718,Oncostatin-M,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor,Regulates,9606.ENSP00000296871,9606.ENSP00000398698,True,0.97,Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor
+Granulocyte colony-stimulating factor,Interferon gamma,Activates,9606.ENSP00000225474,9606.ENSP00000229135,True,0.989,Granulocyte colony-stimulating factor,Interferon gamma
+Macrophage colony-stimulating factor 1,Tumor necrosis factor,Activates,9606.ENSP00000327513,9606.ENSP00000398698,True,0.801,Macrophage colony-stimulating factor 1,Tumor necrosis factor
+Interleukin-8,Vascular endothelial growth factor A,Regulates,9606.ENSP00000306512,9606.ENSP00000480043,True,0.717,Interleukin-8,Vascular endothelial growth factor A
+Granulocyte-macrophage colony-stimulating factor,Interleukin-15,Activates,9606.ENSP00000296871,9606.ENSP00000296545,True,0.849,Granulocyte-macrophage colony-stimulating factor,Interleukin-15
+C-C motif chemokine 2,C-C motif chemokine 3,Binds to / Interacts with,9606.ENSP00000225831,9606.ENSP00000477908,True,0.576,C-C motif chemokine 2,C-C motif chemokine 3
+Tumor necrosis factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-10,Interleukin-8,Inhibits,9606.ENSP00000412237,9606.ENSP00000306512,True,0.97,Interleukin-10,Interleukin-8
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interleukin-1 beta,Interleukin-2,Activates,9606.ENSP00000263341,9606.ENSP00000226730,True,0.999,Interleukin-1 beta,Interleukin-2
+Granulocyte-macrophage colony-stimulating factor,Interleukin-8,Regulates,9606.ENSP00000296871,9606.ENSP00000306512,True,0.972,Granulocyte-macrophage colony-stimulating factor,Interleukin-8
+Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor,Activates,9606.ENSP00000296871,9606.ENSP00000398698,True,0.97,Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor
+Interferon gamma,Tumor necrosis factor,Regulates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-10,Interleukin-2,Activates,9606.ENSP00000412237,9606.ENSP00000226730,True,0.964,Interleukin-10,Interleukin-2
+C-C motif chemokine 2,C-X-C motif chemokine 10,Binds to / Interacts with,9606.ENSP00000225831,9606.ENSP00000305651,True,0.965,C-C motif chemokine 2,C-X-C motif chemokine 10
+Tumor necrosis factor,Vascular endothelial growth factor A,Inhibits,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interferon gamma,Vascular endothelial growth factor A,Inhibits,9606.ENSP00000229135,9606.ENSP00000480043,True,0.65,Interferon gamma,Vascular endothelial growth factor A
+Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor,Regulates,9606.ENSP00000296871,9606.ENSP00000398698,True,0.97,Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor
+Hepatocyte growth factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000222390,9606.ENSP00000480043,True,0.733,Hepatocyte growth factor,Vascular endothelial growth factor A
+Interferon gamma,Interleukin-1 beta,Binds to / Interacts with,9606.ENSP00000229135,9606.ENSP00000263341,True,0.998,Interferon gamma,Interleukin-1 beta
+C-C motif chemokine 3,Tumor necrosis factor,Activates,9606.ENSP00000477908,9606.ENSP00000398698,True,0.988,C-C motif chemokine 3,Tumor necrosis factor
+Interleukin-2,Tumor necrosis factor,Inhibits,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Tumor necrosis factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Granulocyte-macrophage colony-stimulating factor,Interleukin-4,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000231449,True,0.963,Granulocyte-macrophage colony-stimulating factor,Interleukin-4
+Hepatocyte growth factor,Vascular endothelial growth factor A,Binds to / Interacts with,9606.ENSP00000222390,9606.ENSP00000480043,True,0.733,Hepatocyte growth factor,Vascular endothelial growth factor A
+Interleukin-2,Tumor necrosis factor,Activates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interleukin-2,Tumor necrosis factor,Activates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interleukin-7,Thymic stromal lymphopoietin,Binds to / Interacts with,9606.ENSP00000263851,9606.ENSP00000339804,True,0.869,Interleukin-7,Thymic stromal lymphopoietin
+Interleukin-7,Interleukin-8,Activates,9606.ENSP00000263851,9606.ENSP00000306512,True,0.856,Interleukin-7,Interleukin-8
+Interleukin-2,Interleukin-4,Binds to / Interacts with,9606.ENSP00000226730,9606.ENSP00000231449,True,0.999,Interleukin-2,Interleukin-4
+Interleukin-1 beta,Interleukin-8,Activates,9606.ENSP00000263341,9606.ENSP00000306512,True,0.994,Interleukin-1 beta,Interleukin-8
+Interleukin-2,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interleukin-4,Tumor necrosis factor,Inhibits,9606.ENSP00000231449,9606.ENSP00000398698,True,0.977,Interleukin-4,Tumor necrosis factor
+Tumor necrosis factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-2,Tumor necrosis factor,Regulates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interferon gamma,Interleukin-8,Activates,9606.ENSP00000229135,9606.ENSP00000306512,True,0.961,Interferon gamma,Interleukin-8
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Tumor necrosis factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-18,Interleukin-2,Activates,9606.ENSP00000280357,9606.ENSP00000226730,True,0.815,Interleukin-18,Interleukin-2
+Eotaxin,Interleukin-8,Activates,9606.ENSP00000302234,9606.ENSP00000306512,True,0.929,Eotaxin,Interleukin-8
+Interleukin-1 beta,Interleukin-2,Activates,9606.ENSP00000263341,9606.ENSP00000226730,True,0.999,Interleukin-1 beta,Interleukin-2
+Interleukin-2,Interleukin-4,Activates,9606.ENSP00000226730,9606.ENSP00000231449,True,0.999,Interleukin-2,Interleukin-4
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interferon gamma,Interleukin-2,Activates,9606.ENSP00000229135,9606.ENSP00000226730,True,0.99,Interferon gamma,Interleukin-2
+Interleukin-10,Vascular endothelial growth factor A,Regulates,9606.ENSP00000412237,9606.ENSP00000480043,True,0.475,Interleukin-10,Vascular endothelial growth factor A
+Interleukin-10,Interleukin-4,Binds to / Interacts with,9606.ENSP00000412237,9606.ENSP00000231449,True,0.986,Interleukin-10,Interleukin-4
+Interleukin-1 beta,Tumor necrosis factor,Inhibits,9606.ENSP00000263341,9606.ENSP00000398698,True,0.998,Interleukin-1 beta,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor,Regulates,9606.ENSP00000296871,9606.ENSP00000398698,True,0.97,Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-1 beta,Activates,9606.ENSP00000296871,9606.ENSP00000263341,True,0.998,Granulocyte-macrophage colony-stimulating factor,Interleukin-1 beta
+Interleukin-1 beta,Tumor necrosis factor,Activates,9606.ENSP00000263341,9606.ENSP00000398698,True,0.998,Interleukin-1 beta,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-2,Activates,9606.ENSP00000296871,9606.ENSP00000226730,True,0.997,Granulocyte-macrophage colony-stimulating factor,Interleukin-2
+Granulocyte colony-stimulating factor,Interleukin-10,Binds to / Interacts with,9606.ENSP00000225474,9606.ENSP00000412237,True,0.927,Granulocyte colony-stimulating factor,Interleukin-10
+Interleukin-2,Tumor necrosis factor,Regulates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Interleukin-8,Inhibits,9606.ENSP00000296871,9606.ENSP00000306512,True,0.972,Granulocyte-macrophage colony-stimulating factor,Interleukin-8
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interferon gamma,Vascular endothelial growth factor A,Activates,9606.ENSP00000229135,9606.ENSP00000480043,True,0.65,Interferon gamma,Vascular endothelial growth factor A
+C-C motif chemokine 2,Tumor necrosis factor,Activates,9606.ENSP00000225831,9606.ENSP00000398698,True,0.978,C-C motif chemokine 2,Tumor necrosis factor
+Interferon gamma,Interleukin-8,Regulates,9606.ENSP00000229135,9606.ENSP00000306512,True,0.961,Interferon gamma,Interleukin-8
+Interleukin-10,Interleukin-4,Binds to / Interacts with,9606.ENSP00000412237,9606.ENSP00000231449,True,0.986,Interleukin-10,Interleukin-4
+Interleukin-10,Vascular endothelial growth factor A,Regulates,9606.ENSP00000412237,9606.ENSP00000480043,True,0.475,Interleukin-10,Vascular endothelial growth factor A
+Granulocyte-macrophage colony-stimulating factor,Interleukin-4,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000231449,True,0.963,Granulocyte-macrophage colony-stimulating factor,Interleukin-4
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-10,Interleukin-8,Activates,9606.ENSP00000412237,9606.ENSP00000306512,True,0.97,Interleukin-10,Interleukin-8
+Interleukin-4,Interleukin-8,Regulates,9606.ENSP00000231449,9606.ENSP00000306512,True,0.997,Interleukin-4,Interleukin-8
+Granulocyte-macrophage colony-stimulating factor,Interleukin-4,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000231449,True,0.963,Granulocyte-macrophage colony-stimulating factor,Interleukin-4
+Interleukin-1 beta,Vascular endothelial growth factor A,Activates,9606.ENSP00000263341,9606.ENSP00000480043,True,0.717,Interleukin-1 beta,Vascular endothelial growth factor A
+Granulocyte colony-stimulating factor,Vascular endothelial growth factor A,Regulates,9606.ENSP00000225474,9606.ENSP00000480043,False,0.0,Granulocyte colony-stimulating factor,Vascular endothelial growth factor A
+Eotaxin,Granulocyte-macrophage colony-stimulating factor,Binds to / Interacts with,9606.ENSP00000302234,9606.ENSP00000296871,True,0.996,Eotaxin,Granulocyte-macrophage colony-stimulating factor
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor,Regulates,9606.ENSP00000296871,9606.ENSP00000398698,True,0.97,Granulocyte-macrophage colony-stimulating factor,Tumor necrosis factor
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Interleukin-10,Tumor necrosis factor,Inhibits,9606.ENSP00000412237,9606.ENSP00000398698,True,0.992,Interleukin-10,Tumor necrosis factor
+Granulocyte colony-stimulating factor,Interleukin-8,Activates,9606.ENSP00000225474,9606.ENSP00000306512,True,0.971,Granulocyte colony-stimulating factor,Interleukin-8
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
+Interleukin-8,Vascular endothelial growth factor A,Binds to / Interacts with,9606.ENSP00000306512,9606.ENSP00000480043,True,0.717,Interleukin-8,Vascular endothelial growth factor A
+Interleukin-18,Interleukin-8,Activates,9606.ENSP00000280357,9606.ENSP00000306512,True,0.926,Interleukin-18,Interleukin-8
+Interferon gamma,Vascular endothelial growth factor A,Regulates,9606.ENSP00000229135,9606.ENSP00000480043,True,0.65,Interferon gamma,Vascular endothelial growth factor A
+Interleukin-2,Tumor necrosis factor,Activates,9606.ENSP00000226730,9606.ENSP00000398698,True,0.957,Interleukin-2,Tumor necrosis factor
+Interleukin-1 beta,Tumor necrosis factor,Activates,9606.ENSP00000263341,9606.ENSP00000398698,True,0.998,Interleukin-1 beta,Tumor necrosis factor
+Interleukin-10,Interleukin-8,Regulates,9606.ENSP00000412237,9606.ENSP00000306512,True,0.97,Interleukin-10,Interleukin-8
+Interleukin-4,Interleukin-8,Regulates,9606.ENSP00000231449,9606.ENSP00000306512,True,0.997,Interleukin-4,Interleukin-8
+Interleukin-8,Tumor necrosis factor,Binds to / Interacts with,9606.ENSP00000306512,9606.ENSP00000398698,True,0.983,Interleukin-8,Tumor necrosis factor
+Macrophage colony-stimulating factor 1,Vascular endothelial growth factor A,Regulates,9606.ENSP00000327513,9606.ENSP00000480043,True,0.457,Macrophage colony-stimulating factor 1,Vascular endothelial growth factor A
+Granulocyte-macrophage colony-stimulating factor,Interleukin-1 beta,Activates,9606.ENSP00000296871,9606.ENSP00000263341,True,0.998,Granulocyte-macrophage colony-stimulating factor,Interleukin-1 beta
+Granulocyte-macrophage colony-stimulating factor,Interleukin-2,Activates,9606.ENSP00000296871,9606.ENSP00000226730,True,0.997,Granulocyte-macrophage colony-stimulating factor,Interleukin-2
+Interleukin-7,Tumor necrosis factor,Activates,9606.ENSP00000263851,9606.ENSP00000398698,True,0.828,Interleukin-7,Tumor necrosis factor
+Tumor necrosis factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000398698,9606.ENSP00000480043,True,0.531,Tumor necrosis factor,Vascular endothelial growth factor A
+Interleukin-1 beta,Vascular endothelial growth factor A,Activates,9606.ENSP00000263341,9606.ENSP00000480043,True,0.717,Interleukin-1 beta,Vascular endothelial growth factor A
+Stromal cell-derived factor 1,Vascular endothelial growth factor A,Inhibits,9606.ENSP00000379140,9606.ENSP00000480043,True,0.619,Stromal cell-derived factor 1,Vascular endothelial growth factor A
+Interleukin-10,Interleukin-8,Regulates,9606.ENSP00000412237,9606.ENSP00000306512,True,0.97,Interleukin-10,Interleukin-8
+Eotaxin,Granulocyte-macrophage colony-stimulating factor,Activates,9606.ENSP00000302234,9606.ENSP00000296871,True,0.996,Eotaxin,Granulocyte-macrophage colony-stimulating factor
+Hepatocyte growth factor,Vascular endothelial growth factor A,Binds to / Interacts with,9606.ENSP00000222390,9606.ENSP00000480043,True,0.733,Hepatocyte growth factor,Vascular endothelial growth factor A
+Hepatocyte growth factor,Vascular endothelial growth factor A,Binds to / Interacts with,9606.ENSP00000222390,9606.ENSP00000480043,True,0.733,Hepatocyte growth factor,Vascular endothelial growth factor A
+Interleukin-2,Interleukin-4,Binds to / Interacts with,9606.ENSP00000226730,9606.ENSP00000231449,True,0.999,Interleukin-2,Interleukin-4
+C-C motif chemokine 3,C-X-C motif chemokine 10,Activates,9606.ENSP00000477908,9606.ENSP00000305651,True,0.951,C-C motif chemokine 3,C-X-C motif chemokine 10
+C-X-C motif chemokine 11,Interferon gamma,Activates,9606.ENSP00000306884,9606.ENSP00000229135,True,0.835,C-X-C motif chemokine 11,Interferon gamma
+Interleukin-1 beta,Interleukin-8,Activates,9606.ENSP00000263341,9606.ENSP00000306512,True,0.994,Interleukin-1 beta,Interleukin-8
+Interleukin-10,Interleukin-8,Inhibits,9606.ENSP00000412237,9606.ENSP00000306512,True,0.97,Interleukin-10,Interleukin-8
+Thymic stromal lymphopoietin,Tumor necrosis factor,Inhibits,9606.ENSP00000339804,9606.ENSP00000398698,True,0.662,Thymic stromal lymphopoietin,Tumor necrosis factor
+Granulocyte colony-stimulating factor,Interleukin-1 beta,Activates,9606.ENSP00000225474,9606.ENSP00000263341,True,0.996,Granulocyte colony-stimulating factor,Interleukin-1 beta
+Granulocyte colony-stimulating factor,Tumor necrosis factor,Activates,9606.ENSP00000225474,9606.ENSP00000398698,True,0.949,Granulocyte colony-stimulating factor,Tumor necrosis factor
+Macrophage colony-stimulating factor 1,Vascular endothelial growth factor A,Activates,9606.ENSP00000327513,9606.ENSP00000480043,True,0.457,Macrophage colony-stimulating factor 1,Vascular endothelial growth factor A
+Granulocyte-macrophage colony-stimulating factor,Interleukin-2,Binds to / Interacts with,9606.ENSP00000296871,9606.ENSP00000226730,True,0.997,Granulocyte-macrophage colony-stimulating factor,Interleukin-2
+Interleukin-1 beta,Interleukin-8,Activates,9606.ENSP00000263341,9606.ENSP00000306512,True,0.994,Interleukin-1 beta,Interleukin-8
+Interferon gamma,Stromal cell-derived factor 1,Binds to / Interacts with,9606.ENSP00000229135,9606.ENSP00000379140,True,0.713,Interferon gamma,Stromal cell-derived factor 1
+Interleukin-10,Interleukin-7,Regulates,9606.ENSP00000412237,9606.ENSP00000263851,True,0.988,Interleukin-10,Interleukin-7
+Granulocyte colony-stimulating factor,Vascular endothelial growth factor A,Activates,9606.ENSP00000225474,9606.ENSP00000480043,False,0.0,Granulocyte colony-stimulating factor,Vascular endothelial growth factor A
+Interleukin-10,Interleukin-8,Inhibits,9606.ENSP00000412237,9606.ENSP00000306512,True,0.97,Interleukin-10,Interleukin-8
+Interleukin-7,Thymic stromal lymphopoietin,Regulates,9606.ENSP00000263851,9606.ENSP00000339804,True,0.869,Interleukin-7,Thymic stromal lymphopoietin
+Interferon gamma,Tumor necrosis factor,Activates,9606.ENSP00000229135,9606.ENSP00000398698,True,0.991,Interferon gamma,Tumor necrosis factor
