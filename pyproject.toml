@@ -1,0 +1,21 @@
+[project]
+name = "ProjectWork"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "bs4>=0.0.2",
+    "en-ner-jnlpba-md",
+    "faiss-cpu>=1.12.0",
+    "h5py>=3.15.1",
+    "nmslib>=2.1.2",
+    "pandas>=2.3.3",
+    "polars>=1.35.2",
+    "sentence-splitter>=1.4",
+    "spacy[cuda12x]>=3.4",
+]
+
+[tool.uv.sources]
+en-core-sci-lg = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz" }
+en-ner-jnlpba-md = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_jnlpba_md-0.5.4.tar.gz" }

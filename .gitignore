@@ -10,8 +10,11 @@ Result-v4/
 Result-v5/
 desc2025.xml
 Data.zip
-Pubmed_abstracts_csvs
-Pubmed_Baseline
-RegulaTome-corpus.tar.gz
-validate_senctences.py
 .vscode
+Data_backup
+bad_sentences.csv
+synonym_examples.csv
+validate_senctences.py
+RegulaTome-corpus.tar.gz
+Pubmed_Baseline/
+Pubmed_abstracts_csvs/
