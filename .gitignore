@@ -17,3 +17,4 @@ validate_senctences.py
 RegulaTome-corpus.tar.gz
 Pubmed_Baseline/
 Pubmed_abstracts_csvs/
+.vscode/launch.json

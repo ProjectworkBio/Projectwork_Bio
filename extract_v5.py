@@ -194,7 +194,7 @@ if __name__ == "__main__":
     files = [
         os.path.join(DATA_FOLDER, f)
         for f in os.listdir(DATA_FOLDER)
-        if f.endswith(".gz") and int(re.search(r"pubmed25n(\d+)", f).group(1)) > 802
+        if f.endswith(".gz") and int(re.search(r"pubmed25n(\d+)", f).group(1)) 
     ]
     all_rows = []
 
