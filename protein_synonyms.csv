@@ -1,0 +1,46 @@
+UniProtID,ProteinName,ProteinSynonyms,GeneName,GeneSynonyms
+Q14116,Interleukin-18,"IFN-gamma-inducing factor, IL-1 gamma, IL-18, Iboctadekin, Interferon gamma-inducing factor, Interleukin-1 gamma",IL18,"IGIF, IL1F4"
+P14210,Hepatocyte growth factor,"Hepatopoietin-A, SF, Scatter factor",HGF,HPTA
+Q99731,C-C motif chemokine 19,"Beta-chemokine exodus-3, CK beta-11, EBI1 ligand chemokine, ELC, Epstein-Barr virus-induced molecule 1 ligand chemokine, MIP-3-beta, Macrophage inflammatory protein 3 beta, Small-inducible cytokine A19",CCL19,"ELC, MIP3B, SCYA19"
+P13500,C-C motif chemokine 2,"HC11, MCAF, MCP-1, Monocyte chemoattractant protein 1, Monocyte chemotactic and activating factor, Monocyte chemotactic protein 1, Monocyte secretory protein JE, Small-inducible cytokine A2",CCL2,"MCP1, SCYA2"
+P39900,Macrophage metalloelastase,"ME, MME, MMP-12, Macrophage elastase, Matrix metalloproteinase-12, hME",MMP12,HME
+P01374,Lymphotoxin-alpha,"LT-alpha, TNF-beta, Tumor necrosis factor ligand superfamily member 1",LTA,"TNFB, TNFSF1"
+P49771,Fms-related tyrosine kinase 3 ligand,"Flt3 ligand, Flt3L, SL cytokine",FLT3LG,
+P01375,Tumor necrosis factor,"Cachectin, TNF-a, TNF-alpha, Tumor necrosis factor ligand superfamily member 2",TNF,"TNFA, TNFSF2"
+Q16552,Interleukin-17A,"CTLA-8, Cytotoxic T-lymphocyte-associated antigen 8, IL-17, IL-17A",IL17A,"CTLA8, IL17"
+P60568,Interleukin-2,"IL-2, T-cell growth factor, TCGF",IL2,
+Q96PD4,Interleukin-17F,"Cytokine ML-1, IL-17F",IL17F,
+P09919,Granulocyte colony-stimulating factor,"G-CSF, Pluripoietin",CSF3,"C17orf33, GCSF"
+P01584,Interleukin-1 beta,"Catabolin, IL-1 beta",IL1B,IL1F2
+P78380,Oxidized low-density lipoprotein receptor 1,"C-type lectin domain family 8 member A, LOX-1, Lectin-like oxLDL receptor 1, Lectin-like oxidized LDL receptor 1, Lectin-type oxidized LDL receptor 1, Ox-LDL receptor 1, hLOX-1",OLR1,"CLEC8A, LOX1"
+O43508,Tumor necrosis factor ligand superfamily member 12,"APO3 ligand, TNF-related weak inducer of apoptosis, TWEAK",TNFSF12,"APO3L, DR3LG"
+P02778,C-X-C motif chemokine 10,"10 kDa interferon gamma-induced protein, Gamma-IP10, IP-10, Small-inducible cytokine B10",CXCL10,"INP10, SCYB10"
+P15692,"Vascular endothelial growth factor A, long form","L-VEGF, VPF, Vascular permeability factor",VEGFA,VEGF
+O95760,Interleukin-33,"IL-1F11, IL-33, Interleukin-1 family member 11, NF-HEV, Nuclear factor from high endothelial venules",IL33,"C9orf26, IL1F11, NFHEV"
+Q969D9,Thymic stromal lymphopoietin,,TSLP,
+P01579,Interferon gamma,"IFN-gamma, Immune interferon",IFNG,
+P13236,C-C motif chemokine 4,"ACT-2, G-26 T-lymphocyte-secreted protein, HC21, LAG-1, Lymphocyte activation gene 1 protein, MIP-1-beta, MIP-1-beta(1-69), Macrophage inflammatory protein 1-beta, PAT 744, Protein H400, SIS-gamma, Small-inducible cytokine A4, T-cell activation protein 2",CCL4,"LAG1, MIP1B, SCYA4"
+P01135,Protransforming growth factor alpha,,TGFA,
+P35225,Interleukin-13,IL-13,IL13,NC30
+P80075,C-C motif chemokine 8,"HC14, MCP-2, Monocyte chemoattractant protein 2, Monocyte chemotactic protein 2, Small-inducible cytokine A8",CCL8,"MCP2, SCYA10, SCYA8"
+P05231,Interleukin-6,"B-cell stimulatory factor 2, BSF-2, CDF, CTL differentiation factor, Hybridoma growth factor, IFN-beta-2, IL-6, Interferon beta-2",IL6,IFNB2
+Q99616,C-C motif chemokine 13,"CK-beta-10, MCP-4, Monocyte chemoattractant protein 4, Monocyte chemotactic protein 4, NCC-1, Small-inducible cytokine A13",CCL13,"MCP4, NCC1, SCYA13"
+P04141,Granulocyte-macrophage colony-stimulating factor,"CSF, Colony-stimulating factor, GM-CSF, Molgramostin, Sargramostim",CSF2,GMCSF
+P80098,C-C motif chemokine 7,"MCP-3, Monocyte chemoattractant protein 3, Monocyte chemotactic protein 3, NC28, Small-inducible cytokine A7",CCL7,"MCP3, SCYA6, SCYA7"
+P05112,Interleukin-4,"B-cell stimulatory factor 1, BSF-1, Binetrakin, IL-4, Lymphocyte stimulatory factor 1, Pitrakinra",IL4,
+P50591,Tumor necrosis factor ligand superfamily member 10,"Apo-2 ligand, Apo-2L, Protein TRAIL, TNF-related apoptosis-inducing ligand",TNFSF10,"APO2L, TRAIL"
+P13725,Oncostatin-M,OSM,OSM,
+P03956,Interstitial collagenase,"Fibroblast collagenase, MMP-1, Matrix metalloproteinase-1",MMP1,CLG
+P01133,Pro-epidermal growth factor,EGF,EGF,
+P13232,Interleukin-7,IL-7,IL7,
+P40933,Interleukin-15,IL-15,IL15,
+P09603,Macrophage colony-stimulating factor 1,"CSF-1, Lanimostim, M-CSF, MCSF, PG-M-CSF, Proteoglycan macrophage colony-stimulating factor",CSF1,
+Q07325,C-X-C motif chemokine 9,"Gamma-interferon-induced monokine, HuMIG, MIG, Monokine induced by interferon-gamma, Small-inducible cytokine B9",CXCL9,"CMK, MIG, SCYB9"
+O14625,C-X-C motif chemokine 11,"Beta-R1, H174, I-TAC, IP-9, Interferon gamma-inducible protein 9, Interferon-inducible T-cell alpha chemoattractant, Small-inducible cytokine B11",CXCL11,"ITAC, SCYB11, SCYB9B"
+Q9P0M4,Interleukin-17C,"Cytokine CX2, IL-17C",IL17C,
+P48061,Stromal cell-derived factor 1,"C-X-C motif chemokine 12, IRH, Intercrine reduced in hepatomas, PBSF, Pre-B cell growth-stimulating factor, SDF-1, hIRH, hSDF-1",CXCL12,"SDF1, SDF1A, SDF1B"
+P51671,Eotaxin,"C-C motif chemokine 11, Eosinophil chemotactic protein, Small-inducible cytokine A11",CCL11,SCYA11
+P22301,Interleukin-10,"CSIF, Cytokine synthesis inhibitory factor, IL-10",IL10,
+P10147,C-C motif chemokine 3,"G0/G1 switch regulatory protein 19-1, MIP-1-alpha, Macrophage inflammatory protein 1-alpha, PAT 464.1, SIS-beta, Small-inducible cytokine A3, Tonsillar lymphocyte LD78 alpha protein",CCL3,"G0S19-1, MIP1A, SCYA3"
+Q8NEV9,Interleukin-27 subunit alpha,"IL-27 subunit alpha, IL-27-A, IL27-A, Interleukin-30, p28",IL27,"IL27A, IL30"
+P10145,Interleukin-8,"C-X-C motif chemokine 8, Chemokine (C-X-C motif) ligand 8, Emoctakin, GCP-1, Granulocyte chemotactic protein 1, IL-8, MDNCF, MONAP, Monocyte-derived neutrophil chemotactic factor, Monocyte-derived neutrophil-activating peptide, NAP-1, Neutrophil-activating protein 1, Protein 3-10C, T-cell chemotactic factor",CXCL8,IL8
