@@ -2,22 +2,22 @@ import polars as pl
 import re
 
 syn_file = "protein_synonyms.csv"        
-pubmed_files = "Result-v4\\all_results_cleaned.csv"      
+pubmed_files = "Result-v6\\all_results_concatenated.csv"      
 output_file = "synonym_pubmed_frequencies.csv"
 EXAMPLES_FILE = "synonym_examples.csv"
 
 syn_df = pl.read_csv(syn_file)
 pub_df = pl.read_csv(pubmed_files)
-texts = pub_df["Relevant_Sentences"].to_list()
+texts = pub_df["Sentence"].to_list()
 
 syn_exploded = (
     syn_df.with_columns(
-        pl.col("Synonyms").str.split(";").alias("Syn_List")
+        pl.col("ProteinSynonyms").str.split(";").alias("Syn_List")
     )
     .explode("Syn_List")
     .with_columns(pl.col("Syn_List").str.strip_chars().alias("Synonym"))
     .drop_nulls("Synonym")
-    .select(["Protein", "Synonym"])
+    .select(["ProteinName", "Synonym"])
     .unique()
 )
 
@@ -34,7 +34,7 @@ examples = []
 MAX_EXAMPLES = 3
 
 for rec in syn_exploded.iter_rows(named=True):
-    protein = rec["Protein"]
+    protein = rec["ProteinName"]
     synonym = rec["Synonym"]
     if not synonym or synonym.strip() == "":
         continue
@@ -59,7 +59,7 @@ for rec in syn_exploded.iter_rows(named=True):
 results = pl.DataFrame(rows, schema=["Protein", "Synonym", "Mentions"], orient="row")
 results = results.sort("Mentions", descending=True)
 
-examples_df = pl.DataFrame(examples, schema=["Protein", "Synonym", "Example_Sentence"], orient="row")
+examples_df = pl.DataFrame(examples, schema=["Protein", "ProteinSynonyms", "Example_Sentence"], orient="row")
 
 results.write_csv(output_file)
 examples_df.write_csv(EXAMPLES_FILE)
