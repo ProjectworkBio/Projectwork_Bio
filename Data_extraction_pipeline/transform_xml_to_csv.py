@@ -7,8 +7,8 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from tqdm import tqdm
 
 INPUT_DIR = Path("Pubmed_Baseline")
-OUTPUT_DIR = Path("Pubmed_abstracts_csvs")
-OUTPUT_DIR.mkdir(exist_ok=True)
+OUTPUT_DIR_TRANSF = Path("Pubmed_abstracts_csvs")
+OUTPUT_DIR_TRANSF.mkdir(exist_ok=True)
 NUM_WORKERS = os.cpu_count()
 
 # Worker function: Extract PubMedID and AbstractText from a .xml.gz, write to CSV. Returns the filename if successful.
@@ -65,7 +65,7 @@ def main():
     with ProcessPoolExecutor(max_workers=NUM_WORKERS) as executor:
 
         for xml_file in files:
-            out_file = OUTPUT_DIR / (xml_file.stem.replace(".xml", "") + ".csv")
+            out_file = OUTPUT_DIR_TRANSF / (xml_file.stem.replace(".xml", "") + ".csv")
             # Skip already processed files
             if out_file.exists():
                 continue
