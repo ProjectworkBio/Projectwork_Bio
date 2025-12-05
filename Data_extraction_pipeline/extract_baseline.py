@@ -11,12 +11,10 @@ OUTPUT_DIR = Path("Pubmed_Baseline")
 NUM_THREADS = 10   # Increase for faster download
 
 def list_files(url): 
-    resp = requests.get(url)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
-
+    r = requests.get(url)
+    r.raise_for_status()
+    soup=BeautifulSoup(r.text,"html.parser")
     files = [a["href"] for a in soup.find_all("a", href=True) if a["href"].endswith(".xml.gz")]
-    print(f"Found {len(files)} files.")
     return sorted(set(files))
 
 

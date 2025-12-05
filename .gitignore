@@ -8,8 +8,12 @@ Result-v2/
 Result-v3/
 Result-v4/
 Result-v5/
+Result-v6/
+Result-v7/
+Results_all
 desc2025.xml
 Data.zip
+.vscode
 Data_backup
 bad_sentences.csv
 synonym_examples.csv
@@ -17,4 +21,7 @@ validate_senctences.py
 RegulaTome-corpus.tar.gz
 Pubmed_Baseline/
 Pubmed_abstracts_csvs/
+<<<<<<< HEAD
 omicsviz/node_modules
+=======
+>>>>>>> 44d05cc3b9fa04340334884f50de4625762b82b7
