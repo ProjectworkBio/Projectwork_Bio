@@ -20,8 +20,8 @@ warnings.simplefilter("ignore", FutureWarning)
 
 DATA_FOLDER = "Pubmed_abstracts_csvs"
 OUT_FOLDER = "Result-v5"
-# MODEL_NAME = "en_ner_jnlpba_md"
-MODEL_NAME = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_jnlpba_md-0.5.4.tar.gz"
+MODEL_NAME = "en_ner_jnlpba_md"
+# MODEL_NAME = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_jnlpba_md-0.5.4.tar.gz"
 PROTEIN_LIST = "protein_synonyms.csv"
 SIM_THRESHOLD = 0.85
 MIN_TOKEN_OVERLAP = 0.7

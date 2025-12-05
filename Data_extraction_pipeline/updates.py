@@ -37,18 +37,18 @@ BASELINE_FILE_NAME = Path("Result-v5/results_protein_matches.csv")
 UPDATES_FILE_NAME = Path("Result-updates/results_protein_matches.csv")
 
 # Global variables for the transform_xml_to_csv code
-transf.OUTPUT_DIR_TRANSF = Path("Pubmed_abstracts_updates_csvs")
+transf.OUTPUT_DIR = Path("Pubmed_abstracts_updates_csvs")
 transf.INPUT_DIR = Path("Pubmed_Updates")
-transf.OUTPUT_DIR_TRANSF.mkdir(parents=True, exist_ok=True)
+transf.OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 transf.NUM_WORKERS = NUM_WORKERS
 
 # Global variables for the extract_baseline code
 extr.URL = "https://ftp.ncbi.nlm.nih.gov/pubmed/updatefiles/"
-extr.OUTPUT_DIR_EXTR = Path("Pubmed_Updates")
-extr.OUTPUT_DIR_EXTR.mkdir(parents=True, exist_ok=True)
+extr.OUTPUT_DIR = Path("Pubmed_Updates")
+extr.OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Global variables for the filter code
-filter.DATA_FOLDER = str(transf.OUTPUT_DIR_TRANSF)
+filter.DATA_FOLDER = str(transf.OUTPUT_DIR)
 filter.OUT_FOLDER = str(Path("Result-updates"))
 Path(filter.OUT_FOLDER).mkdir(parents=True, exist_ok=True)
 
@@ -131,7 +131,7 @@ def xml_to_csv():
     futures = []
     with ProcessPoolExecutor(max_workers=transf.NUM_WORKERS) as executor:
         for xml_file in files:
-            out_file = transf.OUTPUT_DIR_TRANSF / (xml_file.stem.replace(".xml", "") + ".csv")
+            out_file = transf.OUTPUT_DIR / (xml_file.stem.replace(".xml", "") + ".csv")
             # Skip already processed files
             if out_file.exists():
                 continue
@@ -284,8 +284,8 @@ def main_cli():
 
     # Apply CLI overrides to module-level settings
     transf.NUM_WORKERS = max(1, args.workers)
-    extr.OUTPUT_DIR_EXTR.mkdir(parents=True, exist_ok=True)
-    transf.OUTPUT_DIR_TRANSF.mkdir(parents=True, exist_ok=True)
+    extr.OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    transf.OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     filter.OUT_FOLDER = str(Path(args.updates).parent)
 
     baseline_path = Path(args.baseline)
