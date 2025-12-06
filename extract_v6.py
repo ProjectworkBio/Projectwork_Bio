@@ -155,9 +155,28 @@ if __name__ == "__main__":
     for row in df.iter_rows(named=True):
         name = row['ProteinName']
         uniprot = row['UniProtID']
+        # Collect all token sources
+        token_sources = [name]
+
+        if row.get("ProteinSynonyms"):
+            token_sources.extend(str(row["ProteinSynonyms"]).split(";"))
+
+        if row.get("GeneName"):
+            token_sources.append(str(row["GeneName"]))
+
+        if row.get("GeneSynonyms"):
+            token_sources.extend(str(row["GeneSynonyms"]).split(";"))
+
+        #Store primary protein name (unchanged behavior)
         protein_names.append(name)
         protein_map[name] = uniprot
-        protein_token_sets[name] = set(normalize(name).split())
+
+        #NEW: Build token set from ALL sources
+        all_tokens = set()
+        for src in token_sources:
+            all_tokens.update(normalize(src).split())
+
+        protein_token_sets[name] = all_tokens
 
         doc = nlp_tmp(name)
         token_vecs = [t.vector for t in doc if t.has_vector and t.vector is not None and t.vector.size > 0]
