@@ -1,70 +1,44 @@
-import polars as pl
-import re
+import os
+import pandas as pd
+from collections import Counter
 
-syn_file = "protein_synonyms.csv"        
-pubmed_files = "Result-v6\\all_results_concatenated.csv"      
-output_file = "synonym_pubmed_frequencies.csv"
-EXAMPLES_FILE = "synonym_examples.csv"
+RESULT_FOLDER = "Result-v1"   # Folder with *_filtered.csv files
+OUTPUT_FILE = "protein_frequency_stats.csv"
 
-syn_df = pl.read_csv(syn_file)
-pub_df = pl.read_csv(pubmed_files)
-texts = pub_df["Sentence"].to_list()
+all_files = [
+    os.path.join(RESULT_FOLDER, f)
+    for f in os.listdir(RESULT_FOLDER)
+    if f.endswith("_filtered.csv")
+]
 
-syn_exploded = (
-    syn_df.with_columns(
-        pl.col("ProteinSynonyms").str.split(";").alias("Syn_List")
-    )
-    .explode("Syn_List")
-    .with_columns(pl.col("Syn_List").str.strip_chars().alias("Synonym"))
-    .drop_nulls("Synonym")
-    .select(["ProteinName", "Synonym"])
-    .unique()
-)
+if not all_files:
+    raise RuntimeError("No *_filtered.csv files found in Result folder!")
 
-# build safe regex
-def make_pattern(syn: str) -> re.Pattern:
-    s = re.sub(r"\s+", " ", syn.strip())
-    esc = re.escape(s)
-    pattern = rf"(?<!\w){esc}(?!\w)"
-    return re.compile(pattern, flags=re.IGNORECASE)
+protein_counter = Counter()
+total_abstracts = 0
 
-# Count matches
-rows = []
-examples = []
-MAX_EXAMPLES = 3
+for file in all_files:
+    df = pd.read_csv(file)
 
-for rec in syn_exploded.iter_rows(named=True):
-    protein = rec["ProteinName"]
-    synonym = rec["Synonym"]
-    if not synonym or synonym.strip() == "":
-        continue
-    pat = make_pattern(synonym)
-    total = 0
-    sample_sentences = []
+    for proteins in df["Matched_Chemicals"].dropna():
+        protein_list = [p.strip() for p in proteins.split(";") if p.strip()]
 
-    for t in texts:
-        if not t:
-            continue
-        matches = pat.findall(str(t))
-        if matches:
-            total += len(matches)
-            if len(sample_sentences) < MAX_EXAMPLES:
-                sample_sentences.append(t)
+        for protein in protein_list:
+            protein_counter[protein] += 1
 
-    rows.append((protein, synonym, total))
-    for s in sample_sentences:
-        examples.append((protein, synonym, s))
+    total_abstracts += len(df)
 
-# Convert to Polars DataFrames 
-results = pl.DataFrame(rows, schema=["Protein", "Synonym", "Mentions"], orient="row")
-results = results.sort("Mentions", descending=True)
+stats_df = pd.DataFrame(
+    protein_counter.items(),
+    columns=["Protein", "Occurrence_Count"]
+).sort_values(by="Occurrence_Count", ascending=False)
 
-examples_df = pl.DataFrame(examples, schema=["Protein", "ProteinSynonyms", "Example_Sentence"], orient="row")
+stats_df.to_csv(OUTPUT_FILE, index=False)
 
-results.write_csv(output_file)
-examples_df.write_csv(EXAMPLES_FILE)
+print("\nPROTEIN OCCURRENCE STATISTICS COMPLETE")
+print(f"Total abstracts analyzed: {total_abstracts}")
+print(f"Total unique proteins: {len(stats_df)}")
+print(f"Results saved to: {OUTPUT_FILE}")
 
-print(f"Done. Saved counts to: {output_file}")
-print(f"Example sentences saved to: {EXAMPLES_FILE}")
-print("\nTop 10 synonyms by mention count:")
-print(results.head(10))
+print("\nTOP 20 MOST FREQUENT PROTEINS:")
+print(stats_df.head(20).to_string(index=False))
