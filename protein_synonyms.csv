@@ -15,7 +15,7 @@ P01584,Interleukin-1 beta,"Catabolin, IL-1 beta",IL1B,IL1F2
 P78380,Oxidized low-density lipoprotein receptor 1,"C-type lectin domain family 8 member A, LOX-1, Lectin-like oxLDL receptor 1, Lectin-like oxidized LDL receptor 1, Lectin-type oxidized LDL receptor 1, Ox-LDL receptor 1, hLOX-1",OLR1,"CLEC8A, LOX1"
 O43508,Tumor necrosis factor ligand superfamily member 12,"APO3 ligand, TNF-related weak inducer of apoptosis, TWEAK",TNFSF12,"APO3L, DR3LG"
 P02778,C-X-C motif chemokine 10,"10 kDa interferon gamma-induced protein, Gamma-IP10, IP-10, Small-inducible cytokine B10",CXCL10,"INP10, SCYB10"
-P15692,"Vascular endothelial growth factor A, long form","L-VEGF, VPF, Vascular permeability factor",VEGFA,VEGF
+P15692,"Vascular endothelial growth factor A","L-VEGF, VPF, Vascular permeability factor",VEGFA,VEGF
 O95760,Interleukin-33,"IL-1F11, IL-33, Interleukin-1 family member 11, NF-HEV, Nuclear factor from high endothelial venules",IL33,"C9orf26, IL1F11, NFHEV"
 Q969D9,Thymic stromal lymphopoietin,,TSLP,
 P01579,Interferon gamma,"IFN-gamma, Immune interferon",IFNG,
@@ -42,5 +42,5 @@ P48061,Stromal cell-derived factor 1,"C-X-C motif chemokine 12, IRH, Intercrine 
 P51671,Eotaxin,"C-C motif chemokine 11, Eosinophil chemotactic protein, Small-inducible cytokine A11",CCL11,SCYA11
 P22301,Interleukin-10,"CSIF, Cytokine synthesis inhibitory factor, IL-10",IL10,
 P10147,C-C motif chemokine 3,"G0/G1 switch regulatory protein 19-1, MIP-1-alpha, Macrophage inflammatory protein 1-alpha, PAT 464.1, SIS-beta, Small-inducible cytokine A3, Tonsillar lymphocyte LD78 alpha protein",CCL3,"G0S19-1, MIP1A, SCYA3"
-Q8NEV9,Interleukin-27 subunit alpha,"IL-27 subunit alpha, IL-27-A, IL27-A, Interleukin-30, p28",IL27,"IL27A, IL30"
+Q8NEV9,Interleukin-27,"IL-27 subunit alpha, IL-27-A, IL27-A, Interleukin-30, p28",IL27,"IL27A, IL30"
 P10145,Interleukin-8,"C-X-C motif chemokine 8, Chemokine (C-X-C motif) ligand 8, Emoctakin, GCP-1, Granulocyte chemotactic protein 1, IL-8, MDNCF, MONAP, Monocyte-derived neutrophil chemotactic factor, Monocyte-derived neutrophil-activating peptide, NAP-1, Neutrophil-activating protein 1, Protein 3-10C, T-cell chemotactic factor",CXCL8,IL8
