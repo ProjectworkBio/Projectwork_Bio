@@ -50,9 +50,7 @@ def process_csv(file_path):
                     found_uniprot_ids.append(info["uniprot"])
                     found_names.append(info["name"])
 
-            # If any proteins matched → store ONE row per sentence
             if found_uniprot_ids:
-                # if "Q99616" in found_uniprot_ids:
                     matches.append({
                         "PubMedId": pmid,
                         "Matched_Proteins_UniProtId": ";".join(found_uniprot_ids),
