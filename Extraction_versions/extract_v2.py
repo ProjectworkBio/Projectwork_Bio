@@ -1,95 +1,89 @@
 import os
-import gzip
-import xml.etree.ElementTree as ET
 import pandas as pd
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing
+from sentence_splitter import SentenceSplitter
 
-# Protein list
-proteins = [
-    "Interleukin-18", "Hepatocyte growth factor", "C-C motif chemokine 19",
-    "C-C motif chemokine 2", "Macrophage metalloelastase", "Lymphotoxin-alpha",
-    "Fms-related tyrosine kinase 3 ligand", "Tumor necrosis factor",
-    "Interleukin-17A", "Interleukin-17F", "Interleukin-17C", "Interleukin-2",
-    "Granulocyte colony-stimulating factor", "Interleukin-1 beta",
-    "Oxidized low-density lipoprotein receptor 1",
-    "Tumor necrosis factor ligand superfamily member 12",
-    "C-X-C motif chemokine 10", "Vascular endothelial growth factor A",
-    "Interleukin-33", "Thymic stromal lymphopoietin", "Interferon gamma",
-    "C-C motif chemokine 4", "Protransforming growth factor alpha",
-    "Interleukin-13", "Interleukin-8", "C-C motif chemokine 8", "Interleukin-6",
-    "C-C motif chemokine 13", "Granulocyte-macrophage colony-stimulating factor",
-    "C-C motif chemokine 7", "Interleukin-4",
-    "Tumor necrosis factor ligand superfamily member 10", "Oncostatin-M",
-    "Interstitial collagenase", "Pro-epidermal growth factor",
-    "Interleukin-7", "Interleukin-15", "Macrophage colony-stimulating factor 1",
-    "C-X-C motif chemokine 9", "C-X-C motif chemokine 11", "Interleukin-17C",
-    "Stromal cell-derived factor 1", "Eotaxin", "Interleukin-10",
-    "C-C motif chemokine 3", "Interleukin-27"
-]
+def load_proteins(csv_path):
+    df = pd.read_csv(csv_path)
+    protein_dict = {}
+    for _, row in df.iterrows():
+        uni = str(row["UniProtID"]).strip()
+        name = str(row["ProteinName"]).strip()
 
-def process_file(file_path):
-    matches = []
+        protein_dict[name.lower()] = {
+            "uniprot": uni,
+            "name": name
+        }
+    return protein_dict
+
+protein_data = load_proteins("protein_synonyms.csv")
+splitter = SentenceSplitter(language="en")
+
+def process_csv(file_path):
     filename = os.path.basename(file_path)
+    print(f"Processing {filename} ...")
 
-    try:
-        with gzip.open(file_path, "rt", encoding="utf-8") as f:
-            try:
-                tree = ET.parse(f)
-            except ET.ParseError as e:
-                print(f"⚠️ XML parse error in {filename}: {e}")
-                return 0
+    df = pd.read_csv(file_path)
+    matches = []
 
-            root = tree.getroot()
-            for article in root.findall(".//PubmedArticle"):
-                lang = article.findtext(".//Language")
-                if lang != "eng":
-                    continue
+    # Precompute lowercase protein names for fast matching
+    protein_names_lower = list(protein_data.keys())
 
-                # Combine title and abstract for searching
-                texts = []
-                title = article.findtext(".//ArticleTitle")
-                if title:
-                    texts.append(title)
-                abstracts = [abst.text for abst in article.findall(".//Abstract/AbstractText") if abst.text]
-                texts.extend(abstracts)
-                combined_text = " ".join(texts).lower()
+    for _, row in df.iterrows():
+        pmid = row["PubMedID"]
+        abstract = str(row["AbstractText"])
 
-                matched_proteins = [p for p in proteins if p.lower() in combined_text]
-                if not matched_proteins:
-                    continue
+        # Split into sentences
+        sentences = splitter.split(abstract)
 
-                abstract_text = " ".join(abstracts) if abstracts else ""
-                pubmed_id = article.findtext(".//ArticleId[@IdType='pubmed']")
+        for sentence in sentences:
+            sent_lower = sentence.lower()
 
-                matches.append({
-                    "PubMedID": pubmed_id,
-                    "Matched_Proteins": "; ".join(matched_proteins),
-                    "Abstract": abstract_text
-                })
+            # Store found proteins for this sentence
+            found_uniprot_ids = []
+            found_names = []
 
-    except Exception as e:
-        print(f"Error reading {filename}: {e}")
-        return 0
+            for prot_lower in protein_names_lower:
+                if prot_lower in sent_lower:
+                    info = protein_data[prot_lower]
+                    found_uniprot_ids.append(info["uniprot"])
+                    found_names.append(info["name"])
+
+            # If any proteins matched → store ONE row per sentence
+            if found_uniprot_ids:
+                # if "Q99616" in found_uniprot_ids:
+                    matches.append({
+                        "PubMedId": pmid,
+                        "Matched_Proteins_UniProtId": ";".join(found_uniprot_ids),
+                        "Matched_Proteins_Name": ";".join(found_names),
+                        "Sentence": sentence.strip()
+                    })
 
     if matches:
-        os.makedirs("Result", exist_ok=True)
-        output_filename = os.path.splitext(filename)[0] + "_proteins.csv"
-        output_path = os.path.join("Result", output_filename)
-        df = pd.DataFrame(matches)
-        df.to_csv(output_path, index=False)
-        print(f"✅ {filename}: {len(matches)} matches saved to {output_filename}")
+        os.makedirs("Result-v2", exist_ok=True)
+        outname = os.path.splitext(filename)[0] + "_sentences.csv"
+        outpath = os.path.join("Result-v2", outname)
+        pd.DataFrame(matches).to_csv(outpath, index=False)
+        print(f"Saved {len(matches)} sentences to {outname}")
         return len(matches)
 
     return 0
 
+
+
 if __name__ == "__main__":
     multiprocessing.freeze_support()
-    data_folder = "Data"
-    gz_files = [os.path.join(data_folder, f) for f in os.listdir(data_folder) if f.endswith(".gz")]
 
-    with ProcessPoolExecutor() as executor:
-        results = list(executor.map(process_file, gz_files))
+    data_folder = "PubMed_abstracts_csvs"
+    input_files = [
+        os.path.join(data_folder, f)
+        for f in os.listdir(data_folder)
+        if f.endswith(".csv")
+    ]
 
-    print("\n✅ All files processed!")     
+    with ProcessPoolExecutor(max_workers=10) as executor:
+        results = list(executor.map(process_csv, input_files))
+
+    print("\nDone!")
     print("Matches per file:", results)
