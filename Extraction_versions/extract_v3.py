@@ -1,92 +1,108 @@
 import os
-import gzip
-import xml.etree.ElementTree as ET
+import re
 import pandas as pd
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing
+from sentence_splitter import SentenceSplitter
 
-# === Load protein synonyms ===
-syn_df = pd.read_csv("protein_synonyms.csv")
+def load_synonyms(csv_path):
+    df = pd.read_csv(csv_path)
+    synonym_data = {}
 
-# Create mapping: canonical name -> list of synonyms (lowercase for fast search)
-protein_synonyms = {
-    row["Protein"]: [s.strip().lower() for s in str(row["Synonyms"]).split(";") if s.strip()]
-    for _, row in syn_df.iterrows()
-}
+    for _, row in df.iterrows():
+        name = str(row["ProteinName"]).strip()
+        uniprot_id = str(row.get("UniProtID", "")).strip()
+        synonyms = set()
+        synonyms.add(name)
 
-# Flatten all possible protein terms for search
-all_terms = set()
-for syns in protein_synonyms.values():
-    all_terms.update(syns)
+        # Protein synonyms
+        if pd.notna(row.get("ProteinSynonyms")):
+            for s in str(row["ProteinSynonyms"]).split(","):
+                synonyms.add(s.strip())
 
-print(f"✅ Loaded {len(protein_synonyms)} proteins with {len(all_terms)} total synonyms.")
+        # Gene name
+        if pd.notna(row.get("GeneName")):
+            synonyms.add(str(row["GeneName"]).strip())
 
+        # Gene synonyms
+        if pd.notna(row.get("GeneSynonyms")):
+            for s in str(row["GeneSynonyms"]).split(","):
+                synonyms.add(s.strip())
 
-def process_file(file_path):
-    matches = []
+        patterns = []
+        for syn in synonyms:
+            syn_escaped = re.escape(syn)
+            # \b matches word boundaries, but also handle parentheses/brackets
+            pattern = rf'(?<!\w){syn_escaped}(?!\w)'
+            patterns.append(pattern)
+
+        synonym_data[name] = {
+            "uniprot": uniprot_id,
+            "synonyms": synonyms,
+            "regex": re.compile("|".join(patterns), re.IGNORECASE)
+        }
+
+    return synonym_data
+
+synonym_data = load_synonyms("protein_synonyms.csv")
+splitter = SentenceSplitter(language="en")
+
+def process_csv(file_path):
     filename = os.path.basename(file_path)
+    print(f"Processing {filename} ...")
 
-    try:
-        with gzip.open(file_path, "rt", encoding="utf-8") as f:
-            try:
-                tree = ET.parse(f)
-            except ET.ParseError as e:
-                print(f"⚠️ XML parse error in {filename}: {e}")
-                return 0
+    df = pd.read_csv(file_path)
+    results = []
 
-            root = tree.getroot()
-            for article in root.findall(".//PubmedArticle"):
-                lang = article.findtext(".//Language")
-                if lang != "eng":
-                    continue
+    for _, row in df.iterrows():
+        pmid = row["PubMedID"]
+        abstract = str(row["AbstractText"])
+        sentences = splitter.split(abstract)
 
-                # Extract abstract only (no title)
-                abstracts = [abst.text for abst in article.findall(".//Abstract/AbstractText") if abst.text]
-                if not abstracts:
-                    continue
-                abstract_text = " ".join(abstracts)
-                abstract_lower = abstract_text.lower()
+        for sentence in sentences:
+            sentence_clean = sentence.strip()
+            if not sentence_clean:
+                continue
 
-                # Find all matching protein terms
-                matched_proteins = []
-                for prot, syns in protein_synonyms.items():
-                    if any(syn in abstract_lower for syn in syns):
-                        matched_proteins.append(prot)
+            matched_synonyms = []
+            matched_uniprot_ids = []
 
-                if not matched_proteins:
-                    continue
+            for _, info in synonym_data.items():
+                matches = info["regex"].findall(sentence_clean)
+                if matches:
+                    matched_synonyms.extend(matches)
+                    matched_uniprot_ids.append(info["uniprot"])
 
-                pubmed_id = article.findtext(".//ArticleId[@IdType='pubmed']")
-                matches.append({
-                    "PubMedID": pubmed_id,
-                    "Matched_Proteins": "; ".join(sorted(set(matched_proteins))),
-                    "Abstract": abstract_text
+            if matched_synonyms:
+                results.append({
+                    "PubMedID": pmid,
+                    "Matched_Proteins_UniProtId": ";".join(matched_uniprot_ids),
+                    "Matched_Synonym": ";".join(matched_synonyms),
+                    "Sentence": sentence_clean
                 })
 
-    except Exception as e:
-        print(f"⚠️ Error reading {filename}: {e}")
-        return 0
-
-    # Save matches
-    if matches:
+    if results:
         os.makedirs("Result-v3", exist_ok=True)
-        output_filename = os.path.splitext(filename)[0] + "_matches.csv"
-        output_path = os.path.join("Result-v3", output_filename)
-        df = pd.DataFrame(matches)
-        df.to_csv(output_path, index=False)
-        print(f"✅ {filename}: {len(matches)} matches saved to {output_filename}")
-        return len(matches)
+        outname = os.path.splitext(filename)[0] + "_sentences.csv"
+        outpath = os.path.join("Result-v3", outname)
+        pd.DataFrame(results).to_csv(outpath, index=False)
+        print(f"Saved {len(results)} sentences → {outname}")
+        return len(results)
 
     return 0
 
-
 if __name__ == "__main__":
     multiprocessing.freeze_support()
-    data_folder = "Data"
-    gz_files = [os.path.join(data_folder, f) for f in os.listdir(data_folder) if f.endswith(".gz")]
 
-    with ProcessPoolExecutor() as executor:
-        results = list(executor.map(process_file, gz_files))
+    data_folder = "PubMed_abstracts_csvs"
+    input_files = [
+        os.path.join(data_folder, f)
+        for f in os.listdir(data_folder)
+        if f.endswith(".csv")
+    ]
 
-    print("\n✅ All files processed!")
+    with ProcessPoolExecutor(max_workers=10) as executor:
+        results = list(executor.map(process_csv, input_files))
+
+    print("\nDone!")
     print("Matches per file:", results)
