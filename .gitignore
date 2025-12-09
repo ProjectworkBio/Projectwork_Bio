@@ -21,7 +21,5 @@ validate_senctences.py
 RegulaTome-corpus.tar.gz
 Pubmed_Baseline/
 Pubmed_abstracts_csvs/
-<<<<<<< HEAD
-omicsviz/node_modules
-=======
->>>>>>> 44d05cc3b9fa04340334884f50de4625762b82b7
+Helper_functions/graph.py
+Figures/
