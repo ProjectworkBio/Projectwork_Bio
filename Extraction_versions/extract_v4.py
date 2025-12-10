@@ -1,115 +1,168 @@
 import os
-import gzip
-import xml.etree.ElementTree as ET
-import pandas as pd
-import re
+import glob
+import polars as pl
+import spacy
+from spacy.matcher import PhraseMatcher
 from concurrent.futures import ProcessPoolExecutor
-import multiprocessing
-from sentence_splitter import SentenceSplitter, split_text_into_sentences
+import re
+import time
+import logging
+import warnings
 
-# Load protein synonyms
-syn_df = pd.read_csv("protein_synonyms.csv")
+logging.basicConfig(
+    level=logging.INFO,
+    format='[%(asctime)s] [%(levelname)s] %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+logger = logging.getLogger(__name__)
+warnings.simplefilter("ignore", FutureWarning)
 
-# Normalize a synonym (lowercase, hyphen/space-insensitive)
-def normalize_synonym(s):
-    return re.sub(r'[-\s]+', '', s.strip().lower())
+DATA_FOLDER = "Pubmed_abstracts_csvs"
+OUT_FOLDER = "Result-v4"
+NER_MODEL = "en_ner_jnlpba_md"
+NLP_MODEL = "en_core_sci_lg"
+PROTEIN_LIST = "protein_synonyms.csv"
+SIM_THRESHOLD = 0.9
+BATCH_SIZE = 500
+N_WORKERS = 2
 
-# Create mapping: canonical name -> list of normalized synonyms
-protein_synonyms = {}
-for _, row in syn_df.iterrows():
-    all_names = [row["Protein"]] + str(row["Synonyms"]).replace("\t", " ").split(";")
-    cleaned = list(set(normalize_synonym(s) for s in all_names if s.strip()))
-    protein_synonyms[row["Protein"].strip()] = cleaned
+def normalize(text: str) -> str:
+    text = text.lower().strip()
+    text = re.sub(r"[^a-z0-9\- ]+", "", text)
+    return re.sub(r"\s+", " ", text)
 
-# Flatten for info
-all_terms = {s for syns in protein_synonyms.values() for s in syns}
-print(f"✅ Loaded {len(protein_synonyms)} proteins with {len(all_terms)} total normalized synonyms.")
+def token_overlap(protein_tokens: set, sent_tokens: set) -> int:
+    return len(protein_tokens & sent_tokens)
 
+nlp_ner = None
+nlp_vec = None
+protein_spans = None
+protein_token_sets = None
 
-# === Sentence splitting regex ===
-# sentence_splitter = re.compile(r'(?<=[.!?])\s+(?=[A-Z0-9])')
+def worker_init(prot_spans):
+    global nlp_ner, nlp_vec, protein_spans
 
-splitter = SentenceSplitter(language='en')
+    nlp_ner = spacy.load("en_ner_jnlpba_md", exclude=["tagger", "lemmatizer", "attribute_ruler", "textcat"])
+    nlp_vec = spacy.load("en_core_sci_lg", exclude=["ner", "tagger", "parser", "lemmatizer", "attribute_ruler", "textcat"])
+    protein_spans = prot_spans
 
-# Normalize text for flexible matching (case-insensitive, remove hyphens/spaces)
-def normalize_text(text):
-    return re.sub(r'[-\s]+', '', text.lower())
+    logger.info("Worker initialized (NER + SciSpaCy vectors).")
 
-def process_file(file_path):
-    matches = []
+def process_csv_file(file_path):
+    start_time = time.time()
     filename = os.path.basename(file_path)
+    df = pl.read_csv(file_path)
+    results = []
 
-    try:
-        with gzip.open(file_path, "rt", encoding="utf-8") as f:
-            try:
-                tree = ET.parse(f)
-            except ET.ParseError as e:
-                print(f"⚠️ XML parse error in {filename}: {e}")
-                return 0
+    for row in df.iter_rows(named=True):
+        pmid = row["PubMedID"]
+        abstract = row["AbstractText"]
+        if not abstract:
+            continue
 
-            root = tree.getroot()
-            for article in root.findall(".//PubmedArticle"):
-                lang = article.findtext(".//Language")
-                if lang != "eng":
+        # Run NER on the full abstract
+        doc = nlp_ner(abstract)
+
+        # Process each sentence separately
+        for sent in doc.sents:
+            sent_doc = nlp_ner(sent.text)
+
+            # Extract protein NER entities from this sentence
+            protein_entities = [ent for ent in sent_doc.ents if ent.label_ == "PROTEIN"]
+            if not protein_entities:
+                continue  # skip sentences without proteins
+
+            matched = []
+            other = []
+
+            # Step 2: similarity check in sci_lg vector space
+            for ent in protein_entities:
+                ent_vec = nlp_vec(ent.text)
+
+                if not ent_vec.has_vector:
+                    other.append(ent.text)
                     continue
 
-                # Extract abstract text
-                abstracts = [abst.text for abst in article.findall(".//Abstract/AbstractText") if abst.text]
-                if not abstracts:
-                    continue
-                abstract_text = " ".join(abstracts)
-                # sentences = re.split(sentence_splitter, abstract_text)
-                sentences = splitter.split(abstract_text)
+                is_match = False
+                for ref_name, ref_span in protein_spans.items():
+                    if ref_span.has_vector:
+                        sim = ent_vec.similarity(ref_span)
+                        if sim >= SIM_THRESHOLD:
+                            is_match = True
+                            break
 
-                relevant_sentences = []
-                proteins_in_abstract = set()
+                if is_match:
+                    matched.append(ent.text)
+                else:
+                    other.append(ent.text)
 
-                for sent in sentences:
-                    sent_norm = normalize_text(sent)
-                    matched = set()
+            if matched:
+                matched = list(dict.fromkeys(matched))
+                other = list(dict.fromkeys(other))
 
-                    for prot, syns in protein_synonyms.items():
-                        if any(re.search(rf'\b{re.escape(syn)}\b', sent_norm) for syn in syns):
-                            matched.add(prot)
-                    if len(matched) >= 2:
-                        relevant_sentences.append(sent.strip())
-                        proteins_in_abstract.update(matched)
-
-                if not relevant_sentences:
-                    continue  # skip abstracts without ≥2-protein sentences
-
-                pubmed_id = article.findtext(".//ArticleId[@IdType='pubmed']")
-                matches.append({
-                    "PubMedID": pubmed_id,
-                    "Matched_Proteins": "; ".join(sorted(proteins_in_abstract)),
-                    "Abstract": abstract_text.strip(),
-                    "Relevant_Sentences": " || ".join(relevant_sentences)
+                results.append({
+                    "PubMedID": pmid,
+                    "Matched_Proteins": "; ".join(matched),
+                    "Other_Proteins": "; ".join(other),
+                    "Relevant_Sentence": sent.text
                 })
 
-    except Exception as e:
-        print(f"⚠️ Error reading {filename}: {e}")
-        return 0
+    if results:
+        os.makedirs(OUT_FOLDER, exist_ok=True)
+        out_file = os.path.join(
+            OUT_FOLDER, f"{filename.replace('.xml.gz', '').replace('.csv', '')}_partial.csv"
+        )
+        pl.DataFrame(results).write_csv(out_file)
+        logger.info(f"[INFO] Saved partial results: {out_file}")
 
-    # Save matches
-    if matches:
-        os.makedirs("Result-v4", exist_ok=True)
-        output_filename = os.path.splitext(filename)[0] + "_2prot_sentences.csv"
-        output_path = os.path.join("Result-v4", output_filename)
-        df = pd.DataFrame(matches)
-        df.to_csv(output_path, index=False)
-        print(f"✅ {filename}: {len(matches)} abstracts saved to {output_filename}")
-        return len(matches)
+    elapsed = time.time() - start_time
+    logger.info(f"Processed {file_path} | {len(results)} matches | {elapsed:.2f}s")
 
-    return 0
-
+    return results
 
 if __name__ == "__main__":
-    multiprocessing.freeze_support()
-    data_folder = "Data"
-    gz_files = [os.path.join(data_folder, f) for f in os.listdir(data_folder) if f.endswith(".gz")]
+    pipeline_start = time.time()
 
-    with ProcessPoolExecutor() as executor:
-        results = list(executor.map(process_file, gz_files))
+    # Load proteins
+    df_prot = pl.read_csv(PROTEIN_LIST)
+    protein_spans = {}
+    protein_token_sets = {}
+    phrases = []
 
-    print("\n✅ All files processed!")
-    print("Matches per file:", results)
+    nlp_tmp = spacy.load(NLP_MODEL, exclude=["tagger", "lemmatizer", "attribute_ruler", "textcat", "ner", "parser"])
+
+    for row in df_prot.iter_rows(named=True):
+        name = row['ProteinName']
+        token_sources = [name]
+        if row.get("ProteinSynonyms"):
+            token_sources.extend(str(row["ProteinSynonyms"]).split(";"))
+        if row.get("GeneName"):
+            token_sources.append(str(row.get("GeneName", "")))
+        if row.get("GeneSynonyms"):
+            token_sources.extend(str(row.get("GeneSynonyms", "")).split(";"))
+
+        phrases.extend(token_sources)
+        protein_token_sets[name] = set(normalize(" ".join(token_sources)).split())
+        protein_spans[name] = nlp_tmp(name)
+
+    all_files = glob.glob(os.path.join(DATA_FOLDER, "*.csv"))
+    all_rows = []
+
+    with ProcessPoolExecutor(max_workers=N_WORKERS, initializer=worker_init, initargs=(protein_spans,)) as exe:
+        futures = [exe.submit(process_csv_file, f) for f in all_files]
+        for f in futures:
+            try:
+                rows = f.result()
+                if rows:
+                    all_rows.extend(rows)
+            except Exception as e:
+                logger.error(f"Worker exception: {e}")
+
+    os.makedirs(OUT_FOLDER, exist_ok=True)
+    final_file = os.path.join(OUT_FOLDER, "results_protein_matches.csv")
+    if all_rows:
+        pl.DataFrame(all_rows).write_csv(final_file)
+    logger.info(f"DONE. Extracted {len(all_rows)} rows. Saved to {final_file}")
+
+    total_elapsed = time.time() - pipeline_start
+    logger.info(f"Total processing time: {total_elapsed:.2f} seconds")
