@@ -1,45 +1,37 @@
 import os
-import pandas as pd
+import polars as pl
 
-result_folder = "Result-v5"
+result_folder = "Result-v2"
 output_file = os.path.join(result_folder, "all_results_concatenated.csv")
 
-# Collect all CSV files
-csv_files = [os.path.join(result_folder, f) for f in os.listdir(result_folder)]
+# Collect all _sentences.csv files
+csv_files = [
+    os.path.join(result_folder, f)
+    for f in os.listdir(result_folder)
+    if f.endswith("_sentences.csv")
+]
 
 if not csv_files:
-    print("No filtered CSV files found in the Result folder.")
-else:
-    print(f"Found {len(csv_files)} CSV files. Concatenating...")
+    raise RuntimeError("No *_sentences.csv files found in Result folder.")
 
-    # Load all CSVs into DataFrames
-    dfs = []
-    for file in csv_files:
-        try:
-            df = pd.read_csv(file)
-            dfs.append(df)
-            print(f"Loaded {os.path.basename(file)} ({len(df)} rows)")
-        except Exception as e:
-            print(f"Error reading {file}: {e}")
+print(f"Found {len(csv_files)} CSV files")
 
-    # Concatenate them into one DataFrame
-    if dfs:
-        combined_df = pd.concat(dfs, ignore_index=True)
+# Read all CSV files
+dfs = [pl.read_csv(f) for f in csv_files]
 
-        # Define expected columns
-        expected_columns = ["PubMedID", "Matched_Proteins", "Relevant_Sentence"]
+# Concatenate — Polars does this extremely reliably
+combined = pl.concat(dfs, how="vertical")
 
-        # Add missing columns with empty strings
-        missing_cols = [col for col in expected_columns if col not in combined_df.columns]
-        for col in missing_cols:
-            combined_df[col] = ""
+# Ensure consistent column order (optional but recommended)
+combined = combined.select([
+    "PubMedId",
+    "Matched_Proteins_UniProtId",
+    "Matched_Proteins_Name",
+    "Sentence",
+])
 
-        # Reorder columns efficiently
-        combined_df = combined_df.reindex(columns=expected_columns)
+# Save output
+combined.write_csv(output_file)
 
-        # Save combined file
-        combined_df.to_csv(output_file, index=False)
-        print(f"\nCombined CSV saved to: {output_file}")
-        print(f"Total rows: {len(combined_df)}")
-    else:
-        print("No valid dataframes to concatenate.")
+print(f"Saved concatenated file: {output_file}")
+print(f"Total rows: {combined.height}")
