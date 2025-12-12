@@ -22,7 +22,7 @@ OUT_FOLDER = "Result-v4"
 NER_MODEL = "en_ner_jnlpba_md"
 NLP_MODEL = "en_core_sci_lg"
 PROTEIN_LIST = "protein_synonyms.csv"
-SIM_THRESHOLD = 0.9
+SIM_THRESHOLD = 0.8
 BATCH_SIZE = 500
 N_WORKERS = 2
 
@@ -127,22 +127,17 @@ if __name__ == "__main__":
     df_prot = pl.read_csv(PROTEIN_LIST)
     protein_spans = {}
     protein_token_sets = {}
-    phrases = []
 
     nlp_tmp = spacy.load(NLP_MODEL, exclude=["tagger", "lemmatizer", "attribute_ruler", "textcat", "ner", "parser"])
 
     for row in df_prot.iter_rows(named=True):
-        name = row['ProteinName']
-        token_sources = [name]
-        if row.get("ProteinSynonyms"):
-            token_sources.extend(str(row["ProteinSynonyms"]).split(";"))
-        if row.get("GeneName"):
-            token_sources.append(str(row.get("GeneName", "")))
-        if row.get("GeneSynonyms"):
-            token_sources.extend(str(row.get("GeneSynonyms", "")).split(";"))
+        name = row["ProteinName"]  # ONLY protein name, no synonyms
 
-        phrases.extend(token_sources)
-        protein_token_sets[name] = set(normalize(" ".join(token_sources)).split())
+        norm_name = normalize(name)
+        # Tokenize protein name into a set of normalized tokens
+        protein_token_sets[name] = set(norm_name.split())
+
+        # spaCy Doc for this protein name (used in matcher logic)
         protein_spans[name] = nlp_tmp(name)
 
     all_files = glob.glob(os.path.join(DATA_FOLDER, "*.csv"))
