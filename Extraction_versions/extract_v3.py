@@ -21,8 +21,8 @@ def load_synonyms(csv_path):
                 synonyms.add(s.strip())
 
         # Gene name
-        if pd.notna(row.get("GeneName")):
-            synonyms.add(str(row["GeneName"]).strip())
+        # if pd.notna(row.get("GeneName")):
+        #     synonyms.add(str(row["GeneName"]).strip())
 
         # Gene synonyms
         if pd.notna(row.get("GeneSynonyms")):
