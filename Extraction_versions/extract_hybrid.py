@@ -123,7 +123,6 @@ if __name__ == "__main__":
         protein_lookup[norm] = (prot_id, name)
 
     all_files = glob.glob(os.path.join(DATA_FOLDER, "*.csv"))
-    all_files = [f for f in all_files if os.path.basename(f) > "pubmed25n0960.csv"]
     all_rows = []
  
     with ProcessPoolExecutor(
