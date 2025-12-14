@@ -10,9 +10,6 @@ import warnings
 
 warnings.simplefilter("ignore", FutureWarning)
 
-# ---------------------------------------
-# CONFIG
-# ---------------------------------------
 DATA_FOLDER = "Pubmed_abstracts_csvs"
 OUT_FOLDER = "Result-v5"
 MODEL_NAME = "en_ner_jnlpba_md"
@@ -20,11 +17,9 @@ PROTEIN_LIST = "protein_synonyms.csv"
 SIM_THRESHOLD = 0.85
 MIN_TOKEN_OVERLAP = 0.7
 BATCH_SIZE = 300
-N_WORKERS = 2   # default: CPU count
+N_WORKERS = 6   # default: CPU count
 
-# ---------------------------------------
-# HELPERS
-# ---------------------------------------
+
 def normalize(text):
     text = text.lower().strip()
     text = re.sub(r"[^a-z0-9\- ]+", "", text)
@@ -47,9 +42,6 @@ def get_span_vector(span):
 def token_overlap(a, b):
     return len(a & b) / max(len(a), 1)
 
-# ---------------------------------------
-# GLOBALS inside workers
-# ---------------------------------------
 nlp = None
 protein_embeddings = None
 protein_token_sets = None
@@ -84,9 +76,6 @@ def worker_init(protein_names):
 
     print("[Worker] Protein vectors ready.")
 
-# ---------------------------------------
-# PROCESS CSV FILE
-# ---------------------------------------
 def process_csv_file(file_path):
     start_t = time.time()
     filename = os.path.basename(file_path)
@@ -134,7 +123,7 @@ def process_csv_file(file_path):
                         if token_overlap(protein_token_sets[pname], sent_tokens) >= MIN_TOKEN_OVERLAP:
                             matched.add(pname)
 
-            # only save sentences with ≥ 2 matched proteins
+            # only save sentences with >= 2 matched proteins
             if len(matched) >= 2:
                 results.append({
                     "PubMedID": pmid,
@@ -153,9 +142,6 @@ def process_csv_file(file_path):
     print(f"[DONE] {file_path}: {len(results)} matches | {time.time()-start_t:.2f}s")
     return results
 
-# ---------------------------------------
-# MAIN
-# ---------------------------------------
 if __name__ == "__main__":
 
     # Load protein name list
