@@ -22,3 +22,5 @@ Pubmed_Baseline/
 Pubmed_abstracts_csvs/
 Helper_functions/graph.py
 Figures/
+Helper_functions/barchart.py
+Helper_functions/synonym_truncate.py
