@@ -1,14 +1,14 @@
 import os
 import polars as pl
 
-result_folder = "Result-v2"
+result_folder = "Result-hybrid"
 output_file = os.path.join(result_folder, "all_results_concatenated.csv")
 
 # Collect all _sentences.csv files
 csv_files = [
     os.path.join(result_folder, f)
     for f in os.listdir(result_folder)
-    if f.endswith("_sentences.csv")
+    if f.endswith("_partial.csv")
 ]
 
 if not csv_files:
@@ -24,9 +24,10 @@ combined = pl.concat(dfs, how="vertical")
 
 # Ensure consistent column order (optional but recommended)
 combined = combined.select([
-    "PubMedId",
-    "Matched_Proteins_UniProtId",
-    "Matched_Proteins_Name",
+    "PubMedID",
+    "Matched_Protein_Id",
+    "Matched_Protein_Name",
+    "Other_protein",
     "Sentence",
 ])
 
