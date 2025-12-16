@@ -293,11 +293,15 @@ def main_cli():
 
     # Load baseline
     try:
+        if not Path(baseline_path).exists():
+            log.info("Baseline missing, running pipeline")
+            extr.main()
+            transf.main()
+            filter.main()
+            return
+
         baseline_df = safe_read_csv(baseline_path)
-        log.info("Loaded baseline: %s", baseline_path)
-    except FileNotFoundError:
-        log.error("Baseline file not found: %s. Please run baseline extraction first.", baseline_path)
-        return
+        
     except Exception as e:
         log.exception("Failed loading baseline: %s", e)
         return
