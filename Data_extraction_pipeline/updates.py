@@ -30,7 +30,7 @@ import filter as filter
 
 # ---------- Configuration ----------
 NUM_THREADS = 10
-NUM_WORKERS = os.cpu_count() or 1
+NUM_WORKERS = 8
 
 # Paths to the two main datasets
 BASELINE_FILE_NAME = Path("Result-v5/results_protein_matches.csv")
@@ -173,12 +173,12 @@ def compare_and_update(baseline: pd.DataFrame, update: pd.DataFrame, *,
                        backup: bool = True) -> pd.DataFrame:
     """
     Vectorized update of baseline with update DataFrame.
-    - baseline: existing baseline DataFrame (contains PubMedID, Matched_Proteins, Relevant_Sentences)
-    - update: update DataFrame (contains PubMedID, Matched_Proteins, Relevant_Sentences)
+    - baseline: existing baseline DataFrame (contains PubMedID, Matched_Proteins, Sentence)
+    - update: update DataFrame (contains PubMedID, Matched_Proteins, Sentence)
     Returns the updated baseline DataFrame.
     """
 
-    required_cols = {"PubMedID", "Matched_Proteins", "Relevant_Sentences"}
+    required_cols = {"PubMedID", "Matched_Proteins", "Sentence"}
     for df_name, df in (("baseline", baseline), ("update", update)):
         if not required_cols.issubset(set(df.columns)):
             raise ValueError(f"{df_name} is missing required columns: {required_cols - set(df.columns)}")
@@ -189,22 +189,22 @@ def compare_and_update(baseline: pd.DataFrame, update: pd.DataFrame, *,
 
     # Merge to identify new vs existing
     merged = update.merge(
-        baseline[['PubMedID', 'Matched_Proteins', 'Relevant_Sentences']],
+        baseline[['PubMedID', 'Matched_Proteins', 'Sentence']],
         on='PubMedID', how='left', suffixes=('_new', '_old')
     )
 
     #### IDENTIFYING NEW ROWS ####
     new_mask = merged['Matched_Proteins_old'].isna()  # baseline missing -> new
-    new_rows = merged.loc[new_mask, ['PubMedID', 'Matched_Proteins_new', 'Relevant_Sentences_new']].rename(
-        columns={'Matched_Proteins_new': 'Matched_Proteins', 'Relevant_Sentences_new': 'Relevant_Sentences'}
+    new_rows = merged.loc[new_mask, ['PubMedID', 'Matched_Proteins_new', 'Sentence_new']].rename(
+        columns={'Matched_Proteins_new': 'Matched_Proteins', 'Sentence_new': 'Sentence'}
     )
 
     #### IDENTIFYING REVISED ROWS ####
     # Use fillna('') to avoid NaN weirdness in comparisons
     matched_new = merged['Matched_Proteins_new'].fillna('').astype(str)
     matched_old = merged['Matched_Proteins_old'].fillna('').astype(str)
-    sent_new = merged['Relevant_Sentences_new'].fillna('').astype(str)
-    sent_old = merged['Relevant_Sentences_old'].fillna('').astype(str)
+    sent_new = merged['Sentence_new'].fillna('').astype(str)
+    sent_old = merged['Sentence_old'].fillna('').astype(str)
 
     diff_mask = (matched_new != matched_old) | (sent_new != sent_old)
     existing_mask = merged['Matched_Proteins_old'].notna()
@@ -220,12 +220,12 @@ def compare_and_update(baseline: pd.DataFrame, update: pd.DataFrame, *,
     if revised_ids:
         # create mapping from update PubMedID -> new values
         upd_map_mp = update.set_index('PubMedID')['Matched_Proteins'].astype(object).to_dict()
-        upd_map_rs = update.set_index('PubMedID')['Relevant_Sentences'].astype(object).to_dict()
+        upd_map_rs = update.set_index('PubMedID')['Sentence'].astype(object).to_dict()
 
         # update baseline in-place (vectorized)
         mask_baseline_revised = baseline['PubMedID'].isin(revised_ids)
         baseline.loc[mask_baseline_revised, 'Matched_Proteins'] = baseline.loc[mask_baseline_revised, 'PubMedID'].map(upd_map_mp)
-        baseline.loc[mask_baseline_revised, 'Relevant_Sentences'] = baseline.loc[mask_baseline_revised, 'PubMedID'].map(upd_map_rs)
+        baseline.loc[mask_baseline_revised, 'Sentence'] = baseline.loc[mask_baseline_revised, 'PubMedID'].map(upd_map_rs)
 
     # Append NEW rows
     if not new_rows.empty:
@@ -304,7 +304,7 @@ def main_cli():
 
     # Run pipeline steps
     if not args.no_download:
-        updates_extraction(num_threads=args.threads)
+        updates_extraction()
     else:
         log.info("Skipping download step (--no-download)")
 

@@ -26,7 +26,7 @@ PROTEIN_LIST = "protein_synonyms.csv"
 SIM_THRESHOLD = 0.85
 MIN_TOKEN_OVERLAP = 0.7
 BATCH_SIZE = 500
-N_WORKERS = None
+N_WORKERS = 8
 
 def normalize(text):
     text = text.lower().strip()
@@ -151,7 +151,7 @@ def main():
     nlp_tmp = spacy.load(MODEL_NAME, exclude=["parser", "tagger", "textcat", "lemmatizer", "tok2vec"])
 
     for row in df.iter_rows(named=True):
-        name = row['Protein']
+        name = row['ProteinName']
         uniprot = row['UniProtID']
         protein_names.append(name)
         protein_map[name] = uniprot
