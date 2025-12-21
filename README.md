@@ -1,3 +1,6 @@
+# Data Extraction and Summarization using LLMs
+This project, developed in collaboration with Biogenity, focuses on designing and implementing a secure and scalable data extraction and summarization system using Large Language Models (LLMs). The solution integrates data collection, preprocessing and summarization pipelines, to ensure accuracy and efficiency. Various LLM architectures are explored and evaluated in their performance on domain-specific datasets, aiming to enhance the usability and reliability of automated knowledge extraction tools.
+
 # Installation of dependencies
 1. Install UV from  [astral.sh](https://docs.astral.sh/uv/getting-started/installation/)
 2. Once installed, open the project folder in the terminal and run `uv sync`
@@ -10,4 +13,5 @@
 4. **updates.py**: The daily update files are downloaded and compared with the processed baseline dataset. For consistency, the up-date dataset undergoes the same preprocessing steps applied to the baseline: data extraction and filtering. After preprocessing, the resulting CSV files are merged using the PubMedID as a unique identifier.
 5. **statistics.py**: The filtered dataset undergoes statistical analysis.
 
+# 
 
