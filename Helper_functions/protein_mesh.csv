@@ -1,0 +1,46 @@
+UniProtID;Protein name;Gene;MeSH heading;UI
+Q14116 ;Interleukin-18;IL18;Interleukin-18;D020382
+P14210 ;Hepatocyte growth factor;HGF;Hepatocyte Growth Factor;D017228
+Q99731 ;C-C motif chemokine 19;CCL19;Chemokine C-C motif ligand 19;D018451
+P13500 ;C-C motif chemokine 2;CCL2;Chemokine C-C motif ligand 2;D018447
+P39900 ;Macrophage metalloelastase;MMP12;MMP12 protein;D053508
+P01374 ;Lymphotoxin-alpha;LTA;Lymphotoxin-alpha;D008233
+P49771;Fms-related tyrosine kinase 3 ligand;FLT3LG;Fms-Like Tyrosine Kinase 3;D051941
+P01375;Tumor necrosis factor;TNF;Tumor necrosis factor;D014409
+Q16552;Interleukin-17A;IL17A;Interleukin-17A;D020381
+P60568;Interleukin-2;IL2;Interleukin-2;D007376
+Q96PD4;Interleukin-17F;IL17F;Interleukin-17F;D020381
+P09919;Granulocyte colony-stimulating factor;CSF3;;D016179
+P01584;Interleukin-1 beta;IL1B;;D053583
+P78380;Oxidized low-density lipoprotein receptor 1;OLR1;;D051127
+O43508;Tumor necrosis factor ligand superfamily member 12;TNFSF12;;D000074049
+P02778;C-X-C motif chemokine 10;CXCL10;Chemokine C-X-C motif ligand 10;D018481
+P15692;Vascular endothelial growth factor A;VEGFA;;D042461
+O95760;Interleukin-33;IL33;Interleukin-33;D000067596
+Q969D9;Thymic stromal lymphopoietin;TSLP;;D000094632
+P01579;Interferon gamma;IFNG;Interferon-gamma;D015458
+P13236;C-C motif chemokine 4;CCL4;Chemokine C-C motif ligand 4;D018449
+P01135;Protransforming growth factor alpha;TGFA;Transforming Growth Factor-alpha;D013923
+P35225;Interleukin-13;IL13;Interleukin-13;D018793
+P10145;Interleukin-8;CXCL8;;D016209
+P80075;C-C motif chemokine 8;CCL8;Chemokine C-C motif ligand 8;D018450
+P05231;Interleukin-6;IL6;Interleukin-6;D015850
+Q99616;C-C motif chemokine 13;CCL13;Chemokine C-C motif ligand 13;D019214
+P04141;Granulocyte-macrophage colony-stimulating factor;CSF2;;D016178
+P80098;C-C motif chemokine 7;CCL7;Chemokine C-C motif ligand 7;D018451
+P05112;Interleukin-4;IL4;Interleukin-4;D015847
+P50591;Tumor necrosis factor ligand superfamily member 10;TNFSF10;;D053221
+P13725;Oncostatin-M;OSM;Oncostatin M;D009816
+P03956;Interstitial collagenase;MMP1;Interstitial collagenase;D020781
+P01133;Pro-epidermal growth factor;EGF;Pro-epidermal growth factor;D010048
+P13232;Interleukin-7;IL7;Interleukin-7;D015851
+P40933;Interleukin-15;IL15;Interleukin-15;D019409
+P09603;Macrophage colony-stimulating factor 1;CSF1;Macrophage Colony-Stimulating Factor 1;D015441
+Q07325;C-X-C motif chemokine 9;CXCL9;Chemokine C-X-C motif ligand 9;D018480
+O14625;C-X-C motif chemokine 11;CXCL11;Chemokine C-X-C motif ligand 11;D018482
+Q9P0M4;Interleukin-17C;IL17C;Interleukin-17C;D020381
+P48061;Stromal cell-derived factor 1;CXCL12;;D054377
+P51671;Eotaxin;CCL11;Eotaxin;D004740
+P22301;Interleukin-10;IL10;Interleukin-10;D016753
+P10147;C-C motif chemokine 3;CCL3;Chemokine C-C motif ligand 3;D018448
+Q14213_Q8NEV9;Interleukin-27;EBI3_IL27;;D064094
