@@ -7,13 +7,14 @@ import numpy as np
 import re
 import time
 import warnings
+from pathlib import Path
 
 warnings.simplefilter("ignore", FutureWarning)
 
 DATA_FOLDER = "Pubmed_abstracts_csvs"
 OUT_FOLDER = "Result-v5"
 MODEL_NAME = "en_ner_jnlpba_md"
-PROTEIN_LIST = "protein_synonyms.csv"
+PROTEIN_LIST = Path("Validation") / "protein_synonyms.csv"
 SIM_THRESHOLD = 0.85
 MIN_TOKEN_OVERLAP = 0.7
 BATCH_SIZE = 300

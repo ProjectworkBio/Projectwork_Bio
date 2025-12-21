@@ -9,6 +9,7 @@ import re
 import warnings
 import time
 import logging
+from pathlib import Path
 from multiprocessing import shared_memory
 logging.basicConfig(
     level=logging.INFO,
@@ -21,7 +22,7 @@ warnings.simplefilter("ignore", FutureWarning)
 DATA_FOLDER = "Pubmed_abstracts_csvs"
 OUT_FOLDER = "Result-v6"
 MODEL_NAME = "en_ner_bionlp13cg_md"
-PROTEIN_LIST = "protein_synonyms.csv"
+PROTEIN_LIST = Path("Validation") / "protein_synonyms.csv"
 SIM_THRESHOLD = 0.85
 MIN_TOKEN_OVERLAP = 0.7
 BATCH_SIZE = 500

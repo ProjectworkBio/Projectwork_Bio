@@ -10,6 +10,7 @@ import re
 import time
 import logging
 import warnings
+from pathlib import Path
 
 logging.basicConfig(
     level=logging.INFO,
@@ -22,7 +23,7 @@ warnings.simplefilter("ignore", FutureWarning)
 DATA_FOLDER = "Pubmed_abstracts_csvs"
 OUT_FOLDER = "Result-hybrid"
 NER_MODEL = "en_ner_jnlpba_md"
-PROTEIN_LIST = "protein_synonyms.csv"
+PROTEIN_LIST = Path("Validation") / "protein_synonyms.csv"
 BATCH_SIZE = 500
 N_WORKERS = 6
 

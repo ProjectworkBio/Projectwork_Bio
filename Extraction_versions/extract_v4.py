@@ -1,3 +1,5 @@
+# This extraction version 2 sciSpaCy NER models (en_ner_jnlpba_md and en_core_sci_lg) were applied.
+
 import os
 import glob
 import polars as pl
@@ -8,6 +10,7 @@ import re
 import time
 import logging
 import warnings
+from pathlib import Path
 
 logging.basicConfig(
     level=logging.INFO,
@@ -21,7 +24,7 @@ DATA_FOLDER = "Pubmed_abstracts_csvs"
 OUT_FOLDER = "Result-v4"
 NER_MODEL = "en_ner_jnlpba_md"
 NLP_MODEL = "en_core_sci_lg"
-PROTEIN_LIST = "protein_synonyms.csv"
+PROTEIN_LIST = Path("Validation") / "protein_synonyms.csv"
 SIM_THRESHOLD = 0.8
 BATCH_SIZE = 500
 N_WORKERS = 2

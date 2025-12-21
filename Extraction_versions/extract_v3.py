@@ -1,9 +1,12 @@
+# This extraction version does exact string matching with protein and gene synonyms.
+
 import os
 import re
 import pandas as pd
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing
 from sentence_splitter import SentenceSplitter
+from pathlib import Path
 
 def load_synonyms(csv_path):
     df = pd.read_csv(csv_path)
@@ -19,10 +22,6 @@ def load_synonyms(csv_path):
         if pd.notna(row.get("ProteinSynonyms")):
             for s in str(row["ProteinSynonyms"]).split(","):
                 synonyms.add(s.strip())
-
-        # Gene name
-        # if pd.notna(row.get("GeneName")):
-        #     synonyms.add(str(row["GeneName"]).strip())
 
         # Gene synonyms
         if pd.notna(row.get("GeneSynonyms")):
@@ -44,7 +43,7 @@ def load_synonyms(csv_path):
 
     return synonym_data
 
-synonym_data = load_synonyms("protein_synonyms.csv")
+synonym_data = load_synonyms(Path("Validation") / "protein_synonyms.csv")
 splitter = SentenceSplitter(language="en")
 
 def process_csv(file_path):
@@ -86,7 +85,7 @@ def process_csv(file_path):
         outname = os.path.splitext(filename)[0] + "_sentences.csv"
         outpath = os.path.join("Result-v3", outname)
         pd.DataFrame(results).to_csv(outpath, index=False)
-        print(f"Saved {len(results)} sentences → {outname}")
+        print(f"Saved {len(results)} sentences to {outname}")
         return len(results)
 
     return 0
@@ -94,7 +93,7 @@ def process_csv(file_path):
 if __name__ == "__main__":
     multiprocessing.freeze_support()
 
-    data_folder = "PubMed_abstracts_csvs"
+    data_folder = "Pubmed_abstracts_csvs"
     input_files = [
         os.path.join(data_folder, f)
         for f in os.listdir(data_folder)

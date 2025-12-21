@@ -1,9 +1,12 @@
+# This extraction version utilizes the <Chemical> XML elements of the PubMed dataset. 
+
 import os
 import gzip
 import xml.etree.ElementTree as ET
 import pandas as pd
 from concurrent.futures import ProcessPoolExecutor
 import multiprocessing
+from pathlib import Path
 
 # Load protein to MeSH UI mapping
 def load_protein_mesh(csv_path):
@@ -17,7 +20,7 @@ def load_protein_mesh(csv_path):
         ui_to_proteins[ui].append(protein)
     return ui_to_proteins
 
-ui_to_proteins = load_protein_mesh("protein_mesh.csv")
+ui_to_proteins = load_protein_mesh(Path("Helper_functions") / "protein_mesh.csv")
 
 def process_file(file_path):
     matches = []
@@ -37,7 +40,7 @@ def process_file(file_path):
                         elem.clear()
                         continue
 
-                    # ---------- Extract Chemicals ----------
+                    # Extract Chemicals
                     chemicals = []
                     for chem in elem.findall(".//Chemical"):
                         name_el = chem.find("NameOfSubstance")
@@ -101,7 +104,7 @@ def process_file(file_path):
 if __name__ == "__main__":
     multiprocessing.freeze_support()
 
-    data_folder = "Data"
+    data_folder = "Pubmed_Baseline"
     gz_files = [os.path.join(data_folder, f) for f in os.listdir(data_folder) if f.endswith(".gz") and f > "pubmed25n1120.xml.gz"]
 
     with ProcessPoolExecutor() as executor:
