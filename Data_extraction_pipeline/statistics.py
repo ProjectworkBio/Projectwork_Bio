@@ -1,8 +1,9 @@
 import pandas as pd
-from rapidfuzz import fuzz, process  # use rapidfuzz (faster than fuzzywuzzy)
+from pathlib import Path
+from rapidfuzz import fuzz, process 
 
 # Load CSV
-df = pd.read_csv("Result-v6\\all_results_concatenated.csv")
+df = pd.read_csv(Path("Results") / "Results_ner_only" / "results_protein_matches.csv")
 
 def check_match(sentence, protein, threshold=80):
     """
@@ -28,10 +29,10 @@ for idx, row in df.iterrows():
 results_df = pd.DataFrame(results)
 
 # Save results to CSV
-output_file = "protein_matching_results.csv"
+output_file = Path ("Data_cleaning") / "protein_matching_results.csv"
 results_df.to_csv(output_file, index=False)
 
-print(f"\nSaved analysis to ➜ {output_file}\n")
+print(f"\nSaved analysis to {output_file}\n")
 print(results_df.head())
 print("\nSummary:")
 print("Matched counts:\n", results_df["Match"].value_counts())
