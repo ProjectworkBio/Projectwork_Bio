@@ -24,3 +24,5 @@ Helper_functions/graph.py
 Figures/
 Helper_functions/barchart.py
 Helper_functions/synonym_truncate.py
+omicsviz/node_modules
+AppBackup.tsx
