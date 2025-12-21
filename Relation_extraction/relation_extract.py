@@ -3,8 +3,8 @@ import tarfile
 from pathlib import Path
 
 def load_protein_synonyms(synonym_csv_path):
-    full_name_map = {}  # protein name → UniProtID
-    syn_map = {}        # synonym → UniProtID
+    full_name_map = {}  # protein name -> UniProtID
+    syn_map = {}        # synonym -> UniProtID
 
     with open(synonym_csv_path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
