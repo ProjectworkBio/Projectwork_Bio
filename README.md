@@ -1,4 +1,4 @@
-# If you want to run the extraction codes, follow these steps: 
+# Installation of dependencies
 
 ## 1. Install UV from  [astral.sh](https://docs.astral.sh/uv/getting-started/installation/)
 ## 2. Once installed, open the project folder in the terminal and run `uv sync`
@@ -10,3 +10,4 @@
 3. **filter.py**: Relevant sentences are filtered based on the presence of at least one protein from a predefined set of 45 proteins of interest.
 4. **updates.py**: The daily update files are downloaded and compared with the processed baseline dataset. For consistency, the up-date dataset undergoes the same preprocessing steps applied to the baseline: data extraction and filtering. After preprocessing, the resulting CSV files are merged using the PubMedID as a unique identifier.
 5. **statistics.py**: The filtered dataset undergoes statistical analysis.
+
