@@ -1,0 +1,125 @@
+=== DATASET PREPARATION REPORT ===
+
+==============================
+Processing TRAIN Split
+==============================
+RegulaTome: 60911 rows
+BioRED: 1199 rows
+--- Balancing Training Data ---
+  - Dropping 'Catalysis_of_ADP-ribosylation' (n=13 < 20)
+  - Dropping 'Catalysis_of_acylation' (n=8 < 20)
+  - Dropping 'Catalysis_of_deSUMOylation' (n=7 < 20)
+  - Dropping 'Catalysis_of_deacylation' (n=3 < 20)
+  - Dropping 'Catalysis_of_deglycosylation' (n=1 < 20)
+  - Dropping 'Catalysis_of_deneddylation' (n=10 < 20)
+  - Dropping 'Catalysis_of_depalmitoylation' (n=5 < 20)
+  - Dropping 'Catalysis_of_farnesylation' (n=3 < 20)
+  - Dropping 'Catalysis_of_geranylgeranylation' (n=15 < 20)
+  - Dropping 'Catalysis_of_lipidation' (n=1 < 20)
+  - Dropping 'Catalysis_of_neddylation' (n=13 < 20)
+  - Dropping 'Catalysis_of_other_small_molecule_conjugation_or_removal' (n=3 < 20)
+  - Dropping 'Catalysis_of_phosphoryl_group_conjugation_or_removal' (n=6 < 20)
+  - Dropping 'Catalysis_of_prenylation' (n=1 < 20)
+  - Dropping 'Catalysis_of_small_molecule_removal' (n=2 < 20)
+  - Dropping 'Catalysis_of_small_protein_conjugation_or_removal' (n=3 < 20)
+  - Dropping 'Catalysis_of_small_protein_removal' (n=1 < 20)
+  - Dropping 'Conversion' (n=1 < 20)
+  - Dropping 'Drug_Interaction' (n=6 < 20)
+  - Dropping 'Other_catalysis_of_small_molecule_removal' (n=1 < 20)
+  - Dropping 'Other_catalysis_of_small_protein_conjugation' (n=3 < 20)
+  - Dropping 'Other_catalysis_of_small_protein_removal' (n=2 < 20)
+  - Dropping 'Regulation_of_translation' (n=8 < 20)
+  - Downsampling Negatives: 51163 -> 43324 (Ratio 1:4.0)
+Saved: /home/mahsa/Project/temp/data/processed/train.csv (54155 samples)
+Classes Distribution:
+relation_type
+NO_RELATION                                      43324
+Complex_formation                                 3830
+Positive_regulation                               1530
+Regulation                                        1299
+Negative_regulation                               1260
+Association                                        623
+Regulation_of_transcription                        510
+Regulation_of_gene_expression                      302
+Catalysis_of_ubiquitination                        275
+Catalysis_of_phosphorylation                       233
+Regulation_of_degradation                          193
+Catalysis_of_methylation                           156
+Catalysis_of_dephosphorylation                     116
+Catalysis_of_posttranslational_modification         86
+Catalysis_of_demethylation                          73
+Catalysis_of_acetylation                            70
+Catalysis_of_SUMOylation                            51
+Catalysis_of_deubiquitination                       49
+Catalysis_of_palmitoylation                         41
+Catalysis_of_deacetylation                          32
+Catalysis_of_small_protein_conjugation              29
+Other_catalysis_of_small_molecule_conjugation       27
+Catalysis_of_glycosylation                          25
+Bind                                                21
+
+==============================
+Processing DEV Split
+==============================
+RegulaTome: 20792 rows
+BioRED: 281 rows
+  - Filtered 29 rows containing classes not in Training set.
+Saved: /home/mahsa/Project/temp/data/processed/dev.csv (21044 samples)
+Classes Distribution:
+relation_type
+NO_RELATION                                    17588
+Complex_formation                               1206
+Regulation                                       470
+Positive_regulation                              465
+Negative_regulation                              440
+Regulation_of_transcription                      153
+Association                                      141
+Regulation_of_gene_expression                    104
+Catalysis_of_ubiquitination                       90
+Regulation_of_degradation                         85
+Catalysis_of_phosphorylation                      83
+Catalysis_of_methylation                          44
+Catalysis_of_dephosphorylation                    33
+Catalysis_of_posttranslational_modification       29
+Catalysis_of_acetylation                          26
+Catalysis_of_demethylation                        15
+Catalysis_of_SUMOylation                          15
+Catalysis_of_deubiquitination                     14
+Catalysis_of_palmitoylation                       12
+Catalysis_of_deacetylation                         9
+Catalysis_of_glycosylation                         8
+Catalysis_of_small_protein_conjugation             8
+Bind                                               6
+
+==============================
+Processing TEST Split
+==============================
+RegulaTome: 19474 rows
+BioRED: 298 rows
+  - Filtered 32 rows containing classes not in Training set.
+Saved: /home/mahsa/Project/temp/data/processed/test.csv (19740 samples)
+Classes Distribution:
+relation_type
+NO_RELATION                                      16267
+Complex_formation                                 1187
+Positive_regulation                                485
+Regulation                                         469
+Negative_regulation                                454
+Association                                        161
+Regulation_of_transcription                        151
+Catalysis_of_phosphorylation                        92
+Regulation_of_gene_expression                       90
+Catalysis_of_ubiquitination                         89
+Regulation_of_degradation                           49
+Catalysis_of_methylation                            49
+Catalysis_of_posttranslational_modification         44
+Catalysis_of_dephosphorylation                      39
+Catalysis_of_acetylation                            29
+Catalysis_of_demethylation                          18
+Catalysis_of_deubiquitination                       15
+Catalysis_of_SUMOylation                            14
+Catalysis_of_palmitoylation                         12
+Catalysis_of_deacetylation                           9
+Catalysis_of_glycosylation                           8
+Catalysis_of_small_protein_conjugation               5
+Other_catalysis_of_small_molecule_conjugation        4
