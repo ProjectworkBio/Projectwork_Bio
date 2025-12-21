@@ -15,7 +15,7 @@ The validation focuses on **interaction existence**, not on relation type semant
 
 ## Input Files
 
-### 1. final_ensemble_report_ot.csv
+### 1. final_ensemble_report_f0.csv
 Contains predicted relations with columns:
 - Entity_1
 - Entity_2
