@@ -1,4 +1,4 @@
-name: Scheduled Run of update files
+name: Scheduled Run of baseline files
 
 on:
   schedule:
