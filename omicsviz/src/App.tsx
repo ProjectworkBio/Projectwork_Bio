@@ -1,6 +1,4 @@
-/* Root application logic for OmicsViz
- *
- * Responsibilities here:
+/* Responsibilities :
  *  - Hold all state (graph, papers, filters, selection, etc.)
  *  - Load papers (default JSON or uploaded)
  *  - Build derived data (visibleGraph, relatedToSelection)

@@ -14,10 +14,8 @@ import {
 import { Paper as PaperT } from '../types';
 
 /*PapersTable
- *
- * Responsibilities
- *  - Render a paginated view of papers
- *  - On row click: send to the respective paper on pubmed
+ *Renders a paginated view of papers
+ *On row click: send to the respective paper on pubmed
  */
 
 interface Props {
@@ -130,8 +128,8 @@ export default function PapersTable({ papers, onSelectPaper }: Props) {
                         onClick={(e) => e.stopPropagation()}
                         sx={{
                           display: 'block',
-                          whiteSpace: 'normal', // allow wrapping
-                          wordBreak: 'break-word', // break long tokens if needed
+                          whiteSpace: 'normal',
+                          wordBreak: 'break-word', 
                           lineHeight: 1.3,
                           color: 'inherit',
                           textDecoration: 'none',
