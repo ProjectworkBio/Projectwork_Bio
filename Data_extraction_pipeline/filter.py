@@ -21,11 +21,12 @@ warnings.simplefilter("ignore", FutureWarning)
 DATA_FOLDER = "Pubmed_abstracts_csvs"
 OUT_FOLDER = "Result-v5"
 MODEL_NAME = "en_ner_jnlpba_md"
+# MODEL_NAME = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_jnlpba_md-0.5.4.tar.gz"
 PROTEIN_LIST = "protein_synonyms.csv"
 SIM_THRESHOLD = 0.85
 MIN_TOKEN_OVERLAP = 0.7
 BATCH_SIZE = 500
-N_WORKERS = None
+N_WORKERS = 8
 
 def normalize(text):
     text = text.lower().strip()
@@ -138,7 +139,7 @@ def process_csv_file(file_path):
     return results
 
 # MAIN
-if __name__ == "__main__":
+def main():
     pipeline_start = time.time()
     # Load proteins and compute embeddings once
     df = pl.read_csv(PROTEIN_LIST)
@@ -150,7 +151,7 @@ if __name__ == "__main__":
     nlp_tmp = spacy.load(MODEL_NAME, exclude=["parser", "tagger", "textcat", "lemmatizer", "tok2vec"])
 
     for row in df.iter_rows(named=True):
-        name = row['Protein']
+        name = row['ProteinName']
         uniprot = row['UniProtID']
         protein_names.append(name)
         protein_map[name] = uniprot
@@ -196,3 +197,7 @@ if __name__ == "__main__":
     # Clean up shared memory
     shm.close()
     shm.unlink()
+
+
+if __name__ == "__main__":
+    main()

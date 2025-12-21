@@ -6,7 +6,7 @@ from tqdm import tqdm
 import re
 from bs4 import BeautifulSoup
 
-BASE_URL = "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/"
+URL = "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/"
 OUTPUT_DIR = Path("Pubmed_Baseline")
 NUM_THREADS = 10   # Increase for faster download
 
@@ -19,11 +19,12 @@ def list_files(url):
 
 
 def download_file(filename):
-    url = BASE_URL + filename
+    url = URL + filename
     out_path = OUTPUT_DIR / filename
 
     # Skip existing file
     if out_path.exists():
+        print("exists")
         return filename, "exists"
 
     # Streaming download
@@ -46,14 +47,15 @@ def download_file(filename):
         return filename, "downloaded"
 
     except Exception as e:
+        print(f"error: {e}")
         return filename, f"error: {e}"
 
 
 def main():
     OUTPUT_DIR.mkdir(exist_ok=True)
 
-    print("Fetching file list from PubMed baseline FTP...")
-    files = list_files(BASE_URL)
+    print("Fetching file list from PubMed...")
+    files = list_files(URL)
     print(f"Found {len(files)} files to download.\n")
 
     # Parallel download

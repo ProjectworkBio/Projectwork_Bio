@@ -5,17 +5,41 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "accelerate>=1.12.0",
     "bs4>=0.0.2",
+    "en-core-sci-lg",
+    "en-ner-bc5cdr-md",
+    "en-ner-bionlp13cg-md",
     "en-ner-jnlpba-md",
     "faiss-cpu>=1.12.0",
     "h5py>=3.15.1",
+    "matplotlib>=3.10.7",
+    "nltk>=3.9.2",
     "nmslib>=2.1.2",
+    "numpy<2",
     "pandas>=2.3.3",
     "polars>=1.35.2",
+    "psutil>=7.1.3",
+    "rapidfuzz>=3.14.3",
+    "scikit-learn>=1.7.2",
     "sentence-splitter>=1.4",
     "spacy[cuda12x]>=3.4",
+    "torch>=2.6.0",
+    "transformers>=4.57.3",
+]
+
+[tool.uv]
+required-environments = [
+    "sys_platform == 'win32'"
 ]
 
 [tool.uv.sources]
-en-core-sci-lg = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz" }
 en-ner-jnlpba-md = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_jnlpba_md-0.5.4.tar.gz" }
+en-ner-bc5cdr-md = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz" }
+en-ner-bionlp13cg-md = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bionlp13cg_md-0.5.4.tar.gz" }
+en-core-sci-lg = { url = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz" }
+torch = { index = "pytorch-cu129" }
+
+[[tool.uv.index]]
+name = "pytorch-cu129"
+url = "https://download.pytorch.org/whl/cu129"

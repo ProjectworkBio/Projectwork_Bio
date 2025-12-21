@@ -1,0 +1,79 @@
+import pandas as pd
+import requests
+import os
+
+input_file = [f for f in os.listdir() if f.endswith(".csv") and "protein_synonyms" in f][0]
+
+df = pd.read_csv(input_file, encoding="latin1")
+column_name = df.columns[0]
+proteins = df[column_name].dropna().astype(str).unique().tolist()
+
+BASE_URL = "https://rest.uniprot.org/uniprotkb"
+results = []
+
+for i, pid in enumerate(proteins, 1):
+    print(f"Fetching {i}/{len(proteins)}: {pid}")
+    url = f"{BASE_URL}/{pid}.json"
+    try:
+        r = requests.get(url, timeout=10)
+        if r.status_code != 200:
+            results.append({
+                "UniProtID": pid,
+                "ProteinName": None,
+                "ProteinSynonyms": None,
+                "GeneName": None,
+                "GeneSynonyms": None
+            })
+            continue
+        data = r.json()
+        prot_name = None
+        prot_syn = []
+        gene_name = None
+        gene_syn = []
+
+        if "proteinDescription" in data:
+            pdsc = data["proteinDescription"]
+            if "recommendedName" in pdsc:
+                rec = pdsc["recommendedName"]
+                prot_name = rec["fullName"]["value"]
+                if "shortNames" in rec:
+                    for sn in rec["shortNames"]:
+                        if "value" in sn:
+                            prot_syn.append(sn["value"])
+            if "alternativeNames" in pdsc:
+                for alt in pdsc["alternativeNames"]:
+                    if "fullName" in alt:
+                        prot_syn.append(alt["fullName"]["value"])
+                    if "shortNames" in alt:
+                        for sn in alt["shortNames"]:
+                            if "value" in sn:
+                                prot_syn.append(sn["value"])
+
+        if "genes" in data and data["genes"]:
+            g = data["genes"][0]
+            if "geneName" in g:
+                gene_name = g["geneName"]["value"]
+            if "synonyms" in g:
+                for s in g["synonyms"]:
+                    if "value" in s:
+                        gene_syn.append(s["value"])
+
+        results.append({
+            "UniProtID": pid,
+            "ProteinName": prot_name,
+            "ProteinSynonyms": ", ".join(sorted(set(prot_syn))) if prot_syn else None,
+            "GeneName": gene_name,
+            "GeneSynonyms": ", ".join(sorted(set(gene_syn))) if gene_syn else None
+        })
+    except Exception:
+        results.append({
+            "UniProtID": pid,
+            "ProteinName": None,
+            "ProteinSynonyms": None,
+            "GeneName": None,
+            "GeneSynonyms": None
+        })
+
+out_df = pd.DataFrame(results)
+out_file = "/content/protein_final_output.csv"
+out_df.to_csv(out_file, index=False)

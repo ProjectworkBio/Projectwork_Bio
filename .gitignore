@@ -8,8 +8,11 @@ Result-v2/
 Result-v3/
 Result-v4/
 Result-v5/
+Result-v6/
+Result-hybrid
 desc2025.xml
 Data.zip
+.vscode
 Data_backup
 bad_sentences.csv
 synonym_examples.csv
@@ -17,5 +20,9 @@ validate_senctences.py
 RegulaTome-corpus.tar.gz
 Pubmed_Baseline/
 Pubmed_abstracts_csvs/
+Helper_functions/graph.py
+Figures/
+Helper_functions/barchart.py
+Helper_functions/synonym_truncate.py
 omicsviz/node_modules
 AppBackup.tsx

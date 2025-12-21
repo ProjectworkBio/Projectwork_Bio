@@ -1,0 +1,29 @@
+name: Scheduled Run of baseline files
+
+on:
+  schedule:
+    - cron: '0 23 1 1 *' # every January 1st at 11pm UTC
+  workflow_dispatch:
+
+jobs:
+  run-python:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install project dependencies
+        run: pip install .
+
+      - name: Run Python script
+        run: |
+               python Data_extraction_pipeline/extract_baseline.py
+               python Data_extraction_pipeline/transform_xml_to_csv.py
+               python Data_extraction_pipeline/filter.py
+               python Data_extraction_pipeline/statistics.py
