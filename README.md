@@ -23,7 +23,8 @@ This module contains the Deep Learning logic for extracting specific relations f
 # Validation (STRING-based)
 **Directory:** [`/Validation`](./Validation)
 
-This module ensures the biological plausibility of the extracted relations by cross-referencing them with external databases.
+This module contains scripts and outputs used to biologically validate the protein–protein relations extracted by the relation extraction pipeline. Validation is primarily performed using the STRING database, which provides large-scale evidence of known protein interactions. The validation workflow includes mapping protein names to STRING identifiers using UniProt IDs, gene names, and curated synonyms, followed by querying STRING’s interaction network to verify whether an interaction exists between predicted protein pairs. The folder includes Python scripts for STRING-based validation, cached API interaction handling for efficiency, and generated CSV files containing validation results and confidence scores. These outputs are subsequently used to compute quantitative performance metrics such as accuracy, precision, recall, and F1-score for individual models (BioBERT, PubMedBERT, BioLinkBERT) as well as the ensemble pipeline.
+It ensures the biological plausibility of the extracted relations by cross-referencing them with external database.
 
 # OmicsViz (Visualization Dashboard)
 **Directory:** [`/OmicsViz`](./omicsviz)
@@ -40,4 +41,5 @@ To replicate the full project pipeline, execute the modules in the following ord
 4.  **Visualize:** Load the final validated results into the `OmicsViz` application to explore the knowledge graph interactively.
 
 > **Note**: Please refer to the specific README.md file inside each sub-directory for detailed installation requirements and execution instructions for that specific module.
+
 
