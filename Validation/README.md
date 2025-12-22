@@ -5,7 +5,7 @@ This repository contains a Python pipeline to validate predicted protein–prote
 ## Overview
 
 The pipeline evaluates whether protein pairs predicted by multiple relation extraction models
-(BioBERT, PubMedBERT, BioLinkBERT, and an ensemble pipeline) are supported by known biological
+(BioBERT, PubMedBERT, BioLinkBERT, and the whole pipeline) are supported by known biological
 interactions recorded in STRING.
 
 The validation focuses on **interaction existence**, not on relation type semantics
@@ -15,7 +15,7 @@ The validation focuses on **interaction existence**, not on relation type semant
 
 ## Input Files
 
-### 1. final_ensemble_report_f0.csv
+### 1. final_report.csv
 Contains predicted relations with columns:
 - Entity_1
 - Entity_2
